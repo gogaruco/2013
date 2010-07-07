@@ -31,8 +31,8 @@ h3 {
 }
 
 p, li, td {
-  font-size:1.2em;
-  line-height:1.5em;
+  font-size:1.4em;
+  line-height:1.6em;
 }
 
 p {
@@ -315,7 +315,7 @@ div.team img {
 }
 
 div.team h3 {
-  font-size:1.45em;
+  font-size:1.55em;
   color:#003412;
   margin:0;
 }
