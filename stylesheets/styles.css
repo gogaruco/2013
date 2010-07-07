@@ -272,9 +272,9 @@ div.updates div {
 }
 
 div.updates h2 {
-  font-size:1.6em;
+  font-size:2.6em;
   color:#003412;
-  margin-top:50px;
+  margin-top:20px;
 }
 
 div.updates h3 {
@@ -289,6 +289,14 @@ div.updates p.date {
   font-size:1.6em;
   color:#626262;
   line-height:120%;
+}
+
+div.updates img {
+  border: 1px solid #CCC;
+}
+
+div.updates div.boxy {
+  display: none;
 }
 
 /* team */
