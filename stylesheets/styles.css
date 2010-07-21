@@ -250,14 +250,28 @@ div.last {
 div.home {
 }
 
-div.home img#faces {
-  margin:-5px 0 15px 0;
-}
-
 div.home p {
 }
 
 div.home {
+}
+
+.home #faces_holder {
+  margin: -4px 0 6px -6px;
+  width: 608px;
+  height: 120px;
+  overflow: hidden;
+}
+.home #faces {
+  width: 608px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+.home #faces img {
+  width: 120px;
+  height: 120px;
 }
 
 /* updates (homepage) */

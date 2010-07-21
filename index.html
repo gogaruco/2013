@@ -5,7 +5,46 @@ nav_class_home: 'class="active"'
 ---
 <h1>Welcome To Golden Gate Ruby Conf 2010</h1>
 <div class="home">
-  <img id="faces" src="images/banner_home.jpg" width="596" height="119" alt="faces" />
+  <div id="faces_holder">
+    <ul id="faces">
+      <li><img src="images/spkr_allen.jpg" /></li>
+      <li><img src="images/spkr_chaffee.jpg" /></li>
+      <li><img src="images/spkr_grigorik.jpg" /></li>
+      <li><img src="images/spkr_helmkamp.jpg" /></li>
+      <li><img src="images/spkr_henrichs.jpg" /></li>
+      <li><img src="images/spkr_katz.jpg" /></li>
+      <li><img src="images/spkr_kilmer.jpg" /></li>
+      <li><img src="images/spkr_liles.jpg" /></li>
+      <li><img src="images/spkr_maher.jpg" /></li>
+      <li><img src="images/spkr_mei.jpg" /></li>
+      <li><img src="images/spkr_mill.jpg" /></li>
+      <li><img src="images/spkr_mizerany.jpg" /></li>
+      <li><img src="images/spkr_patterson.jpg" /></li>
+      <li><img src="images/spkr_phoenix.jpg" /></li>
+      <li><img src="images/spkr_tomayko.jpg" /></li>
+    </ul>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+      $('ul#faces').bxCarousel({
+        display_num: 5,       // number of elements to be visible
+        move: 2,              // number of elements to the shift the slides
+        speed: 600,           // number in milliseconds it takes to finish slide animation
+        margin: 2,            // right margin to be applied to each <li> element (in pixels, although do not include "px")
+        auto: true,           // automatically play slides without a user click
+        auto_interval: 2400,  // the amount of time in milliseconds between each auto animation
+        auto_dir: 'next',     // direction of auto slideshow (options: 'next', 'prev')
+        auto_hover: false,    // determines if the slideshow will stop when user hovers over slideshow
+        next_text: 'next',    // text to be used for the 'next' control
+        next_image: '',       // image to be used for the 'next' control
+        prev_text: 'prev',    // text to be used for the 'prev' control
+        prev_image: '',       // image to be used for the 'prev' control
+        controls: false       // determines if controls will be displayed
+      });
+    });
+  </script>
+
   <p><a href="http://twitter.com/gogaruco"><img src="images/banner_twitter.jpg" alt="twitter" width="230" height="60" align="right" /></a>
     San Francisco is the birthplace of the web revolution. Ruby powers many new technologies, from web sites to telephony and desktop applications. Join us for two days of in-depth technical explorations of the most interesting parts of the Ruby landscape, presented by some of the top talents in the Ruby development community.</p>
   <p>Registration for the second annual Golden Gate Ruby Conference <a href="/register.html">is open now</a>! Your ticket to Golden Gate Ruby Conference gets you the following:
