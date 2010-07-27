@@ -3,75 +3,196 @@ layout: default
 title: Schedule
 nav_class_schedule: 'class="active"'
 ---
-<div class="schedule">
+<div id="schedule">
   <h1>Event Schedule</h1>
   <h2 align=center>Check back for updates soon!</h2>
-  <!-- <table cellpadding="0" cellspacing="0">
-    <tbody>
-      <tr>
-        <th class="time">Time</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-      </tr>
-      <tr>
-        <td class="time">8:30</td>
-        <td>Registration</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="time">9:30</td>
-        <td>Welcome and Introduction</td>
-        <td>Announcements</td>
-      </tr>
-      <tr>
-        <td class="time">9:45</td>
-        <td><a href="#">MacRuby and HotCocoa</a> - Rich Kilmer</td>
-        <td><a href="#">Hypertable and Rails: DB Scaling Solutions with HyperRecord</a> - Josh Tyler & Rusty Burchfield</td>
-      </tr>
-      <tr>
-        <td class="time">10:15</td>
-        <td>Break</td>
-        <td>Break</td>
-      </tr>
-      <tr>
-        <td class="time">10:30</td>
-        <td><a href="#">Sinatra: The Framework Within</a> - Aaron Quint</td>
-        <td><a href="#">CloudKit: Hacking the Open Stack with Rubyand Rack</a> - Jon Crosby</td>
-      </tr>
-      <tr>
-        <td class="time">11:00</td>
-        <td>Break</td>
-        <td>Break</td>
-      </tr>
-      <tr>
-        <td class="time">11:15</td>
-        <td><a href="#">Playing With Fire: Running Uploaded
-          Ruby Code in a Sandbox</a> - David Stevenson</td>
-        <td><a href="#">Using Shoes to create better
-          iPhone apps</a> - Tim Elliott</td>
-      </tr>
-      <tr>
-        <td class="time">12:00</td>
-        <td><a href="#">TrustTheVote: Open Source Digital Voting</a> - Gregory Miller</td>
-        <td><a href="#">Using Ruby to Fight AIDS</a> - Jacqui Maher</td>
-      </tr>
-      <tr>
-        <td class="time">12:30</td>
-        <td>Lunch</td>
-        <td>Lunch</td>
-      </tr>
-      <tr>
-        <td class="time">1:45</td>
-        <td><a href="#">There Will Be Ruby!</a> - Hampton Catlin</td>
-        <td><a href="#">CouchDB + Ruby: Perform Like a Pr0n Star</a> - Matt Aimonetti</td>
-      </tr>
-    </tbody>
-  </table> -->
 </div>
 
-<div class="sessions">
-  <!-- <h2>Session Descriptions</h2>
-  <p class="title">MacRuby and HotCocoa</p>
-  <p class="speaker"><strong>Speaker:</strong> Rich Kilmer</p>
-  <p class="description">MacRuby is an implementation of the Ruby language that runs on the Objective-C runtime under OS X. MacRuby is based on Ruby 1.9 but contains substantial modifications including the merging of object models (every Object is an NSObject), using the Objective-C 2.0 generational garbage collector, moving core types (String, Fixnum, Array, Hash) atop their Objective-C counterparts and replacement of standard libraries to more optimally integrate with OS X. MacRuby also includes a new library, HotCocoa. HotCocoa is a thin, idiomatic Ruby layer that sits above Cocoa and other frameworks.</p> -->
+<div id="sessions" class="items">
+  <h2>Session Descriptions</h2>
+
+  <!-- Keynote: Jim Weirich -->
+  <div class="item">
+    <h3><a name="weirich"></a>Keynote: (Parenthetically Speaking)</h3>
+    <p class="speaker"><a href="/speakers.html#weirich">Jim Weirich</a></p>
+    <p>
+      In any discussion on how to improve your programming skills, one book gets more recommendations
+      than any other: <em>The Structure and Interpretation of Computer Programs</em> (SICP) by
+      Abelson and Sussman. SICP was the introductory computer science text at MIT for many years. But
+      how much could a professional developer really learn from a first year CS book?
+    </p>
+    <p>
+      Last fall I embarked on an adventure and invited folks to join me in a weekly study of SICP. We
+      worked the examples and compared our answers. I am here today to share what mind blowing
+      concepts we discovered in just the first two chapters of SICP. Expect to see some Ruby code
+      like you've never seen before.
+    </p>
+  </div>
+
+  <!-- Sarah Allen / Alex Chaffee -->
+  <div class="item">
+    <h3><a name="allen_chaffee"></a>Test-First Teaching</h3>
+    <p class="speaker"><a href="/speakers.html#allen">Sarah Allen</a>,
+                       <a href="/speakers.html#chaffee">Alex Chaffee</a></p>
+    <p>
+      We've all learned that writing tests before code is a great way to develop software. It turns out that it's also a
+      great way to learn how to develop software in the first place! In this talk we discuss a number of projects that
+      have used test-first approaches to teach Ruby, including Ruby Koans, RailsBridge Workshops, Wolfram Arnold's BFT
+      (behavior-first teaching), Blazing Cloud JavaScript and Rails classes, plus our own open-source Learn Ruby TFT
+      (test-first teaching) curriculum (at <a href="http://testfirst.org/">testfirst.org</a>). Come hear about our
+      experiences or share your own.
+    </p>
+  </div>
+
+  <!-- Elisabeth Hendrickson -->
+  <div class="item">
+    <h3><a name="hendrickson"></a>Eschew Obfuscation and Omit Needless Words: Writing Clear Acceptance Tests</h3>
+    <p class="speaker"><a href="/speakers.html#hendrickson">Elisabeth Hendrickson</a></p>
+    <p>
+      Modern acceptance testing frameworks like Cucumber express tests in natural language, enabling organizations
+      to establish their own Domain Specific Languages (DSLs). This powerful capability is a huge boon for
+      communication: technical team members and non-technical business stakeholders can use the same vocabulary in
+      expressing both requirements and tests. However, just creating a DSL does not ensure we will write good,
+      clear tests. Indeed, it is all too easy to create acceptance tests that contain so many extraneous details
+      that the real intentions behind the tests are obfuscated. In this session, Elisabeth will demonstrate how to
+      edit technically correct but verbose Cucumber tests to increase clarity, reduce extraneous distracting
+      details, and improve maintainability. Along the way we'll see how paying attention to the advice in
+      <em>Elements of Style</em> applies to writing better automated acceptance tests. Strunk and White would be proud.
+    </p>
+  </div>
+
+  <!-- Bryan Liles -->
+  <div class="item">
+    <h3><a name="liles"></a>Bryan's ActiveModel Extravaganza</h3>
+    <p class="speaker"><a href="/speakers.html#liles">Bryan Liles</a></p>
+    <p>
+      Imagine you are at a conference. Imagine while you are at the conference there are 30 minute sessions of
+      various Ruby related topics. Imagine Bryan Liles is at this same conference. Imagine Bryan Liles. Imagine
+      ActiveModel. Imagine Bryan Liles talking about ActiveModel. Can you imagine anything better? Maybe vanilla ice
+      cream on apple pie. As a close second place, Bryan will show you why you need to at least investigate
+      ActiveModel for your current or next project. Of course there will be tests, code, and more tests at Bryan's
+      ActiveModel Extravaganza.
+    </p>
+    <p>
+      In this session, I will discuss why ActiveModel could be a great interface to allow Rails to get access to your
+      data on your own terms. I'll start from the beginning, and using TDD, I'll explore the interfaces Rails 3
+      exposes in their API. Next, I'll explore the components of ActiveModel. Finally, I'll show you how I'm using
+      ActiveModel right <em>now</em>, and give you a real world war report. I repeat: There will be code.
+    </p>
+  </div>
+
+
+  <!-- Jacqui Maher -->
+  <div class="item">
+    <h3><a name="maher"></a>Reporting the News: How the Interactive News group at The New York Times uses
+      Ruby to bring readers the most relevant information</h3>
+    <p class="speaker"><a href="/speakers.html#maher">Jacqui Maher</a></p>
+    <p>
+      The Interactive News team at The New York Times works with journalists and the organization at large
+      to come up with ways to present and deliver news and data in innovative and useful ways. They do this
+      in a nontraditional software development setting under tight deadlines. This talk will discuss:
+    </p>
+    <ul>
+      <li>the pros and cons of using cutting edge technology: gems, libraries, frameworks, and their ilk</li>
+      <li>supplying data: building APIs for external and internal use</li>
+      <li>how we make those beautiful snazzy interactives: interaction with NYT Graphics</li>
+      <li>responding to crises like the earthquakes in Haiti and Chile using existing Rails applications</li>
+      <li>best development and deployment practices for Rails and Sinatra applications</li>
+      <li>a case study: when things go wrong on the edge of Rails and NoSQL</li>
+    </ul>
+  </div>
+
+  <!-- Sarah Mei -->
+  <div class="item">
+    <h3><a name="mei"></a>Ruby APIs for NoSQL</h3>
+    <p class="speaker"><a href="/speakers.html#mei">Sarah Mei</a></p>
+    <p>
+      I secretly think that NoSQL data stores are rabbits. They're breeding
+      under the floorboards when we're asleep. How else do you explain a
+      landscape that includes Redis, Riak, CouchDB, Tokyo Cabinet, Flock,
+      MongoDB, and Cassandra, among many others? Mopsy and Cottontail can't
+      be far behind.
+    </p>
+    <p>
+      Given this, picking the right rab&hellip; er, data store for your project can
+      be a challenge. There are lots of factors to consider, such as tail
+      fluffiness, consistency guarantees, replication strategies, and ear length.
+    </p>
+    <p>
+      But the Ruby API for the data store is important too. That's what
+      you'll be dealing with day in and day out once you make your choice.
+      If you can't stand the interface, you'll get sick of cleaning the cage
+      pretty quickly.
+    </p>
+    <p>
+      In this talk, I'll run you through the mechanics of accessing several
+      NoSQL data stores with Ruby. I promise not to bring a rabbit to the
+      conference, and I definitely won't bring two. The last thing we need
+      is more.
+    </p>
+  </div>
+
+  <!-- Aaron Patterson -->
+  <div class="item">
+    <h3><a name="patterson"></a>Hidden Gems of Ruby 1.9</h3>
+    <p class="speaker"><a href="/speakers.html#patterson">Aaron Patterson</a></p>
+    <p>
+      When attempting to solve our latest programming conundrum, we typically reach for the latest Ruby Gem that
+      solves the problem for us. Often times in our search for a solution, we neglect to look through some of the
+      great libraries that come shipped with Ruby. In this talk we'll explore some of the tools we can use that
+      don't require a <code>gem install</code>. We'll especially focus on the new toys in Ruby's standard library
+      that ship with Ruby 1.9, but also look at some of the toys that ship with Ruby Classic&#8482;. Be prepared to
+      be amazed and entertained. But most of all, be prepared to go home with something useful!
+    </p>
+  </div>
+
+  <!-- Eric Mill -->
+  <div class="item">
+    <h3><a name="mill"></a>Data-Driven Government and the Ruby Developer</h3>
+    <p class="speaker"><a href="/speakers.html#patterson">Eric Mill</a></p>
+    <p>
+      A radically new relationship between developers and our government is taking shape. All levels of
+      government&emdash;federal agencies, states, and cities&emdash;have begun opening their vast troves of data to
+      citizens, free of charge and license.
+    </p>
+    <p>
+      It started small, but as inspired citizens, including many Ruby developers, have taken government data and
+      created awesome apps, more and more governments have taken the leap to give their data away. Some have even
+      started collaborating with citizens and creating new government services that never existed before.
+    </p>
+    <p>
+      It's a historic and powerful opportunity for us as Ruby developers, and we need to take advantage of it. This
+      talk is about why you should care, what your fellow developers have been doing so far, and what you might do
+      yourself.
+    </p>
+  </div>
+
+  <!-- Ryan Tomayko -->
+  <div class="item">
+    <h3><a name="tomayko"></a>Everything You Never Wanted To Know About UNIX Shell
+      Programming That I'm Going To Tell You Anyway And You Will Thank Me For It Later</h3>
+    <p class="speaker"><a href="/speakers.html#tomayko">Ryan Tomayko</a></p>
+    <p>
+      The Unix shell is widely despised as a modern programming language due to its
+      arcane syntax, unpredictable control flow, and lack of support for fundamental
+      constructs like: exception handling, objects, a module system, string functions,
+      or even local variables! It's old. There's a billion implementations of the core
+      language and userland utilities, each with subtle and incompatible differences.
+      Documentation is too sparse or too dense or available only at your local
+      library. It's a minefield.
+    </p>
+    <p>
+      But for all its perceived flaws, the Unix shell can be an amazingly productive
+      environment&mdash;once you learn to hate it properly. It has super powers. Stuff
+      you won't find in more general purpose languages. Learn to harness the shell's
+      AWESOME POWER and you'll be able to quickly automate a wide range of tasks
+      related to development workflow, source code editing, and systems administration/analysis.
+    </p>
+    <p>
+      In this talk, I want to show how to navigate the minefield, how to "think in
+      shell", demystify the strange grammar (yes, there's an actual grammar in there),
+      and compare and contrast approaches to common problems in shell vs. Ruby.
+    </p>
+  </div>
+
 </div>

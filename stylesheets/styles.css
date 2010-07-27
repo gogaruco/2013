@@ -243,6 +243,15 @@ ul#nav_top li.active a:hover {
 
 /* general divs */
 
+.items {
+  margin-bottom: 1em;
+}
+
+.item {
+  padding:20px 0 20px 0;
+  border-bottom:2px solid #CCC;
+}
+
 div.last {
   border-bottom:0 none !important;
 }
@@ -403,21 +412,16 @@ div.involve div.broadcast p {
 /* speakers */
 
 
-.speakers {
+#speakers {
 }
 
-.speakers div.item {
-  padding:20px 0 20px 0;
-  border-bottom:2px solid #CCC;
-}
-
-.speakers h3 {
-  font-size:1.5em;
+#speakers h3 {
+  font-size:1.55em;
   color:#003412;
   margin:0;
 }
 
-.speakers div.img {
+#speakers div.img {
   margin:0;
   float:left;
   width:35%;
@@ -425,11 +429,11 @@ div.involve div.broadcast p {
   text-align:center;
 }
 
-.speakers div.img img {
+#speakers div.img img {
   border: 1px solid #CCC;
 }
 
-.speakers div.description {
+#speakers div.description {
   margin:0;
   float:left;
   display:inline;
@@ -472,11 +476,6 @@ div.involve div.broadcast p {
   padding:0 15px 0 0;
 }
 
-.sponsors div.item {
-  padding:20px 0 20px 0;
-  border-bottom:2px solid #CCC;
-}
-
 .sponsors h3 {
   font-size:1.9em;
   color:#197b30;
@@ -501,11 +500,6 @@ div.involve div.broadcast p {
 /* schedule */
 
 .schedule {
-}
-
-.schedule div.item {
-  padding:20px 0 20px 0;
-  border-bottom:2px solid #CCC;
 }
 
 .schedule h3 {
@@ -563,38 +557,39 @@ div.involve div.broadcast p {
 /* sessions (Session Descriptions) */
 
 
-.sessions {
-  margin:40px 0 20px 0px;
+#sessions {
+  margin:40px 0 40px 0px;
 }
 
-.sessions h2 {
+#sessions h2 {
   color:#FFF;
   background-color:#197b30;
-  margin:0 -30px 20px 0;
+  margin:0 0 20px 0;
   padding:5px 10px;
   font-size:1.7em;
 }
 
-p.title {
+#sessions .item h3 {
   margin:0;
+  font-size:1.55em;
   font-weight:bold;
+  letter-spacing: 0.03em;
   color:#003412;
 }
 
-p.speaker {
+#sessions p {
+  margin:0.6em 0 0 0;
+}
+#sessions .speaker {
   margin:0;
   color:#a33400;
-  font-size:.9em;
 }
 
-p.speaker strong {
+#sessions .speaker strong {
   margin:0;
   color:#003412;
 }
 
-p.description {
-  margin:0;
-}
 
 /* Clearfix applied to div */
 
