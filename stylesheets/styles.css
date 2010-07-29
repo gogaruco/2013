@@ -244,12 +244,17 @@ ul#nav_top li.active a:hover {
 /* general divs */
 
 .items {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .item {
   padding:20px 0 20px 0;
   border-bottom:2px solid #CCC;
+}
+
+.item_last {
+  padding:20px 0 20px 0;
+  border-bottom: 0;
 }
 
 div.last {
@@ -469,20 +474,28 @@ div.involve div.broadcast p {
 /* sponsors */
 
 
-.our_lovable_5p0n50rz {
+#our_lovable_5p0n50rz h4 {
+  margin: 0;
+  padding: 0.25em 0;
+  color: white;
+  background-color: #B7B7B7;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.our_lovable_5p0n50rz {
+#our_lovable_5p0n50rz {
   padding:0 15px 0 0;
 }
 
-.our_lovable_5p0n50rz h3 {
+#our_lovable_5p0n50rz h3 {
   font-size:1.9em;
   color:#197b30;
   margin:0;
 }
 
-.our_lovable_5p0n50rz div.img {
+#our_lovable_5p0n50rz div.img {
   margin:0;
   float:left;
   width:35%;
@@ -490,7 +503,7 @@ div.involve div.broadcast p {
   text-align:center;
 }
 
-.our_lovable_5p0n50rz div.description {
+#our_lovable_5p0n50rz div.description {
   margin:0;
   float:left;
   display:inline;
