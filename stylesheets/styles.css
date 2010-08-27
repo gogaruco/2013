@@ -30,7 +30,7 @@ h2 {
 h3 {
 }
 
-p, li, td {
+p, li {
   font-size:1.4em;
   line-height:1.6em;
 }
@@ -552,6 +552,7 @@ div.involve div.broadcast p {
   width:65%;
 }
 
+/*
 .schedule table {
   position:relative;
   left:-15px;
@@ -581,6 +582,63 @@ div.involve div.broadcast p {
 .schedule td.time {
   padding-left:20px;
   color:#959595;
+}
+*/
+
+/* schedule grid */
+
+#grid {
+  width: 100%;
+}
+
+#grid .r1 th, #grid .r1 td { height:  25px; }
+#grid .r2 th, #grid .r2 td { height:  50px}
+#grid .r3 th, #grid .r3 td { height:  75px; }
+#grid .r4 th, #grid .r4 td { height: 100px; }
+#grid .r5 th, #grid .r5 td { height: 125px; }
+
+#grid th, #grid td {
+  border-right: 1px solid #aaa;
+}
+
+#grid th {
+  width: 5%;
+  padding-right: 1%;
+  color: #666;
+  font-size: 1em;
+  text-align: right;
+  vertical-align: bottom;
+  line-height: 0.5;
+}
+
+#grid td {
+  width: 45%;
+  padding: 4px 1%;
+  border-bottom: 1px solid #aaa;
+  font-size: 1.4em;
+  vertical-align: top;
+}
+
+#grid td a {
+  color: #197B30;
+  font-weight: bold;
+}
+
+#grid thead td {
+  background-color: #666;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#grid td.break {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle !important;
+  background-color: #e8e8e8;
 }
 
 /* sessions (Session Descriptions) */
