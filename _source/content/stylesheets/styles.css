@@ -1,49 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="generator" content="nanoc 3.1.9">
-  <title>The Golden Gate Ruby Conference</title>
-  <link href="/styles.css" rel="stylesheet" type="text/css" media="screen" />
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/jquery.bxcarousel.min.js"></script>
-</head>
-<body>
-  <div id="main-container">
-    <div id="header">
-      <a id="gohome" href="/"></a>
-      <ul id="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="speakers.html">Speakers</a></li>
-        <!-- <li><a href="schedule.html">Schedule</a></li> -->
-        <li><a href="sponsors.html">Sponsors</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="location.html">Location</a></li>
-        <!-- <li><a href="resources.html">Resources</a></li> -->
-      </ul>
-    </div>
-    <div id="main-area">
-      <div id="sidebar">
-        <a href="registration.html"><a href="registration.html"><img id="gin-get-tickets" src="images/gin-get-tickets.png" alt="" /></a></a>
-        <h3>Platinum Sponsors</h3>
-        <a href="http://opower.com/" target="_blank"><img src="images/sponsor_opower.png" alt="" /></a>
-        <a href="http://heroku.com/" target="_blank"><img src="images/sponsor_heroku.png" width="200px" alt="" /></a>
-        <a href="http://square.com/" target="_blank"><img src="images/sponsor_square.png" width="180px" alt="" /></a>
-        <a href="http://yammer.com/" target="_blank"><img src="images/sponsor_yammer.png" width="165px" alt="" /></a>
-        <h3>Gold Sponsors</h3>
-        <a href="http://www.attinteractive.com/" target="_blank"><img src="images/sponsor_att.png" alt="" /></a>
-        <a href="http://www.modcloth.com/" target="_blank"><img src="images/sponsor_modcloth.png" alt="" /></a>
-        <!-- <h3>Silver Sponsors</h3>
-        <br /><br /> -->
-        <div id="sponsorbox">
-          <p>Interested in Sponsoring GoGaRuCo?</p>
-          <a href="/assets/prospectus_6-24.pdf" id="sponsorbutton">Download the Prospectus</a>
-          <p>or contact <a href="mailto:sponsors@gogaruco.com">Leah Silber</a> for more info!</p>
-        </div>
-      </div>
-      <div id="left-area">
-
-        /* @override 
+/* @override 
   http://localhost:8888/gogaruco/styles.css
 */
 
@@ -74,7 +29,7 @@ Red: #ed1c24
 */
 /* @end */
 body {
-  background: #2d3c42 url(images/main-bg.png) no-repeat center top;
+  background: #2d3c42 url(/images/main-bg.png) no-repeat center top;
   font: 300 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 a {
@@ -152,22 +107,27 @@ h4 {
   margin-bottom: 25px;
 }
 .bullets {
-  margin-bottom: 15px;
   display: block;
-  width: 400px;
+  width: 360px;
+  margin-bottom: 15px;
+  padding: 16px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+/*  background-color: #ed1c24;*/
+  background-color: #ddd;
 }
 .bullets li {
-  margin-bottom: 8px;
-  padding-left: 15px;
+  margin-left: 20px;
   list-style-type: disc;
-  color: white;
+/*  color: white;*/
+  color: #ed1c24;
+  font-weight: bold;
 }
-.bullets p {
-  background-color: #ed1c24;
-  display: inline;
-  padding-right: 5px;
-  padding-left: 5px;
+.bullets li + li {
+  margin-top: 8px;
 }
+
 .twitter-button {
   float: right;
   margin-top: 25px;
@@ -203,12 +163,12 @@ h4 {
 /* @end */
 #main-area {
   width: 986px;
-  padding-left: 25px;
+  padding-left: 24px;
   overflow: hidden;
   margin-right: auto;
   margin-top: 0;
   margin-left: auto;
-  background: white url(images/bg.png) repeat-y;
+  background: white url(/images/bg.png) repeat-y;
 }
 #left-area {
   overflow: hidden;
@@ -271,8 +231,21 @@ h4 {
 
 /* @group Sponsors */
 .sponsor-box {
+  position: relative;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
   padding-left: 200px;
-  margin-bottom: 25px;
+}
+.sponsor-box + .sponsor-box {
+  margin-top: 0;
+  border-top: 1px solid #e0e0e0;
+}
+.sponsor-box img {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  max-width: 190px;
 }
 .sponsor-box p {
   margin-bottom: 15px;
@@ -425,7 +398,7 @@ h4 {
   -webkit-box-shadow: 0px;
   box-shadow: 0px;
   color: black;
-  background-image: url(images/download_icon.png) no-repeat 18px;
+  background-image: url(/images/download_icon.png) no-repeat 18px;
 }
 
 /* @end */
@@ -441,12 +414,15 @@ h4 {
   display: block;
   color: white;
   height: 45px;
-  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 12px;
   border: 2px solid white;
   overflow: visible;
   background-color: black;
   position: relative;
+}
+#footer p {
+  padding-top: 15px;
 }
 #footer a {
   color: white;
@@ -460,13 +436,3 @@ h4 {
 }
 
 /* @end */
-
-      </div>
-    </div>
-    <div id="footer">
-    <img class="footer-robot" src="images/footer_robot.png" alt="" />
-    <p>© 2011 golden gate ruby conference, llc  <br><a href="index.html">Home</a>  |  <a href="speakers.html">Speakers</a>  <!-- |  <a href="schedule.html">Schedule</a>   -->|  <a href="sponsors.html">Sponsors</a>  |  <a href="community.html">Team</a>  |  <a href="location.html">Location</a>  <!-- |  <a href="resources.html">Resources</a> -->      <span class="right"> <a href="#">[2009]</a>  <a href="#">[2010]</a></span></p>
-    </div>
-  </div>
-</body>
-</html>

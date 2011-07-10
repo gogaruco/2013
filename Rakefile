@@ -12,7 +12,7 @@ task :clean do
   abort("It looks like you aren't in the project's root directory. Please cd and try again.") unless files.include?("_source")
   FileUtils.rm_rf( files - keepers )
 
-  puts "Done!"
+  puts "  Done!"
 end
 
 desc "run nanoc to generate site files"
@@ -20,10 +20,11 @@ task :generate do
   puts "Running nanoc..."
 
   FileUtils.cd(File.expand_path("_source", File.dirname(__FILE__))) do
-    %x{nanoc3 compile --force}
+    %x{rake clean}
+    %x{nanoc3 compile}
   end
 
-  puts "Done!"
+  puts "  Done!"
 end
 
 desc "copy generated files up to project root"
@@ -34,5 +35,7 @@ task :promote do
     FileUtils.cp_r( Dir["*"], File.dirname(__FILE__) )
   end
 
-  puts "Done!"
+  puts "  Done!"
 end
+
+task :default => :build

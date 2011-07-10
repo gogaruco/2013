@@ -29,7 +29,7 @@ Red: #ed1c24
 */
 /* @end */
 body {
-  background: #2d3c42 url(images/main-bg.png) no-repeat center top;
+  background: #2d3c42 url(/images/main-bg.png) no-repeat center top;
   font: 300 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 a {
@@ -107,22 +107,27 @@ h4 {
   margin-bottom: 25px;
 }
 .bullets {
-  margin-bottom: 15px;
   display: block;
-  width: 400px;
+  width: 360px;
+  margin-bottom: 15px;
+  padding: 16px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+/*  background-color: #ed1c24;*/
+  background-color: #ddd;
 }
 .bullets li {
-  margin-bottom: 8px;
-  padding-left: 15px;
+  margin-left: 20px;
   list-style-type: disc;
-  color: white;
+/*  color: white;*/
+  color: #ed1c24;
+  font-weight: bold;
 }
-.bullets p {
-  background-color: #ed1c24;
-  display: inline;
-  padding-right: 5px;
-  padding-left: 5px;
+.bullets li + li {
+  margin-top: 8px;
 }
+
 .twitter-button {
   float: right;
   margin-top: 25px;
@@ -158,12 +163,12 @@ h4 {
 /* @end */
 #main-area {
   width: 986px;
-  padding-left: 25px;
+  padding-left: 24px;
   overflow: hidden;
   margin-right: auto;
   margin-top: 0;
   margin-left: auto;
-  background: white url(images/bg.png) repeat-y;
+  background: white url(/images/bg.png) repeat-y;
 }
 #left-area {
   overflow: hidden;
@@ -226,8 +231,21 @@ h4 {
 
 /* @group Sponsors */
 .sponsor-box {
+  position: relative;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
   padding-left: 200px;
-  margin-bottom: 25px;
+}
+.sponsor-box + .sponsor-box {
+  margin-top: 0;
+  border-top: 1px solid #e0e0e0;
+}
+.sponsor-box img {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  max-width: 190px;
 }
 .sponsor-box p {
   margin-bottom: 15px;
@@ -380,7 +398,7 @@ h4 {
   -webkit-box-shadow: 0px;
   box-shadow: 0px;
   color: black;
-  background-image: url(images/download_icon.png) no-repeat 18px;
+  background-image: url(/images/download_icon.png) no-repeat 18px;
 }
 
 /* @end */
@@ -396,12 +414,15 @@ h4 {
   display: block;
   color: white;
   height: 45px;
-  padding-top: 25px;
+  padding-bottom: 25px;
   font-size: 12px;
   border: 2px solid white;
   overflow: visible;
   background-color: black;
   position: relative;
+}
+#footer p {
+  padding-top: 15px;
 }
 #footer a {
   color: white;
