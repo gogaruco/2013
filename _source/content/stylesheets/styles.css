@@ -175,13 +175,25 @@ h4 {
   display: block;
   margin-bottom: 35px;
 }
-.event-update {
-  margin-bottom: 25px;
-  padding-bottom: 15px;
-  display: block;
-  border-bottom: 2px solid silver;
+
+.updates {
+  margin-bottom: 30px;
 }
-.event-update img {
+.updates > div + div {
+  margin-top: 25px;
+  border-top: 2px solid silver;
+  padding-top: 15px;
+}
+.updates h3 {
+  margin: 0;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+}
+.updates .date {
+  margin-bottom: 12px;
+}
+.updates img {
   float: right;
   margin-left: 35px;
 }
