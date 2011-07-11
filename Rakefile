@@ -20,7 +20,7 @@ task :generate do
   puts "Running nanoc..."
 
   FileUtils.cd(File.expand_path("_source", File.dirname(__FILE__))) do
-    %x{rake clean}
+    %x{rm -rf output}
     %x{nanoc3 compile}
   end
 
