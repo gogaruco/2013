@@ -184,6 +184,11 @@ h4 {
   border-top: 2px solid silver;
   padding-top: 15px;
 }
+.updates h2 {
+  margin: 25px 0 10px 0;
+  border: none;
+  padding: 0;
+}
 .updates h3 {
   margin: 0;
   border: none;
