@@ -197,6 +197,7 @@ h4 {
 }
 .updates .date {
   margin-bottom: 12px;
+	font-size: 13px;
 }
 .updates img {
   float: right;
@@ -349,11 +350,11 @@ h4 {
   color: #565656;
   border-bottom: 1px solid #565656;
   display: block;
-  padding: 0 0 3px;
+  padding: 10px 0 3px;
   text-transform: uppercase;
   text-align: center;
   font-size: 18px;
-  margin: 15px 15%;
+  margin: 40px 15%;
 }
 #gin-get-tickets {
   display: block;
