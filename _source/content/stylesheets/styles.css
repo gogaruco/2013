@@ -1,4 +1,4 @@
-/* @override 
+/* @override
   http://localhost:8888/gogaruco/styles.css
 */
 
@@ -19,7 +19,7 @@ strong { font-weight: bold }
 em { font-style: italic }
 a img { border:none } /* Gets rid of IE's blue borders */
 /* @end */
-/* @group My Colors 
+/* @group My Colors
 Dark blue: #2d3c42
 Mid Gray: #565656
 Light Gray: #808080
@@ -197,7 +197,7 @@ h4 {
 }
 .updates .date {
   margin-bottom: 12px;
-	font-size: 13px;
+  font-size: 13px;
 }
 .updates img {
   float: right;
