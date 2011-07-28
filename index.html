@@ -5,8 +5,8 @@
   <meta name="generator" content="nanoc 3.1.9">
   <title>The Golden Gate Ruby Conference</title>
   <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" media="screen" />
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/jquery.bxcarousel.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+  <script src="javascripts/jquery_bxSlider_min.js"></script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-7133758-1']);
@@ -60,7 +60,49 @@
       <div id="left-area">
 
         <h1>Join Us for the<br>3rd Annual GoGaRuCo!</h1>
-<img class="speakers-faces" width="620" height="137" src="/images/speakers-faces.jpg" alt="" />
+
+<div id="faces_holder">
+  <ul id="faces">
+    <li><img src="/images/people/chris-eppstein.jpg" alt="Chris Eppstein"></li>
+    <li><img src="/images/people/chris-strom.jpg" alt="Chris Strom"></li>
+    <li><img src="/images/people/corey-haines.jpg" alt="Corey Haines"></li>
+    <li><img src="/images/people/dave-grijalva.jpg" alt="Dave Grijalva"></li>
+    <li><img src="/images/people/david-copeland.jpg" alt="David Copeland"></li>
+    <li><img src="/images/people/erica-kwan.jpg" alt="Erica Kwan"></li>
+    <li><img src="/images/people/ilya-grigorik.jpg" alt="Ilya Grigorik"></li>
+    <li><img src="/images/people/jeff-casimir.jpg" alt="Jeff Casimir"></li>
+    <li><img src="/images/people/jose-valim.jpg" alt="José Valim"></li>
+    <li><img src="/images/people/konstantin-haase.jpg" alt="Konstantin Haase"></li>
+    <li><img src="/images/people/ron-evans.jpg" alt="Ron Evans"></li>
+    <li><img src="/images/people/ryan-dy.jpg" alt="Ryan Dy"></li>
+    <li><img src="/images/people/tim-anglade.jpg" alt="Tim Anglade"></li>
+    <li><img src="/images/people/travis-reeder.jpg" alt="Travis Reeder"></li>
+    <li><img src="/images/people/tyler-mcmullen.jpg" alt="Tyler McMullen"></li>
+    <li><img src="/images/people/wesley-beary.jpg" alt="Wesley Beary"></li>
+    <li><img src="/images/people/yehuda-katz.jpg" alt="Yehuda Katz"></li>
+  </ul>
+</div>
+
+<script>
+  $(document).ready(function(){
+
+    var faces = $('ul#faces');
+    var elems = faces.children("li");
+    elems.sort(function() { return (Math.round(Math.random())-0.5); });
+    faces.empty();
+    for(var i=0; i < elems.length; i++) { faces.append(elems[i]); }
+
+    $('ul#faces').bxSlider({
+      displaySlideQty: 5,
+      moveSlideQty: 2,
+      auto: true,           // automatically play slides without a user click
+      speed: 750,           // number in milliseconds it takes to finish slide animation
+      pause: 2750,          // the amount of time in milliseconds between each auto animation
+      controls: false       // determines if controls will be displayed
+    });
+  });
+</script>
+
 <p class="normal-text">
   San Francisco is the birthplace of the web revolution. Ruby powers many new technologies, from
   web sites to telephony and desktop applications. Join us for two days of in-depth technical

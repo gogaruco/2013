@@ -204,6 +204,26 @@ h4 {
   margin-left: 35px;
 }
 
+#faces_holder {
+  overflow: hidden;
+  height: 120px;
+  padding: 2px;
+}
+
+#faces {
+  list-style: none;
+}
+
+#faces li {
+  float: left;
+  width: 123px;
+}
+
+#faces li img {
+  height: 120px;
+  width: 120px;
+}
+
 /* @group Schedule */
 .schedule-column {
   width: 290px;
