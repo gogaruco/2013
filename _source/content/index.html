@@ -24,18 +24,19 @@
 
 <script>
   $(document).ready(function(){
+
+    var faces = $('ul#faces');
+    var elems = faces.children("li");
+    elems.sort(function() { return (Math.round(Math.random())-0.5); });
+    faces.empty();
+    for(var i=0; i < elems.length; i++) { faces.append(elems[i]); }
+
     $('ul#faces').bxSlider({
       displaySlideQty: 5,
       moveSlideQty: 2,
-      speed: 600,           // number in milliseconds it takes to finish slide animation
       auto: true,           // automatically play slides without a user click
-      auto_interval: 2400,  // the amount of time in milliseconds between each auto animation
-      auto_dir: 'next',     // direction of auto slideshow (options: 'next', 'prev')
-      auto_hover: false,    // determines if the slideshow will stop when user hovers over slideshow
-      next_text: 'next',    // text to be used for the 'next' control
-      next_image: '',       // image to be used for the 'next' control
-      prev_text: 'prev',    // text to be used for the 'prev' control
-      prev_image: '',       // image to be used for the 'prev' control
+      speed: 750,           // number in milliseconds it takes to finish slide animation
+      pause: 2750,          // the amount of time in milliseconds between each auto animation
       controls: false       // determines if controls will be displayed
     });
   });
