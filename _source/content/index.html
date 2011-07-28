@@ -1,5 +1,46 @@
 <h1>Join Us for the<br>3rd Annual GoGaRuCo!</h1>
-<img class="speakers-faces" width="620" height="137" src="/images/speakers-faces.jpg" alt="" />
+
+<div id="faces_holder">
+  <ul id="faces">
+    <li><img src="/images/people/chris-eppstein.jpg" alt="Chris Eppstein"></li>
+    <li><img src="/images/people/chris-strom.jpg" alt="Chris Strom"></li>
+    <li><img src="/images/people/corey-haines.jpg" alt="Corey Haines"></li>
+    <li><img src="/images/people/dave-grijalva.jpg" alt="Dave Grijalva"></li>
+    <li><img src="/images/people/david-copeland.jpg" alt="David Copeland"></li>
+    <li><img src="/images/people/erica-kwan.jpg" alt="Erica Kwan"></li>
+    <li><img src="/images/people/ilya-grigorik.jpg" alt="Ilya Grigorik"></li>
+    <li><img src="/images/people/jeff-casimir.jpg" alt="Jeff Casimir"></li>
+    <li><img src="/images/people/jose-valim.jpg" alt="José Valim"></li>
+    <li><img src="/images/people/konstantin-haase.jpg" alt="Konstantin Haase"></li>
+    <li><img src="/images/people/ron-evans.jpg" alt="Ron Evans"></li>
+    <li><img src="/images/people/ryan-dy.jpg" alt="Ryan Dy"></li>
+    <li><img src="/images/people/tim-anglade.jpg" alt="Tim Anglade"></li>
+    <li><img src="/images/people/travis-reeder.jpg" alt="Travis Reeder"></li>
+    <li><img src="/images/people/tyler-mcmullen.jpg" alt="Tyler McMullen"></li>
+    <li><img src="/images/people/wesley-beary.jpg" alt="Wesley Beary"></li>
+    <li><img src="/images/people/yehuda-katz.jpg" alt="Yehuda Katz"></li>
+  </ul>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('ul#faces').bxSlider({
+      displaySlideQty: 5,
+      moveSlideQty: 2,
+      speed: 600,           // number in milliseconds it takes to finish slide animation
+      auto: true,           // automatically play slides without a user click
+      auto_interval: 2400,  // the amount of time in milliseconds between each auto animation
+      auto_dir: 'next',     // direction of auto slideshow (options: 'next', 'prev')
+      auto_hover: false,    // determines if the slideshow will stop when user hovers over slideshow
+      next_text: 'next',    // text to be used for the 'next' control
+      next_image: '',       // image to be used for the 'next' control
+      prev_text: 'prev',    // text to be used for the 'prev' control
+      prev_image: '',       // image to be used for the 'prev' control
+      controls: false       // determines if controls will be displayed
+    });
+  });
+</script>
+
 <p class="normal-text">
   San Francisco is the birthplace of the web revolution. Ruby powers many new technologies, from
   web sites to telephony and desktop applications. Join us for two days of in-depth technical
