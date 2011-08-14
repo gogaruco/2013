@@ -348,6 +348,18 @@ h4 {
 }
 /* @end */
 
+/* @group Location */
+
+.parking { margin-bottom: 20px; }
+.parking li { margin-bottom: 2px;}
+.parking span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 8em;
+  text-align: right;
+  font-weight: bold;
+}
+
 /* @group Sidebar */
 
 #sidebar {
