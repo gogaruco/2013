@@ -100,9 +100,10 @@ h4 {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-.normal-text {
+.left-area p {
   margin-bottom: 15px;
 }
+
 .speakers-faces {
   margin-bottom: 25px;
 }
@@ -161,7 +162,7 @@ h4 {
 }
 
 /* @end */
-#main-area {
+.main-area {
   width: 986px;
   padding-left: 24px;
   overflow: hidden;
@@ -170,7 +171,7 @@ h4 {
   margin-left: auto;
   background: white url(/images/bg.png) repeat-y;
 }
-#left-area {
+.left-area {
   overflow: hidden;
   display: block;
   margin-bottom: 35px;
@@ -226,13 +227,13 @@ h4 {
 
 /* @group Schedule */
 .schedule-column {
-  width: 290px;
+  width: 300px;
   float: left;
-  margin-right: 45px;
+  margin-right: 25px;
   margin-bottom: 25px;
 }
 .schedule-column2 {
-  width: 290px;
+  width: 300px;
   float: left;
   margin-bottom: 25px;
 }
@@ -252,15 +253,15 @@ h4 {
 .schedule-time {
   background-color: #2d3d43;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   padding-right: 5px;
   padding-left: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   display: inline-block;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
 }
-.schedule-post {
+.schedule .session {
   border-bottom: 1px solid #2d3c42;
   margin-bottom: 50px;
   padding-bottom: 10px;
@@ -346,6 +347,18 @@ h4 {
   overflow: hidden;
 }
 /* @end */
+
+/* @group Location */
+
+.parking { margin-bottom: 20px; }
+.parking li { margin-bottom: 2px;}
+.parking span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 8em;
+  text-align: right;
+  font-weight: bold;
+}
 
 /* @group Sidebar */
 
