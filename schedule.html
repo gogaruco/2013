@@ -64,44 +64,320 @@
       </div>
       <div class="left-area">
 
-        
-    <!--
-    <p>
-      Forget about JRuby. MacRuby? Forget it. Forget even Rubinius. As cool as each of them is, they are old. Like, you know, for adults.
-      Introducing the real future of Ruby: <a href="http://kidsruby.com/">KidsRuby</a>... because the future is about the kids!
-    </p>
-    <p>
-      KidsRuby was born as a fresh approach to the most important problem we as an industry face: who is going to maintain our code in its old age?
-      Most of us in the Ruby community are aware that it is a great time to be a programmer. However, it's not so great to be some company trying
-      to find an experienced programmer to hire. And the problem is only going to get worse, since the state of computer programming education is
-      the US and UK is down, even as demand increases. Like becoming a master musician, master programmers are not created quickly. Many of the
-      best programmers today started when they were young. There have been a number of excellent contributions for teaching kids to program using
-      Ruby. The most famous Ruby environment for kids being Hackety-Hack, from _why the lucky stiff. However Hackety-Hack is showing its age and
-      inherent limitations, especially if you want to use it with any normal gems, or want to contribute to it. Even the 1.0 release suffers from
-      these problems. KidsRuby is a real Ruby, so that kids are not treated like second class citizens just because they are learning Ruby. It
-      helps to solve a number of the biggest technical problems with teaching Ruby to kids. In 30 minutes I will share not just the technology used
-      to build KidsRuby, but more importantly the social glue needed to help start out the next generation of programmers with the language we all
-      love. It it time for a general call to arms to the Ruby community. We all need to get serious now about training the next generation of
-      hackers. After all, think of the children!
-    </p>
-    -->
+        <h3>Session Descriptions</h3>
 
-
-
-
-
-<h3>Session Descriptions</h3>
 <div class="schedule">
-    <div class="session">
+  <div class="session">
     <h4>Keynote: (To Be Announced)</h4>
-    <p class="speaker">Yehuda Katz</p>
+    <p class="speaker"><a href="/speakers.html#yehuda-katz">Yehuda Katz</a></p>
     <p>
-      x
-    </p>
-    <p>
-      x
+      Details coming soon.
     </p>
   </div>
+
+  <div class="session">
+    <h4>Keynote: Writing your own programming language to understand Ruby better</h4>
+    <p class="speaker"><a href="/speakers.html#jose-valim">José Valim</a></p>
+    <p>
+      In this talk, José Valim will share what he has learned about Ruby through writing a
+      small programming language. He will discuss the basic structure of a programming
+      language, suggest improvements and debate about Ruby's parser, object model,
+      methods, iterators and blocks.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>CouchDB &amp; Ruby: You're Doing It Wrong</h4>
+    <p class="speaker"><a href="/speakers.html#tim-anglade">Tim Anglade</a></p>
+    <p>
+      CouchDB is an increasingly common member of the Ruby developer’s toolset. Its flexible model, low
+      footprint, REST interface, and wide library support make it a natural choice for many web, mobile,
+      command-line, and desktop Ruby apps. As community manager at Cloudant, I can tell you that Ruby is
+      the #1 language customers use to access our CouchDB hosting service. But unfortunately, it’s also the
+      language where I have observed the highest levels of egregious misuse. Out of the hundreds of Ruby
+      production apps that use our service daily, an overwhelming majority are plagued by poor design,
+      wasteful queries or inefficient indexing; and as a result, the average response time for our entire
+      Ruby userbase is 2–3x higher than in other languages.
+    </p>
+    <p>
+      Beyond plain misuse, I have also noticed a rampant and severe underutilization of CouchDB; in most
+      cases, it's dropped in as a replacement for MySQL and used in the exact same pattern you would a
+      single-instance, relational database. CouchDB has much more to offer, and by leveraging some parts of
+      its design, I believe it can help the average Rubyist solve very common pain-points or serve very
+      common use-cases, from embedded Ruby apps, to mobile applications and of course, web services.
+    </p>
+    <p>
+      This talk will explain the best practices that I've observed, tried and implemented, from a large
+      pool of examples that includes the customer apps I've helped optimize and debug, as well as my own.
+      Due to the necessity of re-explaining some core CouchDB concepts, this talk
+      may function as an introduction to CouchDB, but 
+      will also contain valuable lessons for the more experienced users.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>API: Assumptions Probably Incorrect</h4>
+    <p class="speaker"><a href="/speakers.html#wesley-beary">Wesley Beary</a></p>
+    <p>
+      Interfaces are not created equal. Upon reaching the summit of a releasable product it is easy to lose
+      sight of where you started. The disconnect grows as you explore how to build a bridge from internals
+      to end users. Developing interfaces for others is one of the hardest things we do, but thankfully you
+      are not alone. I have spent the last two years interacting with and creating interfaces to cloud
+      services with fog. By exploring examples we can see patterns and establish best practices for APIs,
+      CLIs and even library code.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>The Problem is Your Ruby</h4>
+    <p class="speaker"><a href="/speakers.html#jeff-casimir">Jeff Casimir</a></p>
+    <p>
+      We're facing a tidal wave of rescue projects.  So many developers dive
+      into writing Rails applications without building a real foundation in
+      Ruby.  Instead we focus on the new whiz-bang features of Rails or the
+      hot gem of the week&mdash;missing the awesomeness right in front of us.
+    </p>
+    <p>
+      Let's talk about Ruby and fill in some of the gaps.  This isn't about
+      mind-blowing features and crazy metaprogramming, it's about the
+      fundamentals that are often overlooked in Rails applications.
+    </p>
+    <ul class="dots">
+      <li>WTF are modules, anyway?</li>
+      <li>Writing utility objects</li>
+      <li>Measuring performance</li>
+      <li>Everything worth manipulating is a collection</li>
+      <li>Rails "features" that Ruby does better</li>
+      <li>Bringing science back into development</li>
+    </ul>
+    <p>
+      Master these techniques, and write better applications with better Ruby.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Test-drive the development of your command-line applications</h4>
+    <p class="speaker"><a href="/speakers.html#david-copeland">David Copeland</a></p>
+    <p>
+      Rubyists love testing, and test-driven-development is becoming <em>the</em> way to write code. But, do
+      we do this with our command-line tools? How <em>do</em> you write a test that your awesome application
+      cleans up its temp files? How does one make a failing test for a missing command-line option? What's
+      the easiest way to check our app's exit codes?
+    </p>
+    <p>
+      This talk will answer these questions with some real-world examples. We'll talk briefly about the
+      challenges particular to testing command-line apps, and then dive into some code where we'll show off
+      techniques for organizing code for testability, tools for interacting with the filesystem, and how to
+      create full-blown acceptance tests for your command-line app. In no time, you'll be able to write your
+      command-line apps the same way you write your other code: test-first.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Ruby/JavaScript and the mobile web</h4>
+    <p class="speaker"><a href="/speakers.html#ryan-dy">Ryan Dy</a></p>
+    <p>
+      Demand for richer, more interactive mobile web applications requires tools and frameworks that are as
+      intuitive and simple to use as Rails. These new applications are built with JavaScript but still
+      require server backends. While there are many new JavaScript frameworks, only a few are suited to
+      mobile web applications, and integrating them can be challenging. Development on iOS or Android may
+      leverage Objective-C or Java code to take advantage of features on these native platforms. Ruby is an
+      excellent tool for quickly building this new generation of applications: either as a JSON translation
+      service between a client application and database, or as a stateful web service using websockets. Ruby
+      complements these emerging technologies well, letting you rapidly mock up, develop, and deploy modern
+      applications.
+    </p>
+    <p>
+      The purpose of this talk is to illustrate how these new technologies and frameworks can be combined to
+      make interactive applications, focusing on mobile devices. In JavaScript, I will illustrate how to use
+      Backbone.js and Persistence.js to build a client that communicates with a rails backend without a
+      persistent Internet connection. In Ruby, I will focus on how to take advantage of caching techniques
+      to make mobile clients interact better with server-side APIs. I will also discuss how to integrate
+      JavaScript on native platforms to take advantage of iOS or Android features that are not available in
+      the Webkit browser. Lastly, I'll discuss how WebSockets and WebGL can be used to take interaction to
+      the next level.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Sass: The future of stylesheets</h4>
+    <p class="speaker"><a href="/speakers.html#chris-eppstein">Chris Eppstein</a></p>
+    <p>
+      Let’s face it. CSS is dumb. There is no such thing as a <em>DRY</em> CSS file and stylesheets are
+      often the biggest blemish in an otherwise beautifully coded app. Sass is the future of stylesheets.
+      Rails 3.1 includes it by default and the W3C is adding concepts from Sass to CSS itself. This talk
+      will cover the rationale behind Sass, the language features it provides, and best practices you can
+      apply to start untangling your stylesheets. Chris Eppstein, the creator of Compass and Sass core team
+      member will present.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>KidsRuby: Think Of The Children</h4>
+    <p class="speaker"><a href="/speakers.html#ron-evans">Ron Evans</a></p>
+    <p>
+      Forget about JRuby. MacRuby? Forget it. Forget even Rubinius. As cool as each of them is, they are
+      old. Like, you know, for adults. Introducing the real future of Ruby: <a
+      href="http://kidsruby.com/">KidsRuby</a>&hellip; because the future is about the kids!
+    </p>
+    <p>
+      KidsRuby was born as a fresh approach to the most important problem we as an industry face: who is
+      going to maintain our code in its old age? Most of us in the Ruby community are aware that it is a
+      great time to be a programmer. However, it's not so great to be some company trying to find an
+      experienced programmer to hire. And the problem is only going to get worse, since the state of
+      computer programming education is the US and UK is down, even as demand increases. Like becoming a
+      master musician, master programmers are not created quickly. Many of the best programmers today
+      started when they were young. There have been a number of excellent contributions for teaching kids to
+      program using Ruby. The most famous Ruby environment for kids being Hackety-Hack, from _why the lucky
+      stiff. However Hackety-Hack is showing its age and inherent limitations, especially if you want to use
+      it with any normal gems, or want to contribute to it. Even the 1.0 release suffers from these
+      problems. KidsRuby is a real Ruby, so that kids are not treated like second class citizens just
+      because they are learning Ruby. It helps to solve a number of the biggest technical problems with
+      teaching Ruby to kids. In 30 minutes I will share not just the technology used to build KidsRuby, but
+      more importantly the social glue needed to help start out the next generation of programmers with the
+      language we all love. It it time for a general call to arms to the Ruby community. We all need to get
+      serious now about training the next generation of hackers. After all, think of the children!
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>0-60 with Goliath: Building High Performance Ruby Web-Services</h4>
+    <p class="speaker"><a href="/speakers.html#ilya-grigorik">Ilya Grigorik</a></p>
+    <p>
+      Goliath is an open source, event-driven I/O framework, much like node.js or Tornado, except that
+      Goliath is based on EventMachine, features a Ruby API, and most importantly, does away with the
+      asynchronous "callback muck" by utilizing Ruby 1.9's Fibers to preserve the nice synchronous
+      look-and-feel of your code&mdash;which makes it easier to write, test, and maintain.
+    </p>
+    <p>
+      In this talk we will first explore why Goliath was built, and why the combination of Ruby 1.9, Fibers,
+      and an asynchronous event-loop is such a powerful combination. We will take a look under the hood and
+      work through several "Hello World" examples: streaming uploads and responses, websockets, and the
+      general async API use cases. Further, we'll take a brief look at lessons learned from production
+      deployments and what we've discovered while building Goliath at PostRank.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Go for the Rubyist: Appropriation of Great Ideas in Ruby</h4>
+    <p class="speaker"><a href="/speakers.html#dave-grijalva">Dave Grijalva</a></p>
+    <p>
+      The Go programming language, invented at Google, brings a novel new approach to parallel programming.
+      With a strong focus on developer productivity and software readability, Go shares a lot of design
+      philosophy with Ruby while targeting a different set of problems. Though the use of new language
+      primitives, <em>goroutines</em> and channels, Go applications can solve programs in a highly parallel
+      fashion without the use of locks.
+    </p>
+    <p>
+      This talk introduces the Go programming language, discusses the innovative parts of the language's
+      design, and demonstrates how these concepts can be applied to Ruby.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Fast Rails Tests</h4>
+    <p class="speaker"><a href="/speakers.html#corey-haines">Corey Haines</a></p>
+    <p>
+      Look at your Rails unit test suite. Now <a href="http://screencast.com/t/O2LhGoVSG">look at mine</a>.
+      Now look at yours again. Mine are sub-second. Yours aren't. Having a slow unit test suite can hinder
+      an effective test-first or test-driven approach to development. As you add tests, the suite starts to
+      slow down to the point where you stop running them after each change. Some people even talk about
+      multi-minute unit tests suites! Band-aids like spork are just covering up the problem. Test-driven
+      development is a major player in keeping your design malleable and accepting of new features, but when
+      you stop paying attention to the messages your tests are sending you, you lose this benefit.
+    </p>
+    <p>
+      In this talk, I will go over some techniques for keeping your test suite lean and fast. Along the way,
+      we'll discuss the design improvements that come out of these changes.
+    </p>
+    <p>
+      Now, <a href="http://screencast.com/t/O2LhGoVSG">look at my unit test suite</a> again. Yours can be
+      like mine.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Smalltalk On Rubinius - or How To Implement Your Own Programming Language</h4>
+    <p class="speaker"><a href="/speakers.html#konstantin-haase">Konstantin Haase</a></p>
+    <p>
+      Programming languages must be implemented in Java or C, everybody knows this. Sure, a prototype in
+      Ruby, but that would be unusable. After all, Ruby is made for web development, right? Hard tasks, like
+      implementing a compiler, have to happen in far more manly languages. But wait, the Rubinius compiler
+      is written completely in Ruby, and it seems to get pretty decent performance, maybe we can use that.
+    </p>
+    <p>
+      In this talk, we will explore the possibilities of using the Rubinius compiler tool chain to implement
+      our own programming language targeting the Rubinius VM. We get all the hard work that went into
+      Rubinius for free and above all, can do the heavy lifting in Ruby, everyone's favorite programming
+      language.
+    </p>
+    <p>
+      As an example we'll use Reak, a Smalltalk implementation running on Rubinius.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Failing Fast - Stuff We Should have Done Better at Square</h4>
+    <p class="speaker"><a href="/speakers.html#erica-kwan">Erica Kwan</a></p>
+    <p>
+      I work for a mobile payments company called Square. Square has a great development culture driven by a
+      lot of smart people. Part of that culture includes acknowledging failures, figuring out what should
+      have been done differently when failures occur, and learning how to fail less in the future.
+    </p>
+    <p>
+      I'm going to discuss the mistakes made when developing a major Rails app feature, the struggle to
+      increase test coverage for the Square iOS client, and the consequences of bad architectural decisions
+      made when creating a distributed build system. I'll then talk about how each of these were addressed.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Distributed Systems Primer with Ruby</h4>
+    <p class="speaker"><a href="/speakers.html#tyler-mcmullen">Tyler McMullen</a></p>
+    <p>
+      There are lots of reasons to understand distributed systems. Among them are the facts that the
+      principles can improve your site's availability, performance, and even maintainability. We'll talk
+      about principles, patterns, and pitfalls to watch out for when writing your first distributed system.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Workers and Worker Patterns</h4>
+    <p class="speaker"><a href="/speakers.html#travis-reeder">Travis Reeder</a></p>
+    <p>
+      Background processing is a must have for any serious web app. It's needed for faster web response,
+      running scheduled jobs, and handling lots of batch and parallel jobs. This presentation will go
+      through core patterns for scheduled jobs and background processing. These include optimistically
+      queueing, scheduling master workers to queue up slaves, and using callbacks front-end polling, and
+      other methods to handle asynchronous communication.
+    </p>
+    <p>
+      It will also cover worker design, working monitoring, and using the cloud to seamlessly offload
+      processing and run massive amounts of parallel jobs. This talk is especially geared toward developers
+      working on applications with heavy compute needs or working with big data.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>You Ain't SPDY</h4>
+    <p class="speaker"><a href="/speakers.html#chris-strom">Chris Strom</a></p>
+    <p>
+      You package your assets. You use CSS sprites. You serve up everything with gzip compression. You
+      obsess over Yslow recommendations. But you are still not SPDY.
+    </p>
+    <p>
+      Fundamental limitations in HTTP and TCP/IP still add up to 60% overhead to your site. Find out how to
+      reclaim that lost bandwidth and increase the robustness of your sites at the same time.
+    </p>
+  </div>
+
+  <div class="session">
+    <h4>Lightning Talks</h4>
+    <p>
+      What's a Ruby conference without lightning talks? And more importantly, who would want to find out?
+    </p>
+  </div>
+
 </div>
 
 
