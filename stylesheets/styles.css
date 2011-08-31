@@ -235,16 +235,19 @@ h4 {
 }
 
 /* @group Schedule */
+.schedule-grid {
+  margin-top: 25px;
+  overflow: hidden;
+}
+
 .schedule-column {
   width: 300px;
   float: left;
   margin-right: 25px;
-  margin-bottom: 25px;
 }
 .schedule-column2 {
   width: 300px;
   float: left;
-  margin-bottom: 25px;
 }
 
 .schedule-entry {
@@ -255,17 +258,22 @@ h4 {
   line-height: 18px;
   margin-bottom: 25px;
 }
+.schedule-entry p {
+  margin: 0;
+  padding-left: 6px;
+}
+
 .schedule-entry a {
   color: #72a333;
   text-decoration: none;
 }
-.schedule-time {
+.schedule-entry p.schedule-time {
   background-color: #2d3d43;
   font-weight: bold;
   font-size: 14px;
   color: white;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 6px;
+  padding-left: 6px;
   margin-bottom: 3px;
   display: inline-block;
   padding-bottom: 1px;
