@@ -234,6 +234,21 @@ h4 {
   width: 120px;
 }
 
+#live {
+  margin: 25px 0;
+  padding: 24px 16px 8px 16px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #acf;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#live a {
+  color: #ED1C24;
+}
+
 /* @group Schedule */
 .schedule-grid {
   margin-top: 25px;
