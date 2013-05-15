@@ -3,25 +3,55 @@
 header {
   background: #232323;
   border-bottom: 2px solid white;
-  
+
   ul {
     margin-top: 57px;
     margin-bottom: 52px;
   }
-  
+
   li {
     font-size: 18px;
     display: inline;
     margin-right: 46px;
-     
+
     a {
       color: #E3E2E3;
       text-transform: uppercase;
-      
+
       &:hover {
         color: #E3E2E3;
         text-decoration: underline;
-      };
+      }
     }
+  }
+}
+
+.action {
+  background-image: url(../images/header-bg.jpg);
+  background-color: #d9a60e;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  color: #14414f;
+  text-shadow: 2px 2px #def1fb;
+
+  .tagline {
+    display: block;
+    margin-top: 130px;
+    font-size: 40px;
+  }
+
+  .sub-tagline {
+    display: block;
+    margin-top: 37px;
+    font-size: 22px;
+  }
+
+  button {
+    margin-top: 35px;
+    background-color: #d61a69;
+  }
+
+  img {
+    margin-top: 50px;
   }
 }
