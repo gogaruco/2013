@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
+	  <meta name="viewport" content="width=device-width" />
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     
@@ -10,10 +10,15 @@
     <title><%= data.page.title || "The Middleman" %></title>
     
     <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+	  <%= javascript_include_tag "foundation.modernizr" %>
   </head>
   
   <body class="<%= page_classes %>">
     <%= yield %>
+
+	  <%= javascript_include_tag "all" %>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
