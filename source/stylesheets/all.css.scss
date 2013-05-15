@@ -1,1 +1,27 @@
 @import 'foundation';
+
+header {
+  background: #232323;
+  border-bottom: 2px solid white;
+  
+  ul {
+    margin-top: 57px;
+    margin-bottom: 52px;
+  }
+  
+  li {
+    font-size: 18px;
+    display: inline;
+    margin-right: 46px;
+     
+    a {
+      color: #E3E2E3;
+      text-transform: uppercase;
+      
+      &:hover {
+        color: #E3E2E3;
+        text-decoration: underline;
+      };
+    }
+  }
+}

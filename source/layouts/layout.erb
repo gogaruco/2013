@@ -14,6 +14,16 @@
   </head>
   
   <body class="<%= page_classes %>">
+    <header>
+      <div class="row">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+      </div>
+    </header>
+      
     <%= yield %>
 
 	  <%= javascript_include_tag "all" %>
