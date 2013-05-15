@@ -26,7 +26,31 @@
       
     <%= yield %>
 
-	  <%= javascript_include_tag "all" %>
+    <footer>
+      <div class="row">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Location</a></li>
+        </ul>
+      </div>
+      <div class="row center">
+        &copy; 2013 Golden Gate Ruby Conference, LLC
+      </div>
+      <div class="row center">
+        <ul class="past_years">
+          <li><a href="http://2012.gogaruco.com">2012</a></li>
+          <li><a href="http://2011.gogaruco.com">2011</a></li>
+          <li><a href="http://2010.gogaruco.com">2010</a></li>
+        </ul>
+      </div>
+      <div class="row center credits">
+        Designed by <a href="http://www.sheenaoosten.com/">Sheena Oosten</a> <span id="bar">|</span> Made by <a href="http://www.tilde.io">Tilde</a>
+        <!-- And Abhi and James :) -->
+      </div>
+    </footer>
+
+    <%= javascript_include_tag "all" %>
     <script>
       $(document).foundation();
     </script>
