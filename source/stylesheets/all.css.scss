@@ -63,6 +63,22 @@ header, footer {
   }
 }
 
+.sponsors {
+  border-bottom: 1px solid #cacaca;
+  background-image: url(../images/grey-noise-bg.jpg);
+}
+
+.robot-group {
+  background-image: url(../images/grey-noise-bg.jpg);
+  height: 404px;
+  border-top: 1px solid #ededed;
+}
+
+.footer-overlap {
+  height: 100px;
+  background-color: #232323;
+}
+
 footer {
   color: #E3E2E3;
 
