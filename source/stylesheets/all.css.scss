@@ -1,6 +1,9 @@
+// Zurb override to make the total width 1170px
+$row-width: 73.125em !default;
+@import 'foundation';
+
 @import 'fonts-square-721';
 @import 'fonts-antenna';
-@import 'foundation';
 
 body { 
   font-family: Square721BT-BoldExtended; 
@@ -34,12 +37,15 @@ header, footer {
 }
 
 .action {
-  background-image: url(../images/header-bg.jpg);
-  background-color: #d9a60e;
-  background-repeat: no-repeat;
+  background: url(../images/header-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-transform: uppercase;
   color: #14414f;
   text-shadow: 2px 2px #def1fb;
+  height: 525px;
 
   .tagline {
     display: block;
@@ -60,6 +66,22 @@ header, footer {
 
   img {
     margin-top: 50px;
+  }
+}
+
+.basic_info {
+  text-transform: uppercase;
+  background-color: #f9bf12;
+
+
+  #days_until_conference {
+    background-image: url('../images/timer-bg.png');
+    height: 136px;
+    width: 257px
+  }
+
+  .subtext {
+    font-size: 16px;
   }
 }
 
