@@ -13,7 +13,7 @@
  * Webfont: Square 721 Bold by Bitstream
  * URL: http://www.myfonts.com/fonts/bitstream/square-721/bold/
  * 
- * Webfont: Square 721 Extended by Bitstream
+ * Webfont: Square 721 Extended by Bitstream../fonts
  * URL: http://www.myfonts.com/fonts/bitstream/square-721/extended/
  * 
  * Webfont: Square 721 Bold Extended by Bitstream
@@ -31,13 +31,13 @@
 @import url("//hello.myfonts.net/count/270564");
 
   
-@font-face {font-family: 'Square721BT-Roman';src: url('webfonts/270564_0_0.eot');src: url('webfonts/270564_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/270564_0_0.woff') format('woff'),url('../fonts/270564_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Square721BT-Roman';src: url('../fonts/270564_0_0.eot');src: url('../fonts/270564_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/270564_0_0.woff') format('woff'),url('../fonts/270564_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'Square721BT-Bold';src: url('webfonts/270564_1_0.eot');src: url('webfonts/270564_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/270564_1_0.woff') format('woff'),url('../fonts/270564_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Square721BT-Bold';src: url('../fonts/270564_1_0.eot');src: url('../fonts/270564_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/270564_1_0.woff') format('woff'),url('../fonts/270564_1_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'Square721BT-RomanExtended';src: url('webfonts/270564_2_0.eot');src: url('webfonts/270564_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/270564_2_0.woff') format('woff'),url('../fonts/270564_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Square721BT-RomanExtended';src: url('../fonts/270564_2_0.eot');src: url('../fonts/270564_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/270564_2_0.woff') format('woff'),url('../fonts/270564_2_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'Square721BT-BoldExtended';src: url('webfonts/270564_3_0.eot');src: url('webfonts/270564_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/270564_3_0.woff') format('woff'),url('../fonts/270564_3_0.ttf') format('truetype');}
+@font-face {font-family: 'Square721BT-BoldExtended';src: url('../fonts/270564_3_0.eot');src: url('../fonts/270564_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/270564_3_0.woff') format('woff'),url('../fonts/270564_3_0.ttf') format('truetype');}
