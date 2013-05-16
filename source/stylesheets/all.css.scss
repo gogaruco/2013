@@ -50,18 +50,25 @@ header, footer {
   .tagline {
     display: block;
     margin-top: 130px;
-    font-size: 40px;
+    font-size: 52px;
+    line-height: 1.15em;
   }
 
   .sub-tagline {
     display: block;
-    margin-top: 37px;
-    font-size: 22px;
+    margin-top: 7px;
+    font-size: 29px;
+    line-height: 1.3em;
   }
 
   button {
     margin-top: 35px;
     background-color: #d61a69;
+    font-family: 'Square721BT-Bold';
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 20px 40px;
   }
 
   img {
