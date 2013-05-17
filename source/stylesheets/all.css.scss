@@ -145,7 +145,8 @@ header, footer {
   background-size: cover;
 
   .row {
-    padding-top: 64px
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .speaker {
@@ -157,7 +158,7 @@ header, footer {
 
     span {
       display: block;
-      
+
       &.name {
         font-family: 'Square721BT-Bold';
         color: #ffffff;
