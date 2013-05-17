@@ -36,19 +36,6 @@ header, footer {
   }
 }
 
-.ribbon {
-  height: 88px;
-  color: #efefef;
-  float: left;
-  width: 100%;
-  background: url(../images/title-ribbon.png) no-repeat center center;
-  text-transform: uppercase;
-  font-family: 'Square721BT-BoldExtended';
-  font-size: 26px;
-  padding: 24px 0;
-  margin-top: 0;
-}
-
 .action {
   background: url(../images/header-bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -95,7 +82,8 @@ header, footer {
   color: #836408;
 
   .row {
-    padding-top: 64px
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   #our_sponsors {
@@ -147,6 +135,19 @@ header, footer {
     font-family: 'Square721BT-RomanExtended';
     color: #836408;
   }
+}
+
+.ribbon {
+  height: 88px;
+  color: #efefef;
+  float: left;
+  width: 100%;
+  background: url(../images/title-ribbon.png) no-repeat center center;
+  text-transform: uppercase;
+  font-family: 'Square721BT-BoldExtended';
+  font-size: 26px;
+  padding: 24px 0;
+  margin-top: 0;
 }
 
 #guest_speakers {
