@@ -191,6 +191,46 @@ header, footer {
   }
 }
 
+#the_big_idea {
+  color: #595959;
+  font-family: "Antenna-Regular";
+
+  #join_us {
+    background-image: url(../images/speech-bubble.png);
+    background-repeat: no-repeat;
+    height: 104px;
+    font-family: 'Antenna-Regular';
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1.3em;
+    padding-left: 58px;
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    width: 430px;
+    display: block;
+    margin-top: 30px;
+    line-height: 1.8em;
+  }
+
+  h4 {
+    background-image: url(../images/heading_underoverline.png);
+    background-repeat: repeat-x;
+    height: 71px;
+    font-family: 'Square721BT-Bold';
+    text-transform: uppercase;
+    color: #464444;
+    font-size: 18px;
+    padding-top: 26px;
+  }
+
+  ul {
+    font-size: 14px;
+  }
+}
+
 .sponsors {
   border-bottom: 1px solid #cacaca;
   background-image: url(../images/grey-noise-bg.jpg);
