@@ -15,28 +15,27 @@ header {
   }
 
   ul {
+    font-family: "AntennaCond-Regular";
     margin-top: -35px;
     img {
       margin-top: 35px;
     }
   }
+
+  li:nth-child(2) {
+    margin-left: 45px;
+  }
 }
 
-footer {
-  ul {
-    margin-top: 57px;
-    margin-bottom: 52px;
-  }  
-}
 header, footer {
   background: #232323;
   border-bottom: 2px solid white;
   font-family: Antenna-Regular;
 
   li {
-    font-size: 18px;
+    font-size: 15px;
     display: inline;
-    margin-right: 46px;
+    margin-right: 45px;
 
     a {
       color: #E3E2E3;
@@ -292,7 +291,13 @@ header, footer {
 }
 
 footer {
-  color: #E3E2E3;
+  color: #ffffff;
+
+  ul.nav {
+    font-family: "AntennaCond-Regular";
+    margin-top: 57px;
+    margin-bottom: 52px;
+  }
 
   ul.past_years {
     margin-top: 20px;
@@ -309,6 +314,7 @@ footer {
   .credits {
     color: #5e5e5e;
     margin-bottom: 60px;
+    font-size: 12px;
 
     a {
       color: #ffffff;
