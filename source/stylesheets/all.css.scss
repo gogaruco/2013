@@ -228,6 +228,21 @@ header, footer {
 
   ul {
     font-size: 14px;
+    list-style-type: none;
+
+    li {
+      height: 30px;
+      background-image: url(../images/tick.png);
+      background-repeat: no-repeat;
+      background-position-x: 20px;
+      margin-top: 22px;
+      padding-left: 64px;
+      width: 274px;
+
+      &:nth-child(4) {
+        margin-top: 15px;
+      }
+    }
   }
 }
 
