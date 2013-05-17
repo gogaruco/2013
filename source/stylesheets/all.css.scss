@@ -136,6 +136,46 @@ header, footer {
   }
 }
 
+#guest_speakers {
+  text-transform: uppercase;
+  background: url(../images/speaker-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .row {
+    padding-top: 64px
+  }
+
+  .speaker {
+    text-align: center;
+
+    img {
+      border: 5px solid white;
+    }
+
+    span {
+      display: block;
+      
+      &.name {
+        font-family: 'Square721BT-Bold';
+        color: #ffffff;
+        margin-top: 22px;
+        letter-spacing: 1px;
+      }
+
+      &.title {
+        display: block;
+        font-family: 'AntennaCond-Regular';
+        color: #6a2045;
+        margin-top: 6px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
 .sponsors {
   border-bottom: 1px solid #cacaca;
   background-image: url(../images/grey-noise-bg.jpg);
