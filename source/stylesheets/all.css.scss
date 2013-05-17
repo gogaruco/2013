@@ -9,15 +9,29 @@ body {
   font-family: Square721BT-BoldExtended;
 }
 
+header {
+  .row {
+    height: 137px;
+  }
+
+  ul {
+    margin-top: -35px;
+    img {
+      margin-top: 35px;
+    }
+  }
+}
+
+footer {
+  ul {
+    margin-top: 57px;
+    margin-bottom: 52px;
+  }  
+}
 header, footer {
   background: #232323;
   border-bottom: 2px solid white;
   font-family: Antenna-Regular;
-
-  ul {
-    margin-top: 57px;
-    margin-bottom: 52px;
-  }
 
   li {
     font-size: 18px;
