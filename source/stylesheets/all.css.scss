@@ -215,6 +215,14 @@ header, footer {
   color: #595959;
   font-family: "Antenna-Regular";
 
+  .ruby-background {
+    background-image: url(../images/ruby.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 108px;
+    padding-bottom: 64px;
+  }
+
   #join_us {
     background-image: url(../images/speech-bubble.png);
     background-repeat: no-repeat;
