@@ -1,0 +1,62 @@
+#the_big_idea {
+  color: #595959;
+  font-family: "Antenna-Regular";
+
+  .ruby-background {
+    background-image: url(../images/ruby.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 108px;
+    padding-bottom: 64px;
+  }
+
+  #join_us {
+    background-image: url(../images/speech-bubble.png);
+    background-repeat: no-repeat;
+    height: 104px;
+    font-family: 'Antenna-Regular';
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1.3em;
+    padding-left: 58px;
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    width: 430px;
+    display: block;
+    margin-top: 30px;
+    line-height: 1.8em;
+  }
+
+  h4 {
+    background-image: url(../images/heading_underoverline.png);
+    background-repeat: repeat-x;
+    height: 71px;
+    font-family: 'Square721BT-Bold';
+    text-transform: uppercase;
+    color: #464444;
+    font-size: 18px;
+    padding-top: 26px;
+  }
+
+  ul {
+    font-size: 14px;
+    list-style-type: none;
+
+    li {
+      height: 30px;
+      background-image: url(../images/tick.png);
+      background-repeat: no-repeat;
+      background-position-x: 20px;
+      margin-top: 22px;
+      padding-left: 64px;
+      width: 274px;
+
+      &:nth-child(4) {
+        margin-top: 15px;
+      }
+    }
+  }
+}

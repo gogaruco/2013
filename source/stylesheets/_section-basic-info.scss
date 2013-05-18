@@ -1,0 +1,64 @@
+.basic_info {
+  text-transform: uppercase;
+  background-color: #f9bf12;
+  color: #836408;
+
+  .row {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  #our_sponsors {
+    font-family: "AntennaCond-Regular";
+
+    #sponsor_arrow {
+      background-image: url('../images/sponsor-arrow.png');
+      background-repeat: no-repeat;
+      height: 185px;
+    }
+
+    #we_heart_em {
+      margin-left: 40px;
+    }
+  }
+
+  #location_and_date {
+    width: 285px;
+    background-image: url('../images/basic_info_background.png');
+    background-repeat: repeat-x;
+    height: 176px;
+    text-shadow: 0px 1px #fdebb6;
+
+    span {
+      display: block;
+    }
+
+    .large {
+      font-size: 32px;
+    }
+
+    .smaller {
+      font-size: 16px;
+
+    }
+  }
+
+  #days_until_conference {
+    padding-top: 20px;
+    background-image: url('../images/timer-bg.png');
+    height: 136px;
+    width: 257px;
+    text-align: center;
+    color: #9d780f;
+
+    #number {
+      font-size: 72px;
+    }
+  }
+
+  .subtext {
+    font-size: 20px;
+    font-family: 'Square721BT-RomanExtended';
+    color: #836408;
+  }
+}

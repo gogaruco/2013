@@ -1,0 +1,81 @@
+header {
+  .row {
+    height: 137px;
+  }
+
+  ul {
+    font-family: "AntennaCond-Regular";
+    margin-top: -35px;
+    img {
+      margin-top: 35px;
+    }
+  }
+
+  li:nth-child(2) {
+    margin-left: 45px;
+  }
+}
+
+header, footer {
+  background: #232323;
+  border-bottom: 2px solid white;
+  font-family: Antenna-Regular;
+
+  li {
+    font-size: 15px;
+    display: inline;
+    margin-right: 45px;
+
+    a {
+      color: #E3E2E3;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #E3E2E3;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+footer {
+  color: #ffffff;
+
+  ul.nav {
+    font-family: "AntennaCond-Regular";
+    margin-top: 57px;
+    margin-bottom: 52px;
+  }
+
+  ul.past_years {
+    margin-top: 20px;
+    font-size: 11px;
+
+    li {
+      background-image: url(../images/ruby-icon.png);
+      background-repeat: no-repeat;
+      padding-left: 34px;
+      margin-right: 30px;
+    }
+  }
+
+  .credits {
+    color: #5e5e5e;
+    margin-bottom: 60px;
+    font-size: 12px;
+    margin-top: 26px;
+
+    a {
+      color: #ffffff;
+
+      &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    }
+
+    #bar {
+      color: #ffffff;
+    }
+  }
+}

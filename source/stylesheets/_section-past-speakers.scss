@@ -1,0 +1,60 @@
+.ribbon {
+  margin: 0 auto;
+  text-align: center;
+  height: 44px;
+
+  h2 {
+    height: 88px;
+    color: #efefef;
+    float: left;
+    width: 100%;
+    background: url(../images/title-ribbon.png) no-repeat center center;
+    text-transform: uppercase;
+    font-family: 'Square721BT-BoldExtended';
+    font-size: 26px;
+    padding: 24px 0;
+    margin-top: 0;
+  }
+}
+
+#guest_speakers {
+  text-transform: uppercase;
+  background: url(../images/speaker-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .row {
+    padding-top: 108px;
+    padding-bottom: 108px;
+  }
+
+  .speaker {
+    text-align: center;
+
+    img {
+      border: 5px solid white;
+    }
+
+    span {
+      display: block;
+
+      &.name {
+        font-family: 'Square721BT-Bold';
+        color: #ffffff;
+        margin-top: 22px;
+        letter-spacing: 1px;
+      }
+
+      &.title {
+        display: block;
+        font-family: 'AntennaCond-Regular';
+        color: #6a2045;
+        margin-top: 6px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
