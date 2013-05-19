@@ -1,65 +1,60 @@
-.ribbon {
-  @include title-ribbon;
-}
+#the-big-idea {
+  .the-big-idea-heading {
+    @include title-ribbon;
+    margin-top: -44px;
+  }
 
-#the_big_idea {
-  color: #595959;
-  font-family: "Antenna-Regular";
-
-  .ruby-background {
-    background-image: image-url('ruby.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
+  .the-big-idea-content {
+    color: #595959;
+    font-family: "Antenna-Regular";
+    background-image: image-url('grey-noise-bg.jpg');
     padding-top: 108px;
     padding-bottom: 64px;
-  }
 
-  #join_us {
-    background-image: image-url('speech-bubble.png');
-    background-repeat: no-repeat;
-    height: 104px;
-    font-family: 'Antenna-Regular';
-    text-transform: uppercase;
-    font-size: 24px;
-    line-height: 1.3em;
-    padding-left: 58px;
-    padding-top: 20px;
-  }
-
-  p {
-    font-size: 14px;
-    width: 430px;
-    display: block;
-    margin-top: 30px;
-    line-height: 1.8em;
-  }
-
-  h4 {
-    background-image: image-url('heading_underoverline.png');
-    background-repeat: repeat-x;
-    height: 71px;
-    font-family: 'Square721BT-Bold';
-    text-transform: uppercase;
-    color: #464444;
-    font-size: 18px;
-    padding-top: 26px;
-  }
-
-  ul {
-    font-size: 14px;
-    list-style-type: none;
-
-    li {
-      height: 30px;
-      background-image: image-url('tick.png');
+    .speech-bubble {
+      background-image: image-url('speech-bubble.png');
       background-repeat: no-repeat;
-      background-position-x: 20px;
-      margin-top: 22px;
-      padding-left: 64px;
-      width: 274px;
+      height: 104px;
+      font-family: 'Antenna-Regular';
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 1.3em;
+      padding-left: 58px;
+      padding-top: 20px;
+      color: #ffffff;
+    }
 
-      &:nth-child(4) {
-        margin-top: 15px;
+    p {
+      margin-top: 30px;
+      margin-right: 30px;
+    }
+
+    h4 {
+      background-image: image-url('heading_underoverline.png');
+      background-repeat: repeat-x;
+      height: 71px;
+      font-family: 'Square721BT-Bold';
+      text-transform: uppercase;
+      color: #464444;
+      font-size: 18px;
+      padding-top: 26px;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        height: 30px;
+        background-image: image-url('tick.png');
+        background-repeat: no-repeat;
+        background-position-x: 20px;
+        margin-top: 22px;
+        padding-left: 64px;
+        width: 274px;
+
+        &:nth-child(4) {
+          margin-top: 15px;
+        }
       }
     }
   }
