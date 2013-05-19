@@ -4,7 +4,7 @@
 @import 'foundation';
 
 body {
-  font-family: Square721BT-BoldExtended;
+  font-family: 'Square721BT-BoldExtended';
   -webkit-font-smoothing: antialiased;
 }
 
@@ -34,7 +34,7 @@ body {
 @import 'layout';
 @import 'section-banner';
 @import 'section-basic-info';
-@import 'section-past-speakers';
+@import 'section-featured-speakers';
 @import 'section-the-big-idea';
 @import 'section-sponsors';
 @import 'section-robot-footer';
