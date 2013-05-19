@@ -12,6 +12,25 @@ body {
   text-align: center;
 }
 
+@mixin title-ribbon {
+  margin: 0 auto;
+  text-align: center;
+  height: 44px;
+
+  h2 {
+    height: 88px;
+    color: #efefef;
+    float: left;
+    width: 100%;
+    background: url(../images/title-ribbon.png) no-repeat center center;
+    text-transform: uppercase;
+    font-family: 'Square721BT-BoldExtended';
+    font-size: 26px;
+    padding: 24px 0;
+    margin-top: 0;
+  }
+}
+
 @import 'layout';
 @import 'section-banner';
 @import 'section-basic-info';

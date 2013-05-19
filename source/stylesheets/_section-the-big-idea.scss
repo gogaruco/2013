@@ -1,3 +1,7 @@
+.ribbon {
+  @include title-ribbon;
+}
+
 #the_big_idea {
   color: #595959;
   font-family: "Antenna-Regular";
