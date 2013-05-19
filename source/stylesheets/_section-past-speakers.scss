@@ -20,9 +20,6 @@
 #guest_speakers {
   text-transform: uppercase;
   background: url(../images/speaker-bg.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 
   .row {
@@ -57,4 +54,3 @@
     }
   }
 }
-
