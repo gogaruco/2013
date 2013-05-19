@@ -7,7 +7,7 @@
   font-family: "Antenna-Regular";
 
   .ruby-background {
-    background-image: url(../images/ruby.jpg);
+    background-image: image-url('ruby.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     padding-top: 108px;
@@ -15,7 +15,7 @@
   }
 
   #join_us {
-    background-image: url(../images/speech-bubble.png);
+    background-image: image-url('speech-bubble.png');
     background-repeat: no-repeat;
     height: 104px;
     font-family: 'Antenna-Regular';
@@ -35,7 +35,7 @@
   }
 
   h4 {
-    background-image: url(../images/heading_underoverline.png);
+    background-image: image-url('heading_underoverline.png');
     background-repeat: repeat-x;
     height: 71px;
     font-family: 'Square721BT-Bold';
@@ -51,7 +51,7 @@
 
     li {
       height: 30px;
-      background-image: url(../images/tick.png);
+      background-image: image-url('tick.png');
       background-repeat: no-repeat;
       background-position-x: 20px;
       margin-top: 22px;

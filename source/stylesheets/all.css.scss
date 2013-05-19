@@ -4,7 +4,7 @@
 @import 'foundation';
 
 body {
-  font-family: 'Square721BT-BoldExtended';
+  font-family: serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,7 +22,7 @@ body {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url(../images/title-ribbon.png) no-repeat center center;
+    background: image-url('title-ribbon.png') no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;

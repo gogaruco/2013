@@ -5,13 +5,13 @@
   padding-bottom: 64px;
   
   .leading-strip {
-    background-image: url('../images/3D-bg.png');
+    background-image:  image-url('3D-bg.png');
     height: 50px; 
     margin-bottom:64px; 
   }
 
   .sponsor-arrow {
-    background-image: url('../images/sponsor-arrow.png');
+    background-image:  image-url('sponsor-arrow.png');
     background-repeat: no-repeat;
     height: 185px;
   }
@@ -23,13 +23,14 @@
 
   .gogaruco-when-where {
     width: 285px;
-    background-image: url('../images/basic_info_background.png');
+    background-image:  image-url('basic_info_background.png');
     background-repeat: repeat-x;
     height: 176px;
     text-shadow: 0px 1px #fdebb6;
   }
   
   .gogaruco-when-where-heading {
+    font-family: 'Square721BT-BoldExtended';
     font-size: 32px;
     letter-spacing: 1px; 
     word-spacing: 1px;
@@ -65,9 +66,10 @@
   }
 
   .countdown {
+    font-family: 'Square721BT-BoldExtended';
     margin-top: 20px;
     padding-top: 20px;
-    background-image: url('../images/timer-bg.png');
+    background-image: image-url('timer-bg.png');
     height: 136px;
     width: 257px;
     text-align: center;
