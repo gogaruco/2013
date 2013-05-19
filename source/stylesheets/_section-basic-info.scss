@@ -2,8 +2,13 @@
   text-transform: uppercase;
   background-color: #f9bf12;
   color: #836408;
-  padding-top: 64px;
   padding-bottom: 64px;
+  
+  .leading-strip {
+    background-image: url('../images/3D-bg.png');
+    height: 50px; 
+    margin-bottom:64px; 
+  }
 
   .sponsor-arrow {
     background-image: url('../images/sponsor-arrow.png');

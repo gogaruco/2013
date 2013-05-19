@@ -1,26 +1,26 @@
-.action {
+#banner {
   background: url(../images/header-bg.jpg) no-repeat center center;
-  background-size: cover;
+  background-size: auto 525px;
   text-transform: uppercase;
   color: #14414f;
   text-shadow: 2px 2px #def1fb;
   height: 525px;
 
-  .tagline {
-    display: block;
+  .banner-title {
+    font-family: 'Square721BT-BoldExtended';
     margin-top: 130px;
     font-size: 52px;
     line-height: 1.15em;
   }
 
-  .sub-tagline {
-    display: block;
+  .banner-subtitle {
+    font-family: 'Square721BT-RomanExtended';
     margin-top: 7px;
     font-size: 29px;
     line-height: 1.3em;
   }
 
-  button {
+  .banner-button {
     margin-top: 35px;
     background-color: #d61a69;
     font-family: 'Square721BT-Bold';
@@ -30,7 +30,7 @@
     padding: 20px 40px;
   }
 
-  img {
+  .banner-robot {
     margin-top: 50px;
   }
 }

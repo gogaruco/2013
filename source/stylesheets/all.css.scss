@@ -12,17 +12,8 @@ body {
   text-align: center;
 }
 
-.light_extended {
-  font-family: 'Square721BT-RomanExtended';
-}
-
-.bold_extended {
-  font-family: 'Square721BT-BoldExtended';
-}
-
-
 @import 'layout';
-@import 'section-action';
+@import 'section-banner';
 @import 'section-basic-info';
 @import 'section-past-speakers';
 @import 'section-the-big-idea';
