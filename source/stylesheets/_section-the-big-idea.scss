@@ -36,25 +36,21 @@
       font-family: 'Square721BT-Bold';
       text-transform: uppercase;
       color: #464444;
-      font-size: 18px;
+      font-size: 16px;
       padding-top: 26px;
     }
 
     ul {
       list-style-type: none;
+      margin-top: 10px;
 
       li {
-        height: 30px;
         background-image: image-url('tick.png');
         background-repeat: no-repeat;
-        background-position-x: 20px;
-        margin-top: 22px;
-        padding-left: 64px;
-        width: 274px;
-
-        &:nth-child(4) {
-          margin-top: 15px;
-        }
+        background-position-x: 10px;
+        background-position-y: center;
+        margin-top: 12px;
+        padding-left: 56px;
       }
     }
   }
