@@ -1,3 +1,6 @@
+a       { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
 header {
   .row {
     height: 137px;
@@ -32,7 +35,6 @@ header, footer {
 
       &:hover {
         color: #E3E2E3;
-        text-decoration: underline;
       }
     }
   }
@@ -70,7 +72,6 @@ footer {
 
       &:hover {
         color: #ffffff;
-        text-decoration: underline;
       }
     }
 

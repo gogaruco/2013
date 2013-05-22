@@ -6,6 +6,10 @@
   text-shadow: 2px 2px #def1fb;
   height: 525px;
 
+  .row {
+    height: 525px;
+    position: relative;
+  }
   .banner-title {
     font-family: 'Square721BT-BoldExtended';
     margin-top: 130px;
@@ -20,8 +24,20 @@
     line-height: 1.3em;
   }
 
-  .banner-button {
+  .annotated-button {
+    overflow: hidden;
     margin-top: 35px;
+    text-transform: none;
+
+    button, div { float: left; }
+    .annotation {
+      padding: 8px 18px;
+      line-height: 18px;
+      a {color: #6a2045;}
+    }
+  }
+
+  .banner-button {
     background-color: #d61a69;
     font-family: 'Square721BT-Bold';
     text-transform: uppercase;
@@ -31,6 +47,8 @@
   }
 
   .banner-robot {
-    margin-top: 50px;
+    position: absolute;
+    bottom: -40px;
+    right: -20px;
   }
 }

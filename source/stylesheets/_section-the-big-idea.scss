@@ -22,6 +22,10 @@
       padding-left: 58px;
       padding-top: 20px;
       color: #ffffff;
+      // these 3 properties make the speech bubble not get clipped on the right
+      position: relative;
+      left: -40px;
+      width: 500px;
     }
 
     p {

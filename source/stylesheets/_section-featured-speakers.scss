@@ -5,7 +5,6 @@
   }
 
   .featured-speakers-list {
-    text-transform: uppercase;
     background: image-url('speaker-bg.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 108px;
@@ -25,6 +24,15 @@
     color: #ffffff;
     margin-top: 22px;
     letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .featured-speaker-twitter {
+    font-family: 'AntennaCond-Regular';
+    font-weight: bold;
+    color: #6a2045;
+    font-size: 14px;
+    a {color: #6a2045;}
   }
 
   .featured-speaker-title {
@@ -32,5 +40,5 @@
     color: #6a2045;
     margin-top: 6px;
     font-size: 14px;
-  }  
+  }
 }
