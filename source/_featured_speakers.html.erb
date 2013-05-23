@@ -6,26 +6,17 @@
   <div class="featured-speakers-list">
     <div class="row">
       <ul class="large-block-grid-4 small-block-grid-2">
-        <li class="featured-speaker">
-          <%= image_tag '../images/speakers/james_edward_gray_ii.jpg' %>
-          <div class="featured-speaker-name">James Edward Gray II</div>
-          <div class="featured-speaker-twitter"><a href="https://twitter.com/JEG2">@JEG2</a></div>
-        </li>
-        <li class="featured-speaker">
-          <%= image_tag '../images/speakers/angela_harms.jpg' %>
-          <div class="featured-speaker-name">Angela Harms</div>
-          <div class="featured-speaker-twitter"><a href="https://twitter.com/angelaharms">@angelaharms</a></div>
-        </li>
-        <li class="featured-speaker">
-          <%= image_tag '../images/speakers/steve_klabnik.jpg' %>
-          <div class="featured-speaker-name">Steve Klabnik</div>
-          <div class="featured-speaker-twitter"><a href="https://twitter.com/steveklabnik">@steveklabnik</a></div>
-        </li>
-        <li class="featured-speaker">
-          <%= image_tag '../images/speakers/ben_orenstein.jpg' %>
-          <div class="featured-speaker-name">Ben Orenstein</div>
-          <div class="featured-speaker-twitter"><a href="https://twitter.com/r00k">@r00k</a></div>
-        </li>
+        <% data.speakers.featured.each do |speaker| %>
+          <li class="featured-speaker">
+            <%= image_tag "../images/speakers/#{speaker.name.downcase.gsub(/\s+/,'_')}.jpg" %>
+            <div class="featured-speaker-name">
+              <%= speaker.name %>
+            </div>
+            <div class="featured-speaker-twitter">
+              <a href="https://twitter.com/<%= speaker.twitter %>">@<%= speaker.twitter %></a>
+            </div>
+          </li>
+        <% end %>
       </ul>
     </div>
   </div>
