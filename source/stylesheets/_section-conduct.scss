@@ -1,0 +1,22 @@
+#conduct {
+  .conduct-heading {
+    @include title-ribbon;
+    margin-top: -44px;
+  }
+
+  .conduct-content {
+    color: #FFFFFF;
+    font-family: "Antenna-Regular";
+    background-image: image-url('whats-new-bg.jpg');
+    padding-top: 108px;
+    padding-bottom: 64px;
+
+    a { color: #AADF4E; }
+  }
+
+  .shade {
+    background: rgba(0,0,0,0.25);
+    padding: 30px 40px;
+    border-radius: 40px;
+  }
+}
