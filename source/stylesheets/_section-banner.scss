@@ -29,21 +29,34 @@
     margin-top: 35px;
     text-transform: none;
 
-    button, div { float: left; }
-    .annotation {
-      padding: 8px 18px;
-      line-height: 18px;
-      a {color: #6a2045;}
-    }
+    .banner-button, .annotation { float: left; }
   }
 
-  .banner-button {
+  a.banner-button {
+    display: block;
+    color: #FFFFFF;
     background-color: #d61a69;
     font-family: 'Square721BT-Bold';
+    font-size: 16px;
     text-transform: uppercase;
+    text-shadow: none;
     font-weight: normal;
     letter-spacing: 1px;
-    padding: 20px 40px;
+    span {
+      display: block;
+      margin: 8px;
+      border: 2px solid #B70054;
+      padding: 18px 28px 16px 28px;
+    }
+  }
+  a.banner-button:hover {
+    text-decoration: none;
+    background-color: darken(#d61a69, 20%);
+  }
+  .annotation {
+    padding: 16px;
+    line-height: 18px;
+    a {color: #6a2045;}
   }
 
   .banner-robot {
