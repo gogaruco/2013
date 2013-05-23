@@ -79,11 +79,20 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
+### staging, for development
+# activate :deploy do |deploy|
+#   deploy.method = :git
+#   deploy.remote = "staging"
+#   deploy.branch = "gh-pages"
+# end
+
+### live site, for publishing
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.remote = "staging"
-  deploy.branch = "gh-pages"
+  deploy.remote = "origin"
+  deploy.branch = "master"
 end
+
 
 after_configuration do
   zurb_foundation_root = Middleman.rubygems_latest_specs.map(&:full_gem_path).grep(/zurb-foundation-4/).first
