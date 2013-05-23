@@ -14,6 +14,19 @@
     background-image:  image-url('sponsor-arrow.png');
     background-repeat: no-repeat;
     height: 185px;
+    position: relative;
+    .sponsor-logo {
+      position: absolute;
+      top: 45px;
+      left: 15px;
+      width: 215px;
+      height: 95px;
+      line-height: 95px;
+      text-align: center;
+    }
+    img {
+      vertical-align: middle;
+    }
   }
 
   .sponsor-arrow-caption {
