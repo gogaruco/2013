@@ -22,7 +22,7 @@
 
 #sponsoring {
   padding-top: 65px;
-  padding-bottom: 110px;
+  padding-bottom: 67px;
   text-align: center;
   background-color: #f9bf12;
   color: #836407;
@@ -36,7 +36,7 @@
     font-size: emCalc(19px);
 
     strong {
-      font-family: "Antenna-Bold"
+      font-family: "Antenna-Bold";
     }
   }
 
@@ -44,5 +44,40 @@
     font-size: emCalc(16px);
     display: block;
     margin-top: 0.5em;
+  }
+}
+
+#diamond-sponsors-heading {
+  @include title-ribbon;
+  background-color: #f9bf12;
+}
+
+#diamond-sponsors {
+  padding-top: 107px;
+  background: image-url('speaker-bg.jpg') no-repeat center center;
+  background-size: cover;
+
+  .sponsor-image {
+    width: 260px;
+    height: 260px;
+    border: 3px solid #852050;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  p {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-size: emCalc(16px);
+    line-height: 1.6em;
+
+    em {
+      font-style: normal;
+      color: #6a2045;
+    }
   }
 }
