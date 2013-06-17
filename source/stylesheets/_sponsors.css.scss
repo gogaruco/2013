@@ -101,6 +101,19 @@
 #gold-sponsors {
   background-image: image-url('whats-new-bg.jpg');
 
+  .sponsor_wrapper {
+    width: 171px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 26px;
+  }
+
+  .sponsor-image {
+    width: 163px;
+    height: 163px;
+    border: 4px solid #015d80;
+  }
+
   p {
     em {
       color: #64d5ff
