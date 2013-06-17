@@ -11,6 +11,11 @@ body {
   text-align: center;
 }
 
+.leading-strip {
+  background-image:  image-url('3D-bg.png');
+  height: 50px;
+}
+
 @mixin title-ribbon {
   margin: 0 auto;
   text-align: center;

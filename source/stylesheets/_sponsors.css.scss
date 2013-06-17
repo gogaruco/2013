@@ -19,3 +19,30 @@
     left: 290px;
   }
 }
+
+#sponsoring {
+  padding-top: 65px;
+  padding-bottom: 110px;
+  text-align: center;
+  background-color: #f9bf12;
+  color: #836407;
+  line-height: 1.9em;
+
+  a {
+    color: #ffefbe;
+  }
+
+  #about-sponsoring {
+    font-size: emCalc(19px);
+
+    strong {
+      font-family: "Antenna-Bold"
+    }
+  }
+
+  #learn-more {
+    font-size: emCalc(16px);
+    display: block;
+    margin-top: 0.5em;
+  }
+}
