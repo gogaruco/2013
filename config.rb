@@ -79,6 +79,13 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
+### qa, for development
+#activate :deploy do |deploy|
+#   deploy.method = :git
+#   deploy.remote = "qa"
+#   deploy.branch = "gh-pages"
+#end
+
 ### staging, for development
 # activate :deploy do |deploy|
 #   deploy.method = :git
