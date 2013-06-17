@@ -1,22 +1,24 @@
 #small_banner {
-  background: image-url('header-bg.jpg') no-repeat bottom center;
-  background-size: auto 400px;
+  background: image-url('innerpage-header.jpg') center;
+  background-size: cover;
   text-transform: uppercase;
   height: 224px;
 
-  .event-sponsors-heading {
-    @include title-ribbon;
-
-    h2 {
-      margin-top: 73px;
-    }
+  h2 {
+    height: 88px;
+    color: #efefef;
+    text-transform: uppercase;
+    font-family: 'Square721BT-BoldExtended';
+    font-size: 26px;
+    padding: 24px 0;
+    margin-top: 0;
+    float: right;
+    margin-top: 76px;
   }
 
   img {
-    position: relative;
-    bottom: 153px;
+    margin: 30px 0 0 -41px;
     height: 230px;
-    left: 290px;
   }
 }
 
