@@ -150,8 +150,6 @@
   }
 }
 
-
-
 .sponsor_section {
   padding-top: 107px;
   padding-bottom: 77px;
@@ -172,4 +170,30 @@
       font-style: normal;
     }
   }
+}
+
+.tweeter_section {
+  background-color: #00adbb;
+  padding-top: 50px;
+  padding-bottom: 84px;
+
+  .tweet {
+    float: left;
+    background: image-url('tweet-bg.png');
+    background-repeat: no-repeat;
+    background-position: 75px 0px;
+
+    * {
+      float: left;
+    }
+
+    p {
+      padding: 17px 0 0 25px;
+      display: block;
+      width: 800px;
+      height: 91px;
+      color: white;
+    }
+  }
+
 }
