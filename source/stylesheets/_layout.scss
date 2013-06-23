@@ -17,6 +17,12 @@ header {
   li:nth-child(2) {
     margin-left: 45px;
   }
+
+  #date {
+    color: #767676;
+    font-family: Antenna-Bold;
+    font-size: emCalc(14px);
+  }
 }
 
 header, footer {
