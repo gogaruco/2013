@@ -45,3 +45,28 @@ body {
 @import 'section-robot-footer';
 
 @import 'sponsors';
+
+#location {
+  h2 {
+    font-family: 'Square721BT-Bold';
+    font-size: emCalc(20px);
+    color: white;
+    text-transform: uppercase;
+  }
+
+  background-color: #f9bf12;
+  color: #836407;
+  line-height: 1.9em;
+  padding-top: 68px;
+
+  .thumbs img {
+    border: 4px solid white;
+    margin-bottom: 10px;
+    width: 77px;
+    margin-left: 10px;
+  }
+
+  .podium img {
+    border: 4px solid white;
+  }
+}
