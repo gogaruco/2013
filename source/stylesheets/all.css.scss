@@ -57,7 +57,7 @@ body {
   background-color: #f9bf12;
   color: #836407;
   line-height: 1.9em;
-  padding-top: 68px;
+  padding: 68px 0px;
 
   .thumbs {
     position: relative;
@@ -85,5 +85,47 @@ body {
       width: 460px;
       border: 4px solid white;
     }
+  }
+}
+
+#directions-map {
+  height: 400px;
+  width: 100%;
+}
+
+#getting-around-heading {
+  @include title-ribbon;
+  margin-top: -44px;
+  position: relative;
+
+}
+
+#getting-around {
+  p {
+    line-height: 1.6em;
+    font-size: emCalc(16px);
+  }
+
+  padding: 68px 0;
+  background: image-url('speaker-bg.jpg');
+  color: white;
+
+  h3 {
+    font-family: 'Square721BT-Bold';
+    color: white;
+    font-size: emCalc(20px);
+  }
+
+  strong, .public-transit {
+    font-size: emCalc(16px);
+    font-family: 'Antenna-Bold';
+  }
+
+  .public-transit {
+    text-decoration: underline;
+  }
+
+  img {
+    border: 4px solid white;
   }
 }

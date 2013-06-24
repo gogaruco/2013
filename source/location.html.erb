@@ -1,5 +1,5 @@
 <%= partial 'page_banner', locals: {title: "Event Location"} %>
-<div id="location">
+<div id="location" xmlns="http://www.w3.org/1999/html">
   <div class="row">
     <div class="large-5 columns">
       <h2>Mission Bay Conference Centre</h2>
@@ -33,4 +33,88 @@
     </div>
   </div>
 </div>
+<div id="directions-map"></div>
+<div id="getting-around-heading">
+  <h2>Getting Around</h2>
+</div>
+<div id="getting-around">
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="large-4 columns">
+        <%= image_tag "driving.jpg" %>
+      </div>
+      <div class="large-8 columns">
+        <h3>DRIVING</h3>
 
+        <p><strong>Driving from the East Bay/Bay Bridge:</strong><br/>After crossing the Bay Bridge, exit at Fifth
+          Street and turn left onto Harrison. Go one block, then turn left
+          on 6th Street. Turn right on Brannan, left on 7th and go straight until 16th Street. Then turn left on 16th
+          Street and left onto Owens Street.</p>
+
+        <p><strong>Driving from the North Bay/Golden Gate Bridge:</strong><br/>After crossing the Golden Gate Bridge,
+          drive east on 101 (Doyle Drive) towards downtown and exit at Marina
+          Boulevard; follow Marina Boulevard past Fort Mason. Turn left onto Bay Street, then right onto the
+          Embarcadero. After passing under the Bay Bridge, the Embarcadero will become King Street. Turn left onto 3rd
+          Street just past AT&T Baseball Park. Then turn right on 16th Street and right onto Owens Street.</p>
+
+        <p><strong>Driving from the South Bay/SFO:</strong><br/>From 101 North, exit onto Vermont Street, turn right
+          onto 16th Street and continue for 0.6 miles (crossing
+          the railroad tracks that are under the I-280 overpass). Then turn left onto Owens Street.</p>
+
+        <p><strong>From 280 North:</strong><br/>Exit at Mariposa Street and turn left. Turn right on Mississippi Street
+          and go two blocks. Then turn right
+          onto 16th Street, and left onto Owens Street.</p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div class="row">
+        <div class="large-4 columns">
+          <%= image_tag "muni.jpg" %>
+        </div>
+        <div class="large-8 columns">
+
+          <h3>PUBLIC TRANSPORTATION</h3>
+
+          <p class="public-transit">MUNI</p>
+
+          <p>The T-Third Metro Line picks up at the 4th and King Street Caltrain Station as well as the Embarcadero,
+            Montgomery or Powell MUNI/BART stations. The appropriate stop is the UCSF Mission Bay Station on 3rd Street
+            opposite the campus</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-4 columns">
+          <%= image_tag "bart.jpg" %>
+        </div>
+        <div class="large-8 columns">
+
+          <p class="public-transit">BART</p>
+
+          <p>Disembark at the “16th Street Mission” BART station. On Friday only, catch the Red Line UCSF shuttle in
+            front
+            of the Burger King on the North-East corner of the intersection. The shuttle runs every 15 minutes and
+            brings
+            you to the William J. Rutter Center (2nd stop)</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-4 columns">
+          <%= image_tag "parking.jpg" %>
+        </div>
+        <div class="large-8 columns">
+
+          <h3>PARKING</h3>
+
+          <p>There is a paid parking garage located adjacent to the Mission Bay Conference Center. Parking fees can
+            be paid by
+            cash/check at kiosk upon departure or credit/cash/check at the payment window located on the 1st floor
+            of the
+            garage. Parking at Mission Bay is $3.50 an hour or $28 for the day.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
