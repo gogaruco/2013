@@ -12,7 +12,7 @@ body {
 }
 
 .leading-strip {
-  background-image:  image-url('3D-bg.png');
+  background-image: image-url('3D-bg.png');
   height: 50px;
 }
 
@@ -59,14 +59,31 @@ body {
   line-height: 1.9em;
   padding-top: 68px;
 
-  .thumbs img {
-    border: 4px solid white;
-    margin-bottom: 10px;
-    width: 77px;
-    margin-left: 10px;
+  .thumbs {
+    position: relative;
+    width: 33.33333%;
+    float: left;
+
+    img {
+      border: 4px solid white;
+      margin-bottom: 10px;
+      width: 77px;
+      margin-left: 10px;
+    }
+
+    div {
+      padding: 0 10px;
+    }
   }
 
-  .podium img {
-    border: 4px solid white;
+  .podium {
+    position: relative;
+    width: 66.66667%;
+    float: left;
+
+    img {
+      width: 460px;
+      border: 4px solid white;
+    }
   }
 }
