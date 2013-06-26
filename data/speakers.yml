@@ -3,7 +3,7 @@ featured:
   - name: James Edward Gray II
     headshot: gray.jpg
     twitter: JEG2
-    bio:
+    bio: >
       Constructed in the future to speak to the machines and sent back in time to prepare the humans for
       what comes next, James Edward Gray II might literally be built to be a programmer. Sure, there are
       more advanced models, but James has fought in the developer trenches and the battles have changed
@@ -11,45 +11,45 @@ featured:
       by writing books, speaking at conferences, and contributing to the Ruby Rogues podcast.
   - name: Angela Harms
     twitter: angelaharms
-    bio:
+    bio: >
       Angela Harms is an agile developer, coach, facilitator, and instigator at LeanDog. She loves
       beautiful code that emerges from collaboration, and learning new ways to make it work. She lives in
       a community of nerds called MakerHouse in Cleveland’s historic Ohio City.
   - name: Steve Klabnik
     twitter: steveklabnik
-    bio:
+    bio: >
       Rails committer. Jumpstart Lab instructor. Nomad philosopher.
   - name: Ben Orenstein
     twitter: r00k
-    bio:
+    bio: >
       Ben loves traveling light, wearing wool, and sharing what he knows about programming. He works at
       thoughtbot in Boston. You might know him as host of the Giant Robots Podcast, a fervent vim
       evangelist, or preacher of the virtues of live coding.
 roster:
   - name: Aja Hammerly
     twitter: thagomizer_rb
-    bio:
+    bio: >
       Aja lives in Seattle where she is a developer at Substantial and a member of the Seattle Ruby
       Brigade. Her favorite languages are Ruby and Prolog. Her past experience in QA makes her passionate
       about unit testing and TDD. In her free time she enjoys skiing, cooking, and long coding sessions on
       the beach.
   - name: Chris Hunt
     twitter: chrishunt
-    bio:
+    bio: >
       Chris Hunt recently moved from San Francisco to Portland to join the engineering team at GitHub.
       Prior to GitHub, Chris worked on Rails applications for Square, Apple, the Department of Defense,
       and his very critical mother. When he’s not writing Ruby, he’s probably looking over your shoulder
       trying to learn something new.
   - name: Emily Stolfo
     twitter: EmStolfo
-    bio:
+    bio: >
       Emily is a Ruby Engineer on the MongoDB drivers team at 10gen where she co-maintains the mongo and
       bson gems. Before joining 10gen, Emily was a Rails developer in NYC. She has a degree in Computer
       Science and Museums and likes to run and practice archery when not teaching Rails at Columbia
       University in her free time.
   - name: Mike Dalessio
     twitter: flavorjones
-    bio:
+    bio: >
       Mike Dalessio has a serious job as Director of Pivotal Labs NYC, where he hardly ever gets to write
       software anymore. But that doesn’t mean he’s all business &mdash; he’s been having super happy fun
       times coding for over 20 years. Co-author of Nokogiri, Enterprisey Doer of Good Deeds and veteran of
@@ -57,14 +57,14 @@ roster:
       canonical code width (because, FORTRAN, that’s why).
   - name: Noah Gibbs
     twitter: codefolio
-    bio:
+    bio: >
       Noah wrote Rebuilding Rails, a book on building your own Ruby MVC framework. He taught Ruby on Rails
       for Carnegie Mellon. His title at OnLive is “Lead Rubyist.” Multiple jobs have independently dubbed
       him “the oracle.” He believes that somehow, some day, there will be a second game as amazing as
       “Adventure Construction Set” for the Apple IIe.
   - name: Ron Evans
     twitter: deadprogram
-    bio:
+    bio: >
       Ron Evans is a software developer who has been active in the free and open source community for over
       20 years. As ringleader of The Hybrid Group, he helps clients solve some of their most difficult
       technical and business problems. Ron has presented at conferences such as Golden Gate Ruby
@@ -76,7 +76,7 @@ roster:
       programming to kids.
   - name: Ryan Davis
     twitter: the_zenspider
-    bio:
+    bio: >
       Ryan Davis has been using Ruby since 2000 and is a founding member of the Seattle Ruby Brigade, the
       ass-kickingest ruby brigade (per-capita). His background includes QA, automation, language and tool
       development, object databases, and Smalltalk. In Ruby/Rails, he has worked on developer productivity
@@ -84,14 +84,14 @@ roster:
       minitest, and more.
   - name: Sam Saffron
     twitter: samsaffron
-    bio:
+    bio: >
       Sam is the Sydney based co-founder of Discourse. In a past life he was a developer at Stack
       Overflow. Sam has a deep passion for making fast web sites. He manages the rack-mini-profiler gem.
       He also created the flamegraph and message_bus gem, and contributed performance patches to Rails and
       other open source gems.
   - name: Sarah Mei
     twitter: sarahmei
-    bio:
+    bio: >
       Sarah Mei has spent most of the last dozen years writing code, most of the last six doing web
       applications. Her weapons of choice are typically Ruby and JavaScript. In 2009, she co-founded
       RailsBridge, a nonprofit dedicated to making the Ruby and Rails communities welcoming to everyone.
@@ -99,23 +99,21 @@ roster:
       with her kids, friends, and the internets.
   - name: Tammer Saleh
     twitter: tsaleh
-    bio:
+    bio: >
       Tammer Saleh is a rubyist, author, and leader. In the past, he was the founder of Thunderbolt Labs,
       VP of Engineering at Engine Yard, and the original author of Shoulda and Airbrake. He also
       co-wrote “Rails AntiPatterns: Best Practice Ruby on Rails Refactoring.”
   - name: Tom Stuart
     twitter: tomstuart
-    bio:
+    bio: >
       Tom is a computer scientist and Ruby programmer. He has lectured on optimizing compilers at the
       University of Cambridge, co-organizes the Ruby Manor conference, and is a member of the London Ruby
       User Group. His new book, Understanding Computation, was published by O’Reilly in May.
   - name: Yehuda Katz
     twitter: wycats
-    bio:
+    bio: >
       Yehuda Katz is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at
       the startup he founded, Tilde Inc. Yehuda is the co-author of best-selling jQuery in Action and
       Rails 3 in Action. He spends most of his time hacking on open source &mdash; his main projects,
       along with others, like Thor, Handlebars and Janus &mdash; or traveling the world doing open source
       evangelism work. He blogs at yehudakatz.com and can be found on Twitter as @wycats.
-
-
