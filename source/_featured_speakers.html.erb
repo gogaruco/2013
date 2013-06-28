@@ -8,7 +8,7 @@
       <ul class="large-block-grid-4 small-block-grid-2">
         <% data.speakers.featured.each do |speaker| %>
           <li class="featured-speaker">
-            <%= image_tag "../images/speakers/#{speaker.name.downcase.gsub(/\s+/,'_')}.jpg" %>
+            <%= image_tag "speakers/#{speaker.slug}.jpg" %>
             <div class="featured-speaker-name">
               <%= speaker.name %>
             </div>
