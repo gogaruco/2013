@@ -1,0 +1,26 @@
+<div id='speakers-roster'>
+  <div class="speakers-roster-heading">
+    <h2>Speakers</h2>
+  </div>
+
+  <div class="speakers-roster-list">
+    <div class="row">
+      <ul class="large-block-grid-2">
+        <% data.speakers.sorted.each do |speaker| %>
+          <li class="speaker">
+            <%= image_tag "speakers/#{speaker.slug}.jpg" %>
+            <div class="speaker-details">
+              <div class="speaker-headline">
+                <span class="speaker-name"><%= speaker.name %></span>
+                <!-- | view talk -->
+              </div>
+              <div class="speaker-bio">
+                <%= speaker.bio %>
+              </div>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>
