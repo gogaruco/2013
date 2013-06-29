@@ -61,6 +61,7 @@ body {
 
     &:hover {
       color: #6a2045;
+      text-decoration: none;
     }
   }
 
@@ -104,13 +105,13 @@ a.image_link {
 
 #more-talks {
   padding-top: 70px;
+  padding-bottom: 70px;
   background: image-url('speaker-bg.jpg');
   color: white;
   line-height: 1.6em;
 
   img.speaker-image {
     border: 5px solid white;
-
   }
 
   .row {
@@ -124,7 +125,12 @@ a.image_link {
     text-transform: uppercase;
 
     a {
-      color: white
+      color: white;
+
+      &:hover {
+        color: #f9bf12;
+        text-decoration: none;
+      }
     }
 
   }
