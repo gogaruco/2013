@@ -129,3 +129,80 @@ body {
     border: 4px solid white;
   }
 }
+
+
+#registration {
+  padding-top: 65px;
+  padding-bottom: 67px;
+  background-color: #f9bf12;
+  color: #836407;
+  line-height: 1.7em;
+
+  a {
+    color: #ffefbe;
+  }
+
+  h1 {
+    font-family: 'Square721BT-Bold';
+    font-size: emCalc(20px);
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+  }
+
+  #about-registration {
+    font-size: emCalc(16px);
+
+
+    strong {
+      font-family: "Antenna-Bold";
+    }
+  }
+
+  #refunds {
+    margin-top: 2em;
+    background: image-url('yellow-text-bubble.png') no-repeat;
+    padding: 26px 100px 26px 32px;
+    line-height: 1.2em;
+
+    h2 {
+      font-size: emCalc(13px);
+      font-family: 'Antenna-Regular';
+      color: #836407;
+    }
+
+    #learn-more {
+      font-size: emCalc(13px);
+    }
+  }
+}
+
+#code-of-conduct-heading {
+  @include title-ribbon;
+  background-color: #f9bf12;
+}
+
+#code-of-conduct {
+  background: image-url('speaker-bg.jpg');
+
+  #policy {
+    margin: 3em 0;
+    font-size: emCalc(16px);
+    color: white;
+    background: image-url('pink-bubble-bg.png') no-repeat;
+    padding-left: 51px;
+
+    p:first-child {
+      padding-top: 40px;
+    }
+
+    p {
+      padding: 5px 40px 0px 40px
+    }
+
+    p:last-child {
+      padding-bottom: 40px;
+    }
+
+  }
+}
