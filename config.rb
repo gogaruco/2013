@@ -80,11 +80,11 @@ configure :build do
 end
 
 ### qa, for development
-#activate :deploy do |deploy|
-#   deploy.method = :git
-#   deploy.remote = "qa"
-#   deploy.branch = "gh-pages"
-#end
+activate :deploy do |deploy|
+   deploy.method = :git
+   deploy.remote = "qa"
+   deploy.branch = "gh-pages"
+end
 
 ### staging, for development
 # activate :deploy do |deploy|
@@ -94,11 +94,11 @@ end
 # end
 
 ### live site, for publishing
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.remote = "origin"
-  deploy.branch = "master"
-end
+#activate :deploy do |deploy|
+#  deploy.method = :git
+#  deploy.remote = "origin"
+#  deploy.branch = "master"
+#end
 
 
 after_configuration do

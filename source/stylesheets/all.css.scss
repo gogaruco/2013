@@ -48,3 +48,85 @@ body {
 @import 'location';
 @import 'registration';
 
+#featured-speakers-list {
+
+  padding-top: 65px;
+  padding-bottom: 67px;
+  background-color: #f9bf12;
+  color: #836407;
+  line-height: 1.9em;
+
+  a {
+    color: #ffefbe;
+
+    &:hover {
+      color: #6a2045;
+    }
+  }
+
+  .divider {
+    background: image-url('diagonal-divider.png') no-repeat;
+    height: 11px;
+    margin-bottom: 33px;
+    margin-top: 23px;
+  }
+
+  .large-3 {
+    img {
+      border: 5px solid white;
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      font-family: 'Square721BT-Bold';
+      color: white;
+      font-size: emCalc(18px);
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    p {
+      font-size: emCalc(16px);
+    }
+
+  }
+
+}
+
+#more-talks-heading{
+  @include title-ribbon;
+  background-color: #f9bf12;
+}
+
+a.image_link {
+  text-decoration: none;
+}
+
+#more-talks {
+  padding-top: 70px;
+  background: image-url('speaker-bg.jpg');
+  color: white;
+  line-height: 1.6em;
+
+  img.speaker-image {
+    border: 5px solid white;
+
+  }
+
+  .row {
+    padding-top: 40px;
+  }
+  .speaker-name {
+    font-size: emCalc(18px);
+    display: block;
+    margin-bottom: 25px;
+    font-family: 'Square721BT-Bold';
+    text-transform: uppercase;
+
+    a {
+      color: white
+    }
+
+  }
+
+}
