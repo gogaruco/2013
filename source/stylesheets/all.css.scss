@@ -94,16 +94,11 @@ body {
 
 }
 
-#more-talks-heading{
-  @include title-ribbon;
-  background-color: #f9bf12;
-}
-
 a.image_link {
   text-decoration: none;
 }
 
-#more-talks {
+#speakers-roster {
   padding-top: 70px;
   padding-bottom: 70px;
   background: image-url('speaker-bg.jpg');
@@ -120,7 +115,7 @@ a.image_link {
   .speaker-name {
     font-size: emCalc(18px);
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-family: 'Square721BT-Bold';
     text-transform: uppercase;
 

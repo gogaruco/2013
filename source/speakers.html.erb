@@ -1,25 +1,6 @@
-<%= partial 'page_banner', locals: {title: "Guest Speakers"} %>
-<div id="featured-speakers-list">
-  <div class="row">
-    <% data.speakers.featured.each do |speaker| %>
-        <div class="columns large-3">
-          <a href="https://twitter.com/<%= speaker.twitter %>">
-            <%= image_tag "speakers/#{speaker.slug}.jpg" %>
-          </a>
+<%= partial 'page_banner', locals: {title: "Speakers"} %>
 
-          <h2><a href="https://twitter.com/<%= speaker.twitter %>"><%= speaker.name %></a></h2>
-
-          <div class='divider'></div>
-          <p><%= speaker.bio %></p>
-        </div>
-    <% end %>
-  </div>
-</div>
-
-<div id="more-talks-heading">
-  <h2>More Talks</h2>
-</div>
-<div id="more-talks">
+<div id="speakers-roster">
   <% data.speakers.sorted.each_with_index do |speaker, index| %>
       <% if (index % 2 == 0) %>
           <div class="row">
@@ -34,17 +15,14 @@
               <a href="#" class="image_link">
                 <%= image_tag 'twitter_icon.png' %>
               </a>
-                <a href="#">
-                  <%= speaker.name %>
-                </a>
+              <%= speaker.name %>
             </span>
-          <!-- | view talk -->
-                <span class="speaker-bio">
+            <!-- | view talk -->
+            <div class="speaker-bio">
               <%= speaker.bio %>
-            </span>
+            </div>
         </div>
-        <div class="speaker-details">
-        </div>
+        <div class="speaker-details"></div>
       </div>
 
       <% if (index % 2 == 1) %>
@@ -53,8 +31,6 @@
 
   <% end %>
 </div>
-</div>
 
-<%= partial 'tweets' %>
 <%= partial 'sponsors' %>
 <%= partial 'robot_footer' %>
