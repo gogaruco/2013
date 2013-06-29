@@ -2,32 +2,32 @@
 
 <div id="speakers-roster">
   <% data.speakers.sorted.each_with_index do |speaker, index| %>
-      <% if (index % 2 == 0) %>
-          <div class="row">
-      <% end %>
+    <% if (index % 2 == 0) %>
+      <div class="row">
+    <% end %>
 
-      <div class="large-6 columns">
-        <div class="large-4 columns">
-          <%= image_tag "speakers/#{speaker.slug}.jpg", class: "speaker-image" %>
-        </div>
-        <div class="large-8 columns">
-            <span class="speaker-name">
-              <a href="#" class="image_link">
-                <%= image_tag 'twitter_icon.png' %>
-              </a>
-              <%= speaker.name %>
-            </span>
-            <!-- | view talk -->
-            <div class="speaker-bio">
-              <%= speaker.bio %>
-            </div>
-        </div>
-        <div class="speaker-details"></div>
+    <div class="large-6 columns">
+      <div class="large-4 columns">
+        <%= image_tag "speakers/#{speaker.slug}.jpg", class: "speaker-image" %>
       </div>
+      <div class="large-8 columns">
+        <span class="speaker-name">
+          <a href="https://twitter.com/<%= speaker.twitter %>" class="image_link">
+            <%= image_tag 'twitter_icon.png' %>
+          </a>
+          <%= speaker.name %>
+        </span>
+        <!-- | view talk -->
+        <div class="speaker-bio">
+          <%= speaker.bio %>
+        </div>
+      </div>
+      <div class="speaker-details"></div>
+    </div>
 
-      <% if (index % 2 == 1) %>
-          </div>
-      <% end %>
+    <% if (index % 2 == 1) %>
+      </div>
+    <% end %>
 
   <% end %>
 </div>
