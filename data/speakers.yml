@@ -85,13 +85,10 @@ roster:
     bio: >
       Ron Evans is a software developer who has been active in the free and open source community for over
       20 years. As ringleader of The Hybrid Group, he helps clients solve some of their most difficult
-      technical and business problems. Ron has presented at conferences such as Golden Gate Ruby
-      Conference, RubyConf, FutureRuby, Ignite, Los Angeles Ruby Conference, Conferencia Rails, and
-      MagmaConf. He was featured in Computerworld Magazine in the article “Rock Star Coders” for his
-      popular blog post “I’d Rather Be A Jazz Programmer”, as well as having written articles for MSNBC,
-      BYTE Magazine, and the Direct Marketing Association. Ron is an active code contributor to many open
-      source projects, including creating the award-winning KidsRuby, free software to help teach Ruby
-      programming to kids.
+      technical and business problems. Ron has presented at conferences such as GoGaRuCo, RubyConf,
+      FutureRuby, Ignite, L.A. Ruby Conference, Conferencia Rails, and
+      MagmaConf. Ron is an active contributor to many open source projects and created the
+      award-winning KidsRuby, free software to help teach Ruby programming to kids.
   davis: &davis
     slug: davis
     name: Ryan Davis
