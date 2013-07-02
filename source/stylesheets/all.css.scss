@@ -131,3 +131,18 @@ a.image_link {
   }
 
 }
+
+#register {
+  height: 42px;
+  width: 106px;
+  background: image-url('register.png') no-repeat;
+  margin-top: 61px;
+
+  a {
+    color: transparent;
+  }
+
+  &:hover {
+    background: image-url('register-hover.png') no-repeat;
+  }
+}
