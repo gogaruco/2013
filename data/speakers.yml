@@ -1,5 +1,15 @@
 ---
 roster:
+  gray: &atwood
+    slug: atwood
+    name: Jeff Atwood
+    twitter: codinghorror
+    bio: >
+      You may know Jeff Atwood from his <a href="http://codinghorror.com/">Coding Horror</a> blog or his
+      work on <a href="http://stackoverflow.com/">stackoverflow.com</a>. Now he is learning Ruby and using
+      it to build a new generation of forum software called <a href="http://discourse.org">Discourse</a>.
+      He lives in Berkeley, CA with his wife, two cats, three children, and lots of computers. His power
+      animal is the wumpus.
   gray: &gray
     slug: gray
     name: James Edward Gray II
@@ -148,11 +158,11 @@ roster:
   wilkinson: &wilkinson
     slug: wilkinson
     name: John Wilkinson
-    twitter:
+    twitter: jcwilk
     bio: >
       John Wilkinson has been doing Rails since 2007 with a focus on maintainable server-side code
       architecture. He is a software engineer at Lumosity digging into extracting, formalizing, and
-      testing subsystems, working under the self-proclaimed title "Platform Commander". His favorite
+      testing subsystems, working under the self-proclaimed title “Platform Commander”. His favorite
       working activity is refactoring a well-tested system. When in free time mode, he oscillates between
       playing classic and indie games, fiddling with electronic kits, more programming, beer exploring,
       and trying to coerce his 3D printer to 3D-print.
@@ -170,6 +180,7 @@ featured:
   - *klabnik
   - *orenstein
 sorted:
+  - *atwood
   - *dalessio
   - *davis
   - *evans
