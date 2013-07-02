@@ -17,11 +17,27 @@ header {
   li:nth-child(2) {
     margin-left: 45px;
   }
+}
+
+#register {
+  margin: 50px 50px 0 0;
+
+  a {
+    display: block;
+    background: image-url('register.png') no-repeat;
+    width: 106px;
+    height: 42px;
+    margin: 0 auto;
+    color: transparent;
+  }
+  a:hover { background: image-url('register-hover.png') no-repeat; }
 
   #date {
     color: #767676;
     font-family: Antenna-Bold;
-    font-size: emCalc(14px);
+    font-size: emCalc(12px);
+    margin: 10px auto 0;
+    text-align: center;
   }
 }
 
