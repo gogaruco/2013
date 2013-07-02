@@ -1,6 +1,5 @@
 //= require jquery
 //= require foundation
-//= require google_maps
 //= require_tree .
 
 (function () {
