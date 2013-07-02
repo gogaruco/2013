@@ -149,3 +149,51 @@ a.image_link {
     background: image-url('register-hover.png') no-repeat;
   }
 }
+
+
+
+#sponsors-heading {
+  @include title-ribbon;
+  margin-top: -44px;
+  position: relative;
+}
+
+#sponsors {
+  background-image: image-url('grey-noise-bg.jpg');
+  text-align: center;
+  padding: 70px 0;
+
+  .sponsor_level {
+    span {
+      font-size: emCalc(13px);
+      color: #797979;
+      font-family: 'Square721BT-Roman';
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      display: block;
+    }
+
+    ul {
+      padding: 25px 0 5px 0;
+      li {
+        display: inline;
+
+        img {
+          max-height: 100px;
+          max-width: 185px;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
+  .prospectus {
+    margin-top: 12px;
+    display: block;
+    font-size: emCalc(12px);
+    font-weight: bolder;
+    color: #484848;
+    text-decoration: underline;
+    width: 100%;
+  }
+}
