@@ -1,6 +1,6 @@
 ---
 roster:
-  gray: &atwood
+  atwood: &atwood
     slug: atwood
     name: Jeff Atwood
     twitter: codinghorror
