@@ -15,9 +15,10 @@ roster:
     name: Angela Harms
     twitter: angelaharms
     bio: >
-      Angela Harms is an agile developer, coach, facilitator, and instigator at LeanDog. She loves
-      beautiful code that emerges from collaboration, and learning new ways to make it work. She lives in
-      a community of nerds called MakerHouse in Cleveland’s historic Ohio City.
+      Angela Harms is an agile developer, coach, facilitator, and instigator. She loves beautiful code
+      that emerges from collaboration, and learning new ways to make it work. She lives in a community of
+      nerds called MakerHouse in Cleveland’s historic Ohio City, and you can learn more about her work at
+      <a href="http://maitria.com/">maitria.com</a>.
   klabnik: &klabnik
     slug: klabnik
     name: Steve Klabnik
@@ -140,10 +141,10 @@ roster:
     twitter: wycats
     bio: >
       Yehuda Katz is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at
-      the startup he founded, Tilde Inc. Yehuda is the co-author of best-selling jQuery in Action and
-      Rails 3 in Action. He spends most of his time hacking on open source &mdash; his main projects,
-      along with others, like Thor, Handlebars and Janus &mdash; or traveling the world doing open source
-      evangelism work.
+      the startup he founded, <a href="http://tilde.io/">Tilde Inc.</a> Yehuda is the co-author of
+      best-selling jQuery in Action and Rails 3 in Action. He spends most of his time hacking on open
+      source &mdash; his main projects, along with others, like Thor, Handlebars and Janus &mdash; or
+      traveling the world doing open source evangelism work.
   wilkinson: &wilkinson
     slug: wilkinson
     name: John Wilkinson
