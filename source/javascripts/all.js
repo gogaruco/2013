@@ -29,4 +29,26 @@ $(document).ready(function () {
       map: map
     });
   }
+
+  var slideToHide = 0;
+  var slideToShow = 1;
+  var timeBetweenSlides = 4000;
+
+  var nextSlide = function() {
+    setInterval(function() {
+
+      if(slideToHide == $('.sponsor_level').length - 1) {
+        slideToShow = 0;
+      }
+
+      $($('.sponsor_level')[slideToHide]).css('opacity', 0);
+      $($('.sponsor_level')[slideToShow]).show().css('opacity', 1);
+
+      slideToHide = slideToShow;
+      slideToShow++;
+
+    }, timeBetweenSlides)
+  }
+
+  nextSlide();
 });

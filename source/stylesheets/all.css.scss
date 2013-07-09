@@ -144,6 +144,15 @@ a.image_link {
   padding: 70px 0;
 
   .sponsor_level {
+    height: 200px;
+
+    &.secondary {
+      position: relative;
+      top: -200px;
+      height: 0px;
+    }
+
+
     span {
       font-size: emCalc(13px);
       color: #797979;
@@ -176,4 +185,8 @@ a.image_link {
     text-decoration: underline;
     width: 100%;
   }
+}
+
+.hidden {
+  display: none;
 }
