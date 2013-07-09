@@ -1,7 +1,7 @@
 ---
 diamond:
   - name: New Relic
-    link: www.newrelic.com
+    link: http://www.newrelic.com
     logo: new_relic.png
     text: >
       <a href="http://www.newrelic.com">New Relic</a> is on a mission to create a better web and mobile experience for
@@ -9,10 +9,22 @@ diamond:
       captured each day, they help make the web and your mobile apps a faster place.
 platinum:
   - name: Tilde
-    link: www.tilde.io
+    link: http://www.tilde.io
     logo: tilde.png
     text: >
       <a href="http://www.tilde.io">Tilde</a> is an open-source focused startup in San Francisco. We're led by
       alumni and current leaders of projects like Ruby on Rails, jQuery, and most recently,
       <a href="http://www.emberjs.com">Ember</a>. We provide training and consulting services while contributing
       funds and resources back into building and maintaining the vibrant open source communities we love.
+  - name: Carbon Five
+    link: http://www.carbonfive.com
+    logo: carbon_five.png
+    text: >
+      <a href="http://www.carbonfive.com">Carbon Five</a> builds web and mobile products for innovative companies following a development process inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing effective and sustainable practices for more than 12 years. We work with startups at all stages, non-profit organizations and big companies. And we're doing it all using awesome new technology and the latest techniques.
+  - name: Stormpath
+    link: http://www.stormpath.com/
+    logo: stormpath.png
+    text: >
+      <a href="http://www.stormpath.com">Stormpath</a> is a user management and authentication service for developers. Easy and secure, the flexible cloud service can manage millions of users with a scalable pricing model. By offloading user management and authentication to Stormpath, developers can bring applications to market faster, reduce development costs, and protect their users.
+gold:
+silver:
