@@ -1,41 +1,25 @@
-<div id="silver-sponsors-heading">
-  <h2>Silver</h2>
-</div>
-<div id="silver-sponsors" class="sponsor_section">
-  <div class="row">
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>WyeWorks</em> is a team of web developers and design experts who build extreme high quality and reliable
-        software using agile practices and Ruby on Rails technology. All work is carried out through an amazing
-        experience of close collaboration, hard work, transparency and effective communication, building successful
-        relations with our customers.</p>
+<% if data.sponsors.silver.present? %>
+    <div id="silver-sponsors-heading">
+      <h2>Silver</h2>
     </div>
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>Blue Box Group</em> provides solutions for complex applications. We approach things differently by
-        partnering with you to grow your infrastructure and build scalable, reliable configurations. Our unique blend of
-        services allows us to provide for the full lifecycle of customer applications, from development through
-        production. From 40 users to 40 million, we can help you take your business idea and turn it into a success.
-      </p>
+    <div id="silver-sponsors" class="sponsor_section">
+      <% data.sponsors.silver.each_slice(3) do |sponsors| %>
+          <div class="row">
+            <% sponsors.each do |sponsor| %>
+                <div class="large-4 columns">
+                  <div class="sponsor_wrapper">
+                    <div class="sponsor-image">
+                      <a href="<%= sponsor.link %>">
+                        <%= image_tag "sponsors/#{sponsor.logo}" %>
+                      </a>
+                    </div>
+                  </div>
+                  <p>
+                    <%= sponsor.text %>
+                  </p>
+                </div>
+            <% end %>
+          </div>
+      <% end %>
     </div>
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>HotelTonight</em> is a pioneer in mobile commerce, building the world’s best apps for booking same-day
-        hotel deals. Our team takes enormous pride in delivering flawless experiences as we play matchmaker between
-        people who need a hotel and otherwise-empty hotel rooms. We’re looking for Ruby engineers who share our passion
-        for beautiful, simple and useful products. More at www.hoteltonight.com/jobs</p>
-    </div>
-  </div>
-</div>
+<% end %>

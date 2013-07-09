@@ -1,75 +1,25 @@
+<% if data.sponsors.gold.present? %>
 <div id="gold-sponsors-heading">
   <h2>Gold</h2>
 </div>
 <div id="gold-sponsors" class="sponsor_section">
+  <% data.sponsors.gold.each_slice(3) do |sponsors| %>
   <div class="row">
+    <% sponsors.each do |sponsor| %>
     <div class="large-4 columns">
       <div class="sponsor_wrapper">
         <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
+          <a href="<%= sponsor.link %>">
+            <%= image_tag "sponsors/#{sponsor.logo}" %>
+          </a>
         </div>
       </div>
-      <p><em>Telmate</em> is a Mac-based Ruby development shop working to disrupt the managed telecom industry.
-        Self-funded and proﬁtable, Telmate is not your normal web application gig; we’re not making another Twitter
-        clone for your grandma. We dabble in all aspects of development, from trying to scale Ruby on Rails, building
-        custom software stacks and custom hardware, and then smashing it with hammers. </p>
-    </div>
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>Braintree</em> helps online and mobile businesses process credit card payments by providing a merchant
-        account, payment gateway, recurring billing and credit card storage. The company is disrupting the payments
-        industry by providing elegant tools for developers coupled with white-glove support. </p>
-    </div>
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>Carbon Five </em> builds web and mobile products for innovative companies following a development process
-        inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing
-        effective and sustainable practices for more than 10 years. We work with startups at all stages, non-profit
-        organizations and big companies. And we're doing it all using awesome new technology and the latest techniques.
+      <p>
+        <%= sponsor.text %>
       </p>
     </div>
+    <% end %>
   </div>
-  <div class="row">
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>Trappy</em> is a mobile advertising and publishing platform that empowers more than 600 million mobile
-        users who choose to watch videos, subscribe to services, install applications and participate in other types of
-        advertisements in exchange for virtual currency they can use in their favorite apps.hammers. </p>
-    </div>
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>Blue Box Group</em> provides solutions for complex applications. We approach things differently by
-        partnering with you to grow your infrastructure and build scalable, reliable configurations. Our unique blend of
-        services allows us to provide for the full lifecycle of customer applications, from development through
-        production. From 40 users to 40 million, we can help you take your business idea and turn it into a success.
-      </p>
-    </div>
-    <div class="large-4 columns">
-      <div class="sponsor_wrapper">
-        <div class="sponsor-image">
-          <%= image_tag 'sponsors/tilde.png' %>
-        </div>
-      </div>
-      <p><em>Engine Yard</em> is the leading Platform as a Service (PaaS), empowering software application innovation
-        more rapidly, easily and cost effectively. With deep technical expertise, powerful infrastructure orchestration,
-        and strong support of the open source community, Engine Yard provides a complete solution that enables
-        developers to focus on creating great applications, instead of managing their platform. </p>
-    </div>
-  </div>
+  <% end %>
 </div>
+<% end %>
