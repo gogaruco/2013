@@ -20,11 +20,49 @@ platinum:
     link: http://www.carbonfive.com
     logo: carbon_five.png
     text: >
-      <a href="http://www.carbonfive.com">Carbon Five</a> builds web and mobile products for innovative companies following a development process inspired by Agile and Lean UX. We've been creating compelling products, building teams and establishing effective and sustainable practices for more than 12 years. We work with startups at all stages, non-profit organizations and big companies. And we're doing it all using awesome new technology and the latest techniques.
+      <a href="http://www.carbonfive.com">Carbon Five</a> builds web and mobile products for innovative companies 
+      following a development process inspired by Agile and Lean UX. We've been creating compelling products, building 
+      teams and establishing effective and sustainable practices for more than 12 years. We work with startups at all 
+      stages, non-profit organizations and big companies. And we're doing it all using awesome new technology and the 
+      latest techniques.
   - name: Stormpath
     link: http://www.stormpath.com/
     logo: stormpath.png
     text: >
-      <a href="http://www.stormpath.com">Stormpath</a> is a user management and authentication service for developers. Easy and secure, the flexible cloud service can manage millions of users with a scalable pricing model. By offloading user management and authentication to Stormpath, developers can bring applications to market faster, reduce development costs, and protect their users.
+      <a href="http://www.stormpath.com">Stormpath</a> is a user management and authentication service for developers. 
+      Easy and secure, the flexible cloud service can manage millions of users with a scalable pricing model. By 
+      offloading user management and authentication to Stormpath, developers can bring applications to market faster, 
+      reduce development costs, and protect their users.
+  - name: Causes
+    link: causes.com
+    logo: causes.png
+    text: >
+      <a href="http://causes.com">Causes.com</a>is the world’s largest platform for doing good. It enables individuals, 
+      nonprofits and companies to launch campaigns that raise awareness, engage targeted audiences in action-taking, 
+      and become dynamic communities. 186 million people around the world have joined one of over 600,000 campaigns on 
+      Causes.
+  - name: Braintree
+    link: www.getbraintree.com
+    logo: braintree.png
+    text: >
+      A catalyst for the next generation of commerce, Braintree, and its top-rated mobile app Venmo, provides the 
+      easiest way to pay and get paid across any device. Braintree’s global payment platform processes more than $10 
+      billion annually for thousands of online and mobile commerce innovators including Airbnb, OpenTable, and Uber.
+  - name: Sharethrough
+    link: www.sharethrough.com
+    logo: sharethrough.png
+    text: >
+      Coming Soon!
 gold:
+  - name: Lumosity
+    link: http://www.lumosity.com
+    logo: lumosity.png
+    text: >
+      <a href="www.lumosity.com">Lumosity</a> is committed to pioneering the understanding and enhancement of the 
+      human brain to give each person the power to unlock their full potential. Lumosity's online and mobile programs 
+      train core cognitive abilities such as memory and attention. Launched in 2007, Lumosity now has more than 40 games, 
+      40 million members, and paying subscribers from 180 countries. Lumosity's games are based on the latest discoveries 
+      in neuroscience, with continuing independent third-party studies being conducted by researchers at Harvard, Stanford, 
+      and other academic institutions. Lumosity is available at Lumosity.com and on the iPhone. Lumosity is headquartered 
+      in San Francisco, California. For more information, please visit <a href="www.lumosity.com">Lumosity.com</a>.
 silver:
