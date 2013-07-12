@@ -61,8 +61,12 @@ gold:
       <a href="www.lumosity.com">Lumosity</a> is committed to pioneering the understanding and enhancement of the 
       human brain to give each person the power to unlock their full potential. Lumosity's online and mobile programs 
       train core cognitive abilities such as memory and attention. Launched in 2007, Lumosity now has more than 40 games, 
-      40 million members, and paying subscribers from 180 countries. Lumosity's games are based on the latest discoveries 
-      in neuroscience, with continuing independent third-party studies being conducted by researchers at Harvard, Stanford, 
-      and other academic institutions. Lumosity is available at Lumosity.com and on the iPhone. Lumosity is headquartered 
-      in San Francisco, California. For more information, please visit <a href="www.lumosity.com">Lumosity.com</a>.
+      40 million members, and paying subscribers from 180 countries.
+  - name: Wanelo
+    link: wanelo.com
+    logo: wanelo.png
+    text: >
+      <a href="http://wanelo.com">Wanelo</a> is an online community for all the world’s shopping. It brings together all 
+      stores, products and people into a single social platform. Wanelo is 100% focused on products, where everything is 
+      posted by users and can be purchased.
 silver:
