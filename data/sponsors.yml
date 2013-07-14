@@ -1,7 +1,7 @@
 ---
 diamond:
   - name: New Relic
-    link: http://www.newrelic.com
+    link: http://www.newrelic.com/
     logo: new_relic.png
     text: >
       <a href="http://www.newrelic.com">New Relic</a> is on a mission to create a better web and mobile experience for
@@ -9,7 +9,7 @@ diamond:
       captured each day, they help make the web and your mobile apps a faster place.
 platinum:
   - name: Tilde
-    link: http://www.tilde.io
+    link: http://www.tilde.io/
     logo: tilde.png
     text: >
       <a href="http://www.tilde.io">Tilde</a> is an open-source focused startup in San Francisco. We're led by
@@ -17,7 +17,7 @@ platinum:
       <a href="http://www.emberjs.com">Ember</a>. We provide training and consulting services while contributing
       funds and resources back into building and maintaining the vibrant open source communities we love.
   - name: Carbon Five
-    link: http://www.carbonfive.com
+    link: http://www.carbonfive.com/
     logo: carbon_five.png
     text: >
       <a href="http://www.carbonfive.com">Carbon Five</a> builds web and mobile products for innovative companies 
@@ -34,7 +34,7 @@ platinum:
       offloading user management and authentication to Stormpath, developers can bring applications to market faster, 
       reduce development costs, and protect their users.
   - name: Causes
-    link: causes.com
+    link: http://causes.com/
     logo: causes.png
     text: >
       <a href="http://causes.com">Causes.com</a>is the world’s largest platform for doing good. It enables individuals, 
@@ -42,20 +42,20 @@ platinum:
       and become dynamic communities. 186 million people around the world have joined one of over 600,000 campaigns on 
       Causes.
   - name: Braintree
-    link: www.getbraintree.com
+    link: http://www.getbraintree.com/
     logo: braintree.png
     text: >
       A catalyst for the next generation of commerce, Braintree, and its top-rated mobile app Venmo, provides the 
       easiest way to pay and get paid across any device. Braintree’s global payment platform processes more than $10 
       billion annually for thousands of online and mobile commerce innovators including Airbnb, OpenTable, and Uber.
   - name: Sharethrough
-    link: www.sharethrough.com
+    link: http://www.sharethrough.com/
     logo: sharethrough.png
     text: >
       Coming Soon!
 gold:
   - name: Lumosity
-    link: http://www.lumosity.com
+    link: http://www.lumosity.com/
     logo: lumosity.png
     text: >
       <a href="www.lumosity.com">Lumosity</a> is committed to pioneering the understanding and enhancement of the 
@@ -63,7 +63,7 @@ gold:
       train core cognitive abilities such as memory and attention. Launched in 2007, Lumosity now has more than 40 games, 
       40 million members, and paying subscribers from 180 countries.
   - name: Wanelo
-    link: wanelo.com
+    link: http://wanelo.com/
     logo: wanelo.png
     text: >
       <a href="http://wanelo.com">Wanelo</a> is an online community for all the world’s shopping. It brings together all 
