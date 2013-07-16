@@ -53,6 +53,25 @@ platinum:
     logo: sharethrough.png
     text: >
       Coming Soon!
+  - name: Rackspace
+    link: http://developer.rackspace.com
+    logo: rackspace.png
+    text: >
+      Coming Soon!
+  - name: Pivotal Labs
+    link: http://www.pivotallabs.com
+    logo: pivotal.png
+    text: >
+      Pivotal Labs is at the forefront of modern software development having built some of the world’s most effective and 
+      innovative business platforms. We provide expertise in design, development and product management to deliver applications 
+      and enterprise systems that perform reliably, scale easily and adapt quickly to changing demands. 
+  - name: Intridea
+    link: http://www.intridea.com
+    logo: intridea.png
+    text: >
+      We don't just make web apps - we solve problems. At Intridea we write intelligently designed software to help businesses 
+      develop strategic solutions and launch new ideas. Armed with the brightest engineers and designers and positioned at the 
+      forefront of the technological ethos, we help businesses disrupt industries.
 gold:
   - name: Lumosity
     link: http://www.lumosity.com/

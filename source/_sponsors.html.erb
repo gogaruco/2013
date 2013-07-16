@@ -1,41 +1,51 @@
 <div id="sponsors-heading"><h2>Sponsor Love</h2></div>
 <div id="sponsors">
   <%= image_tag "sponsor-line-top.png" %>
+
+  <% data.sponsors.diamond.each_slice(5) do |slice| %>
   <div class="sponsor_level">
     <ul>
-      <% data.sponsors.diamond.each do |sponsor| %>
+      <% slice.each do |sponsor| %>
         <li><a href="<%= sponsor.link %>"><%= image_tag "sponsors/#{sponsor.logo}" %></a></li>
       <% end %>
     </ul>
     <span>Diamond Sponsors</span>
   </div>
+  <% end %>
+
+  <% data.sponsors.platinum.each_slice(5) do |slice| %>
   <div class="sponsor_level secondary hidden">
     <ul>
-      <% data.sponsors.platinum.each do |sponsor| %>
+      <% slice.each do |sponsor| %>
         <li><a href="<%= sponsor.link %>"><%= image_tag "sponsors/#{sponsor.logo}" %></a></li>
       <% end %>
     </ul>
     <span>Platinum Sponsors</span>
   </div>
+  <% end %>
   <% if data.sponsors.gold.present? %>
+      <% data.sponsors.gold.each_slice(5) do |slice| %>
       <div class="sponsor_level secondary hidden">
         <ul>
-          <% data.sponsors.gold.each do |sponsor| %>
+          <% slice.each do |sponsor| %>
               <li><a href="<%= sponsor.link %>"><%= image_tag "sponsors/#{sponsor.logo}" %></a></li>
           <% end %>
         </ul>
         <span>Gold Sponsors</span>
       </div>
+      <% end %>
   <% end %>
   <% if data.sponsors.silver.present? %>
+      <% data.sponsors.silver.each_slice(5) do |slice| %>
       <div class="sponsor_level secondary hidden">
         <ul>
-          <% data.sponsors.silver.each do |sponsor| %>
+          <% slice.each do |sponsor| %>
               <li><a href="<%= sponsor.link %>"><%= image_tag "sponsors/#{sponsor.logo}" %></a></li>
           <% end %>
         </ul>
         <span>Silver Sponsors</span>
       </div>
+      <% end %>
   <% end %>
   <%= image_tag "sponsor-line-bottom.png" %>
   <br/>
