@@ -1,0 +1,64 @@
+<%= partial 'page_banner', locals: {title: "Meet The Team"} %>
+<div id="team">
+  <div class="row">
+    <div class="large-3 columns">
+        <%= image_tag "team/leah.jpg" %>
+    </div>
+    <div class="large-9 columns">
+      <h2>Leah Silber</h2>
+      <p>Leah is an all-around open source advocate. During the day time, she's one of the founders at <a href="tilde.io">Tilde</a>, an open-source-centric consultancy. In her spare time, in addition to running GoGaRuCo, Leah is responsible for fundraising and event management as a member of the <a href="jquery.com">jQuery</a> Core Team.</p>
+      <p>She previously worked as a consultant for clients in the tech sector, and was employed managing the Community Marketing and Events department at Engine Yard. She is originally from Brooklyn, NY and now lives in San Francisco, CA with her husband. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns">
+        <%= image_tag "team/josh.jpg" %>
+    </div>
+    <div class="large-9 columns">
+      <h2>Josh Susser</h2>
+      <p>Josh likes to say that Ruby is the love child of Lisp and Smalltalk, raised by Perl the eccentric nanny. At Pivotal Labs he spent the last several years developing Rails web applications for clients, and he is a high-ranked contributor to the Rails open source project. He has spoken at RailsConf, regional conferences and meetups.</p>
+      <p> In past lives he's done Smalltalk VM implementation, spent too much time at Apple building the ill-fated OpenDoc, and helped design the Java VM that runs on the SIM card in your iPhone. You can find his blog at <a href="http://blog.hasmanythrough.com">blog.hasmanythrough.com</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns">
+        <%= image_tag "team/jim.jpg" %>
+    </div>
+    <div class="large-9 columns">
+      <h2>JIM MEYER</h2>
+      <p>With a career that's ranged from freelance graphic design to large scale distributed computing systems architecture to leading technology organizations, Jim is a renaissance man, a geek of all trades, or (most likely) an advanced case of ADD in search of the next challenging distraction. </p>
+      <p>He currently leads the <a href="https://www.wealthfront.com/engineering">unbelievably excellent engineering team</a> at <a href="https://www.wealthfront.com/engineering">Wealthfront</a> as well as being the father of three and husband of one, all of whom make him a better person on a daily basis (and none of whom speak in third person).</p>
+    </div>
+  </div>
+</div>
+<div id="volunteers-heading">
+  <h2>Volunteers</h2>
+</div>
+<div id="volunteers">
+  <div class="row">
+      <div class="large-2 columns">
+        <div class="volunteer">
+          <a href="http://www.hjhart.com">
+              <%= image_tag "team/james.jpg" %>
+          </a>
+          <a href="http://www.hjhart.com" class="volunteer-url">
+            James Hart
+          </a>
+          <span class="volunteer-title">Web Developer</span>
+        </div>
+      </div>
+      <div class="large-2 columns left">
+        <div class="volunteer">
+          <a href="https://twitter.com/rachelmyers">
+              <%= image_tag "team/rachel.jpg" %>
+          </a>
+          <a href="https://twitter.com/rachelmyers" class="volunteer-url">
+            Rachel Myers
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<%= partial 'sponsors' %>
+<%= partial 'robot_footer' %>
