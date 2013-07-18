@@ -144,14 +144,24 @@ a.image_link {
   padding: 70px 0;
 
   .sponsor_level {
+    @media screen and (max-width: 800px) {
+      height: 280px;
+    }
     height: 200px;
+
+    @media screen and (max-width: 800px) {
+      &.secondary {
+        position: relative;
+        top: -280px !important;
+        height: 0px;
+      }
+    }
 
     &.secondary {
       position: relative;
       top: -200px;
       height: 0px;
     }
-
 
     span {
       font-size: emCalc(13px);
