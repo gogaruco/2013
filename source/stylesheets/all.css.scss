@@ -278,3 +278,25 @@ a.image_link {
     border: 4px solid white;
   }
 }
+
+#about-code-of-conduct-heading {
+  @include title-ribbon;
+  margin-top: -44px;
+}
+
+#about-code-of-conduct {
+  background-image: image-url('whats-new-bg.jpg');
+  padding-bottom: 66px;
+
+  #conduct-policy {
+    background: image-url('green-bubble-wide-bg.png') no-repeat;
+    padding: 26px 74px 26px 84px;
+    color: white;
+  }
+
+  p {
+    a {
+      color: #beef54;
+    }
+  }
+}
