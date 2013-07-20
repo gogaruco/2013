@@ -305,3 +305,69 @@ a.image_link {
     }
   }
 }
+
+#kick-off-party {
+  padding-top: 65px;
+  padding-bottom: 67px;
+  text-align: center;
+  background-color: #f9bf12;
+  color: #836407;
+  text-transform: uppercase;
+  font-family: 'Square721BT-RomanExtended';
+
+  strong {
+    font-family: 'Square721BT-BoldExtended';
+  }
+
+  #kick-off-party-info {
+    background-color: #d9a60e;
+    padding: 40px 0;
+    @include radius(10px);
+  }
+
+  .event-details span {
+    display: block;
+    padding-bottom: 7px;
+  }
+}
+
+#daily-sessions-header {
+  @include title-ribbon;
+  margin-top: -44px;
+}
+
+#daily-sessions {
+  background-image: image-url('grey-noise-bg.jpg');
+  text-align: center;
+  padding: 70px 0;
+}
+
+#schedule-descriptions-header {
+  @include title-ribbon;
+  margin-top: -44px;
+}
+
+#schedule-descriptions {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: image-url('speaker-bg.jpg');
+  color: white;
+  line-height: 1.6em;
+
+  .speaker-name {
+    font-size: emCalc(18px);
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Square721BT-Bold';
+    text-transform: uppercase;
+
+    a {
+      color: white;
+
+      &:hover {
+        color: #f9bf12;
+        text-decoration: none;
+      }
+    }
+  }
+}

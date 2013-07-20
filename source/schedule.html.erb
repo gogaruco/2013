@@ -1,0 +1,71 @@
+<%= partial 'page_banner', locals: {title: "Event Schedule"} %>
+
+<div id="kick-off-party">
+  <div class="row">
+    <div class="large-9 columns large-centered">
+      <div id="kick-off-party-info" class="row">
+        <div class="large-5 columns">
+          <strong><span style="font-size: 46px;">Kickoff</span><br/>
+            <span style="font-size: 59px;">Party</span></strong>
+        </div>
+        <div class="large-2 columns">
+          <%= image_tag "beer.png" %>
+        </div>
+        <div class="large-5 columns event-details">
+          <span style="font-size: 16px;">Hosted&nbsp;by&nbsp;<strong>LivingSocial</strong></span>
+          <%= image_tag "diagonal-lines.png" %>
+          <span style="font-size: 19px; padding-top: 7px;"><strong>Thursday&nbsp;|&nbsp;13&nbsp;Sep</strong></span>
+          <span style="font-size: 26px;">6:30PM&nbsp;'Til&nbsp;late</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="daily-sessions-header">
+  <h2>Daily Sessions</h2>
+</div>
+
+<div id="daily-sessions">
+  <table>
+    <tbody>
+    <tr>
+      <td>Hi there!</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="schedule-descriptions-header">
+  <h2>Descriptions</h2>
+</div>
+
+<div id="schedule-descriptions">
+  <% data.speakers.sorted.each_slice(2) do |row| %>
+      <div class="row">
+        <% row.each do |speaker| %>
+            <div class="large-6 columns">
+              <div class="large-4 columns">
+                <%= image_tag "speakers/#{speaker.slug}.jpg", class: "speaker-image" %>
+              </div>
+              <div class="large-8 columns">
+            <span class="speaker-name">
+              <a href="https://twitter.com/<%= speaker.twitter %>" class="image_link">
+                <%= image_tag 'twitter_icon.png' %>
+              </a>
+              <%= speaker.name %>
+            </span>
+                <!-- | view talk -->
+                <div class="speaker-bio">
+                  <%= speaker.bio %>
+                </div>
+              </div>
+              <div class="speaker-details"></div>
+            </div>
+        <% end %>
+      </div>
+  <% end %>
+</div>
+
+<%= partial 'sponsors' %>
+<%= partial 'robot_footer' %>
