@@ -201,7 +201,6 @@ a.image_link {
   display: none;
 }
 
-
 #team {
   h2 {
     font-family: 'Square721BT-Bold';
@@ -254,13 +253,19 @@ a.image_link {
     width: 100%;
   }
 
+  .volunteer {
+    display: inline-block;
+    width: 16.7%;
+    padding: 0 0.875em;
+  }
+
   a.volunteer-url {
     font-family: 'Square721BT-Bold';
     color: white;
     font-size: emCalc(16px);
     margin-top: 16px;
     display: block;
-    text-align:center;
+    text-align: center;
     text-transform: uppercase;
   }
 
@@ -269,7 +274,7 @@ a.image_link {
     margin-top: 13px;
     color: #6a2045;
     font-size: emCalc(15px);
-    text-align:center;
+    text-align: center;
     text-transform: uppercase;
     font-family: "AntennaCond-Regular";
   }
