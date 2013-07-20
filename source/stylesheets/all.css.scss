@@ -130,8 +130,6 @@ a.image_link {
   }
 }
 
-
-
 #sponsors-heading {
   @include title-ribbon;
   margin-top: -44px;
@@ -340,6 +338,93 @@ a.image_link {
   background-image: image-url('grey-noise-bg.jpg');
   text-align: center;
   padding: 70px 0;
+
+  table {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border-spacing: 3px;
+    border-collapse: separate;
+
+    strong {
+      font-family: 'Antenna-Bold';
+    }
+
+    td, th {
+      padding: 25px;
+    }
+
+    td:nth-child(1), th:nth-child(1) {
+      background-color: #a9a9a9;
+      text-align: center;
+    }
+
+    thead {
+      text-transform: uppercase;
+      font-size: emCalc(25px);
+
+      th {
+        margin: 4px;
+        font-family: 'Antenna-Bold';
+        background-color: #1f1f1f;
+        color: white;
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          background-color: #e4e4e4;
+        }
+        &:nth-child(even) {
+          background-color: #dbdbdb;
+        }
+        &.food {
+          .name {
+            color: #ffffff;
+          }
+
+          .speaker, .note {
+            color: #005057;
+          }
+
+          .byline {
+            color: #e5e5e5;
+          }
+
+          background-color: #00adbb;
+          td {
+            background-color: #00adbb;
+          }
+        }
+
+        &.other {
+          background-color: #a9a9a9;
+
+          .name {
+            color: #ffffff;
+          }
+
+        }
+
+        .name {
+          font-size: emCalc(20px);
+          color: #009ba8;
+          font-family: 'Square721BT-Bold';
+        }
+
+        .speaker, .note {
+          color: #595959;
+          font-size: emCalc(16px);
+        }
+
+        .byline {
+          color: #a2a2a2;
+          font-size: emCalc(16px);
+        }
+      }
+    }
+  }
 }
 
 #schedule-descriptions-header {
