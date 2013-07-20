@@ -9,6 +9,7 @@ header {
   ul {
     font-family: "AntennaCond-Regular";
     margin-top: -35px;
+
     img {
       margin-top: 35px;
     }
@@ -58,6 +59,11 @@ header, footer {
       &:hover {
         color: #E3E2E3;
       }
+
+      &:active {
+        color: #5e5e5e;
+      }
+
     }
   }
 }
