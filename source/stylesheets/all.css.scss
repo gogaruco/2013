@@ -439,10 +439,14 @@ a.image_link {
   color: white;
   line-height: 1.6em;
 
-  .speaker-name {
+  img {
+    border: 3px solid white;
+  }
+
+  .talk-title {
     font-size: emCalc(18px);
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     font-family: 'Square721BT-Bold';
     text-transform: uppercase;
 
@@ -454,5 +458,13 @@ a.image_link {
         text-decoration: none;
       }
     }
+  }
+
+  .speaker-name {
+    color: #75234e;
+    font-family: 'AntennaCond-Regular';
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
   }
 }
