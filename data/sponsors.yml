@@ -7,6 +7,14 @@ diamond:
       <a href="http://www.newrelic.com">New Relic</a> is on a mission to create a better web and mobile experience for
       everyone by making apps faster and more reliable. With over 50,000 active accounts and 90 billion metrics
       captured each day, they help make the web and your mobile apps a faster place.
+  - name: Bloomberg
+    link: http://bloomberg.com
+    logo: bloomberg.png
+    text: >
+      Bloomberg, the global business and financial information and news leader, gives influential decision makers 
+      a critical edge by connecting them to a dynamic network of information, people and ideas. The company’s strength 
+      - delivering data, news and analytics through innovative technology, quickly and accurately to more than 315,000 
+      subscribers globally.
 platinum:
   - name: Tilde
     link: http://www.tilde.io/
