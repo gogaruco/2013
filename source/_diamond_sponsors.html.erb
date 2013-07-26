@@ -5,7 +5,7 @@
   <div class="row">
     <% data.sponsors.diamond.each_slice(4) do |sponsors| %>
         <% sponsors.each do |sponsor| %>
-            <div class="large-3 columns large-centered">
+            <div class="large-3 columns">
               <a href="<%= sponsor.link %>">
                 <div class="sponsor-image">
                   <%= image_tag "sponsors/#{sponsor.logo}" %>
