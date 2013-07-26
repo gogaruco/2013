@@ -60,11 +60,10 @@ platinum:
     link: http://www.sharethrough.com/
     logo: sharethrough.png
     text: >
-      Interruption and irrelevance, that’s what comes to mind when we think of online advertising -- so we’re fixing it. 
-      Content quality assessment, contextual relevance and user-centric recommendations are just some of the challenges we’re 
-      tackling on the way to improving advertising for everyone.  Come chat with a Sharethrough engineer at GoGaRuCo if you 
-      want some cool swag and to hear about the challenges of building distributed systems, what its like writing production 
-      Scala alongside Rails, and the latest techniques in machine learning and data analysis.
+      Interruption and irrelevance, that’s what comes to mind when we think of online advertising - so we’re fixing it. 
+      Come chat with a Sharethrough engineer at GoGaRuCo if you want some cool swag and to hear about the challenges of 
+      building distributed systems, what its like writing production Scala alongside Rails, and the latest techniques in 
+      machine learning and data analysis.
   - name: Rackspace
     link: http://developer.rackspace.com
     logo: rackspace.png
