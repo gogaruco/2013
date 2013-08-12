@@ -105,10 +105,9 @@ gold:
     link: http://www.wyeworks.com/
     logo: wyeworks.png
     text: >
-      <a href="www.wyeworks.com">WyeWorks</a> is the best way to expand your Rails team. We integrate seamlessly with 
-      your people as if we were part of the same company. Our full stack developers specialize in Ruby on Rails. We are Agile. 
-      We use Scrum. We communicate the progress every day. Quality is taken seriously. We do constant code reviews, pair programming 
-      and test-driven development. We also give back to the community investing in Rails development.
+      <a href="www.wyeworks.com">WyeWorks</a> is the best way to expand your Rails team. We act just like we're part of 
+      your company. We're Agile, use Scrum and communicate progress every day. We take quality seriously as we do constant 
+      code reviews, pair programming and TDD. We also invest in the development of Rails itself.
   - name: Wanelo
     link: http://wanelo.com/
     logo: wanelo.png
