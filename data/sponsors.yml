@@ -87,11 +87,6 @@ platinum:
       We don't just make web apps - we solve problems. At Intridea we write intelligently designed software to help businesses 
       develop strategic solutions and launch new ideas. Armed with the brightest engineers and designers and positioned at the 
       forefront of the technological ethos, we help businesses disrupt industries.
-  - name: Engine Yard
-    link: http://www.engineyard.com
-    logo: engineyard.png
-    text: >
-      Coming Soon!
   - name: Lumosity
     link: http://www.lumosity.com/
     logo: lumosity.png
@@ -100,6 +95,16 @@ platinum:
       human brain to give each person the power to unlock their full potential. Lumosity's online and mobile programs 
       train core cognitive abilities such as memory and attention. Launched in 2007, Lumosity now has more than 40 games, 
       40 million members, and paying subscribers from 180 countries.
+  - name: Engine Yard
+    link: http://www.engineyard.com
+    logo: engineyard.png
+    text: >
+      Coming Soon!
+  - name: Blue Box
+    link: http://www.bluebox.net
+    logo: bluebox.png
+    text: >
+      Coming Soon!
 gold:
   - name: WyeWorks
     link: http://www.wyeworks.com/
