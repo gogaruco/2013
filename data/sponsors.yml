@@ -121,3 +121,13 @@ gold:
       <a href="http://wanelo.com">Wanelo</a> is an online community for all the world’s shopping. It brings together all 
       stores, products and people into a single social platform. Wanelo is the only online community 100% focused on products.
 silver:
+  - name: StickerMule
+    link: http://www.stickermule.com
+    logo: stickermule.png
+    text: >
+      Coming Soon!
+  - name: fromAtoB
+    link: http://www.fromatob.com
+    logo: fromatob.png
+    text: >
+      Coming Soon!
