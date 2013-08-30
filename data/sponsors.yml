@@ -121,6 +121,14 @@ gold:
     text: >
       <a href="http://wanelo.com">Wanelo</a> is an online community for all the world’s shopping. It brings together all 
       stores, products and people into a single social platform. Wanelo is the only online community 100% focused on products.
+  - name: ModCloth
+    link: http://www.modcloth.com/about_us  
+    logo: modcloth.png
+    text: >
+      <a href="http://www.modcloth.com/about_us">ModCloth</a> is a rip-roaringly innovative, rapidly growing e-tailer of 
+      vintage-inspired fashion and decor that’s out to shake up the way fashion is discovered, developed, and delivered. 
+      Through groundbreaking technology and press-recognized social media, we are creating a user-empowering platform that’s 
+      redefining the face of social commerce.
 silver:
   - name: StickerMule
     link: http://www.stickermule.com
