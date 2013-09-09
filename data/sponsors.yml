@@ -23,7 +23,6 @@ diamond:
       Where the world's best companies compete for you. Get 5 to 15+ job offers with salary details up-front BEFORE 
       you interview from our exclusive network of over 600 top tech companies during a 1-week auction. Take the next 
       step forward in your career on your terms.
-platinum:
   - name: Tilde
     link: http://www.tilde.io/
     logo: tilde.png
@@ -32,6 +31,7 @@ platinum:
       alumni and current leaders of projects like Ruby on Rails, jQuery, and most recently,
       <a href="http://www.emberjs.com">Ember</a>. We provide training and consulting services while contributing
       funds and resources back into building and maintaining the vibrant open source communities we love.
+platinum:
   - name: Carbon Five
     link: http://www.carbonfive.com/
     logo: carbon_five.png
@@ -103,17 +103,22 @@ platinum:
       human brain to give each person the power to unlock their full potential. Lumosity's online and mobile programs 
       train core cognitive abilities such as memory and attention. Launched in 2007, Lumosity now has more than 40 games, 
       40 million members, and paying subscribers from 180 countries.
-  - name: Engine Yard
-    link: http://www.engineyard.com
-    logo: engineyard.png
-    text: >
-      Coming Soon!
   - name: Blue Box
     link: http://www.bluebox.net
     logo: bluebox.png
     text: >
       Blue Box delivers tailored managed and cloud hosting solutions that support powerful apps. Our Operations as a Service 
       expertise, from migrations to 24x7 support, lets businesses focus on innovation.
+  - name: Engine Yard
+    link: http://www.engineyard.com
+    logo: engineyard.png
+    text: >
+      Coming Soon!
+  - name: Yammer
+    link: http://www.yammer.com
+    logo: yammer.png
+    text: >
+      Coming Soon!
 gold:
   - name: WyeWorks
     link: http://www.wyeworks.com/
