@@ -109,14 +109,16 @@ platinum:
     text: >
       Blue Box delivers tailored managed and cloud hosting solutions that support powerful apps. Our Operations as a Service 
       expertise, from migrations to 24x7 support, lets businesses focus on innovation.
-  - name: Engine Yard
-    link: http://www.engineyard.com
-    logo: engineyard.png
-    text: >
-      Coming Soon!
   - name: Yammer
     link: http://www.yammer.com
     logo: yammer.png
+    text: >
+      Yammer is an Enterprise Social Network that enables organizations to make transformative changes quickly by empowering 
+      employees to collaborate across departments, geographies, content and business applications. More than 5 million users, 
+      including employees from 85 percent of the Fortune 500, have adopted Yammer’s Software-as-a-Service solution.
+  - name: Engine Yard
+    link: http://www.engineyard.com
+    logo: engineyard.png
     text: >
       Coming Soon!
 gold:
