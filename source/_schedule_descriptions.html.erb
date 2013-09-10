@@ -1,0 +1,24 @@
+<div id="schedule-descriptions-header">
+  <h2>Descriptions</h2>
+</div>
+<div id="schedule-descriptions">
+  <% data.schedule.sorted.each_slice(2) do |row| %>
+    <div class="row">
+      <% row.each do |session| %>
+        <div class="large-6 columns" id="<%= session.speakers.first %>">
+          <div class="large-10 columns">
+            <span class="talk-title">
+              <%= session.title %>
+            </span>
+            <span class="speaker-name">
+              <%= partial "speaker_links", locals: { speakers: session.speakers } %>
+            </span>
+            <span class="speaker-details">
+              <%= session.description %>
+            </span>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

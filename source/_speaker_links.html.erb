@@ -1,0 +1,1 @@
+<%= speakers.collect {|name| spk = data.speakers.roster[name]; %Q[<a href="/speakers.html##{spk.slug}">#{spk.name}</a>] }.compact.join(", ") %>

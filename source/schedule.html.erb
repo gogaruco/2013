@@ -31,104 +31,93 @@
     <div class="large-12 columns">
       <table>
         <thead>
-        <tr>
-          <th>Time</th>
-          <th>Friday, Sep 14<sup>th</sup></th>
-          <th>Saturday, Sep 15<sup>th</sup></th>
-        </tr>
+          <tr>
+            <th class="cell-head">Time</th>
+            <th class="cell-main">Friday, Sep 20<sup>th</sup></th>
+            <th class="cell-main">Saturday, Sep 21<sup>st</sup></th>
+          </tr>
         </thead>
         <tbody>
-        <tr class="food">
-          <td>8:30-9:30am</td>
-          <td>
-            <span class="name">Registration and Continental Breakfast</span><br/><span class="byline">Presented by </span><span class="note">New Relic</span>
-          </td>
-          <td>
-            <span class="name">Registration and Continental Breakfast</span><br/><span class="byline">Presented by </span><span class="note">New Relic</span>
-          </td>
-        </tr>
-        <tr class="other">
-          <td>9:30-9:45am</td>
-          <td><span class="name">Announcements & Party Recovery</span></td>
-          <td><span class="name">Announcements & Party Recovery</span></td>
-        </tr>
-        <tr>
-          <td>9:45-10:15am</td>
-          <td><span class="name">People Patterns</span><br/><span class="byline">by </span><span class="speaker">Joe O'Brien</span>
-          </td>
-          <td>
-            <span class="name">Code for Joy</span><br/><span class="byline">by </span><span class="speaker">Avdi Grimm</span>
-          </td>
-        </tr>
-        <tr>
-          <td>10:30-11:00am</td>
-          <td><span class="name">People Patterns</span><br/><span class="byline">by </span><span class="speaker">Joe O'Brien</span>
-          </td>
-          <td>
-            <span class="name">Code for Joy</span><br/><span class="byline">by </span><span class="speaker">Avdi Grimm</span>
-          </td>
-        </tr>
-        <tr>
-          <td>11:15-11:45am</td>
-          <td><span class="name">People Patterns</span><br/><span class="byline">by </span><span class="speaker">Joe O'Brien</span>
-          </td>
-          <td>
-            <span class="name">Code for Joy</span><br/><span class="byline">by </span><span class="speaker">Avdi Grimm</span>
-          </td>
-        </tr>
-        <tr class="food">
-          <td>11:15-11:45am</td>
-          <td><span class="name">Lunch</span></td>
-          <td><span class="name">Lunch</span></td>
-        </tr>
+          <tr class="food">
+            <td>8:30 - 9:45am</td>
+            <td>
+              <span class="name">Registration &amp; Continental Breakfast</span>
+              <br/>
+              <span class="byline">Presented by </span><span class="note">New Relic</span>
+            </td>
+            <td>
+              <span class="name">Continental Breakfast</span>
+              <br/>
+              <span class="byline">Presented by </span><span class="note">New Relic</span>
+            </td>
+          </tr>
+          <tr class="other">
+            <td>9:45 - 10:00am</td>
+            <td><span class="name">Welcome &amp; Announcements</span></td>
+            <td><span class="name">Announcements &amp; Party Recovery</span></td>
+          </tr>
+          <tr>
+            <td>10:00 - 10:30am</td>
+            <td><%= partial "session_in_grid", locals: {session: "saffron"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "orenstein"} %></td>
+          </tr>
+          <tr>
+            <td>10:45 - 11:15am</td>
+            <td><%= partial "session_in_grid", locals: {session: "gibbs"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "mei"} %></td>
+          </tr>
+          <tr>
+            <td>11:30 - 12:00pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "hunt"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "stuart"} %></td>
+          </tr>
+          <tr class="food">
+            <td>12:00 - 1:30pm</td>
+            <td><span class="name">Lunch</span></td>
+            <td><span class="name">Lunch</span></td>
+          </tr>
+          <tr>
+            <td>1:30 - 2:00pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "hammerly"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "evans"} %></td>
+          </tr>
+          <tr>
+            <td>2:15 - 2:45pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "dalessio"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "stolfo"} %></td>
+          </tr>
+          <tr>
+            <td>3:00 - 3:30pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "gray"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "saleh"} %></td>
+          </tr>
+          <tr class="food">
+            <td>3:30 - 4:00pm</td>
+            <td><span class="name">Snack Break</span></td>
+            <td><span class="name">Snack Break</span></td>
+          </tr>
+          <tr>
+            <td>4:00 - 4:30pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "katz"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "storytime"} %></td>
+          </tr>
+          <tr>
+            <td>4:45 - 5:15pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "wilkinson"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "klabnik"} %></td>
+          </tr>
+          <tr>
+            <td>5:30 - 6:00pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "harms"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "davis"} %></td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 </div>
 
-<div id="schedule-descriptions-header">
-  <h2>Descriptions</h2>
-</div>
 
-<div id="schedule-descriptions">
-  <div class="row">
-    <div class="large-6 columns">
-      <div class="large-4 columns">
-        <%= image_tag "speakers/hammerly.jpg", class: "speaker-image" %>
-      </div>
-      <div class="large-8 columns">
-        <span class="talk-title">
-          High Performance Ruby
-        </span>
-        <span class="speaker-name">
-          Charles Nutter
-        </span>
-        <span class="speaker-details">
-          For years, the JVM has been the runtime to beat when it comes to runtime optimization and garbage collector performance. While statically-typed languages built atop the JVM have been able to leverage those capabilities, dynamic languages have often had a more difficult time. But the times they are a'changing.
-          Java 7 brings to the JVM a new and powerful feature called invokedynamic. With invokedynamic, dynamic languages no longer have an automatic performance penalty. The optimizations that make Java and other statically-typed JVM languages run fast now apply to dynamic languages just as well. Imagine a world where Ruby runs as fast as Java, with nearly zero GC overhead, true parallel threads, massive heap sizes, and rock-solid stability. That's the potential of invokedynamic, the JVM, and JRuby, and I'm going to show you how it all fits together.
-        </span>
-      </div>
-    </div>
-    <div class="large-6 columns">
-      <div class="large-4 columns">
-        <%= image_tag "speakers/katz.jpg", class: "speaker-image" %>
-      </div>
-      <div class="large-8 columns">
-        <span class="talk-title">
-          CRUFT AND TECHNICAL DEBT: A LONG VIEW
-        </span>
-        <span class="speaker-name">
-            YEHUDA KATZ
-        </span>
-        <span class="speaker-details">
-            Cruft is inevitable. Whether you're working around a bug in Internet Explorer, Heroku or Ruby 1.8, our libraries and applications quickly diverge from the platonic ideal of software. In the short-term, there's no point in fretting. Rather than an indication of a development process gone awry, the technical debt merely reflects the messy reality of the surrounding ecosystem that our code lives in.
-            For projects that last for years, though, this can lead to a resistance to re-evaluating the original assumptions that introduced the cruft to begin with. In this talk, I will give some examples of good and bad attempts to deal with this issue in the world of open source, and make some suggestions for how you can make your projects, both open-source and proprietary, more able to cope with the slow but steady long-term shifts that surround our projects.
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
 
 <%= partial 'sponsors' %>
 <%= partial 'robot_footer' %>

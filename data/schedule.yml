@@ -1,0 +1,159 @@
+---
+sessions:
+  dalessio: &dalessio
+    speakers: [ dalessio ]
+    title: "Nokogiri: History, Present, and Future"
+    description: >
+      Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 12 million
+      downloads from rubygems.org. But why another XML parsing library? Isn't it boring? And what does "nokogiri" mean in
+      Japanese, anyway? These questions will be answered, and I'll do a brief dive into all the technologies that we use
+      to make Nokogiri a fast, reliable and robust gem.
+  davis: &davis
+    speakers: [ davis ]
+    title: "Let's Write an Interpreter!"
+    description: >
+      Let's dive into one of the the deep ends of CS and implement a turing-complete interpreter in just 30 minutes using
+      ruby, ruby_parser, sexp_processor, and a minor amount of elbow grease.
+  evans: &evans
+    speakers: [ evans ]
+    title: Ruby On Robots Using Artoo
+    description: >
+      The robotics revolution has already begun. You can buy drones and robotic devices at local retail stores.
+      Unfortunately, it’s hard to develop code for robots, and nearly impossible to create solutions that integrate
+      multiple different kind of devices. Introducing Artoo, a new robotics framework written in Ruby. Artoo can
+      communicate with many different kinds of hardware devices, and integrate them together. With surprisingly few lines
+      of code, you can write interesting applications that tie together Arduinos, ARDrones, Spheros, and more&hellip; even
+      all at the same time! The time has come for Ruby-based robotics, and Artoo can help lead the way!
+  gibbs: &gibbs
+    speakers: [ gibbs ]
+    title: The Littlest ORM
+    description: >
+      Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an
+      application and tests! Ruby makes it surprisingly easy. We'll go over all the code in 30 minutes. There will be a
+      GitHub link so you don't have to type furiously.
+  gray: &gray
+    speakers: [ gray ]
+    title: Built to Program
+    description: >
+      James Edward Gray II has been programming long enough to learn a thing or two about how this computer stuff actually
+      works. Nobody cares about that. Seriously, that's not the most common thing people ask him about. Instead, they
+      often come with questions about why James tools around in an eletric wheelchair. Were legs just not hackable enough
+      for his taste? Does he have a Charles Xavier complex? Does he not eat enough beta-carotene? James is ready to answer
+      all of these questions. He believes the answers might even be just a little related to programming. Don't be
+      surprised if you find yourself wishing for some neuromuscular disease of your very own. (Note: live genetic
+      engineering is a violation of GoGaRuCo's insurance policy, but James can teach you how to fake a disability for the
+      purposes of gaining deeper insight into code&mdash;allowable due to the Reprogrammed Humans for the Greater Good Act
+      of 2442.)
+  hammerly: &hammerly
+    speakers: [ hammerly ]
+    title: "Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
+    description: >
+      Data is a hot buzz word in the industry. Every day there are more startups with "Big Data" somewhere in their
+      elevator pitch. There are dozens of devices to record how we sleep, what we eat, how much we exercise, even how
+      often we breathe. Every action we take online generates data that is stored and analyzed. Understanding all this
+      data can be difficult. Humans aren't designed to see patterns in thousands of lines of json or XML. We are good at
+      seeing patterns in pictures, graphs, diagrams, and spots in the underbrush. Often a simple visualization is what you
+      need to understand a problem. In this talk, I'll demonstrate tools that you can use to quickly generate
+      "back-of-the-envelope" visualizations from a variety of data sets.
+  harms: &harms
+    speakers: [ harms ]
+    title: "Being Human: A Collaborative Approach to Making"
+    description: >
+      Hey, nerds. How good are you at real collaboration? I don't mean cooperation, where everyone's doing their part. A
+      collaborative solution is more than the sum of those parts. And I don't mean choosing the best idea among the
+      competitors. Collaboration lets us create new ideas that none of us could have come up with on our own. Let's talk
+      about what gets in the way of that kind of juice. Open up, make mistakes, learn, grow, and watch what emerges when
+      we collaborate.
+  hunt: &hunt
+    speakers: [ hunt ]
+    title: Solving The Rubik's Cube in 20 Seconds
+    description: >
+      Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an insane
+      amount of live demonstration to learn how to solve the Rubik's Cube in less than 20 seconds. You will leave this
+      talk knowing which cube to buy, which of the five most popular solving methods you should be learning, how to
+      practice for speed, where to ask questions, and how Ruby can help teach you to be the fastest speedcuber in town.
+      People are solving the Rubik's Cube quicker today than any time in history and there's a reason why.
+  katz: &katz
+    speakers: [ katz ]
+    title: A tale of two MVCs
+    description: >
+      COMING SOON
+  klabnik: &klabnik
+    speakers: [ klabnik ]
+    title: No Secrets Allowed
+    description: >
+      COMING SOON
+  mei: &mei
+    speakers: [ mei ]
+    title: Why hasn't Ruby won?
+    description: >
+      <p>For every enthusiastic attendee at a Ruby conference, there are a hundred people who have tried Ruby and walked
+      away. There's also at least one person who's hit the top of Hacker News complaining about it. Are missing features
+      or poor performance chasing people off? Is the community too international, or not responsive enough on GitHub?
+      Maybe the problem is the ones who walk away &mdash; the inexperienced masses, poisoned by Flash, Visual Basic and
+      PHP.</p>
+      <p>Languages and frameworks are interesting things. When you're choosing one, it's important to consider social
+      information about your team &mdash; and the project you're evaluating &mdash; before making a decision. But while
+      every README has bullet points listing the project's technical features, it's much more challenging to identify and
+      extract the right social data to help that evaluation process.</p>
+      <p>Let's bring this missing information into the light and look at social data from real teams, real projects and
+      real extracted code. We'll make better decisions. We'll understand why Hacker News exists. Everyone wins! And you
+      still don't have to do Flash.</p>
+  orenstein: &orenstein
+    speakers: [ orenstein ]
+    title: Frequently Asked Questions
+    description: >
+      COMING SOON
+  saffron: &saffron
+    speakers: [ saffron, atwood ]
+    title: Measuring Ruby
+    description: >
+      This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of tools:
+      from Sam Saffron's own <a href="http://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler">Flame
+      Graphs and MiniProfiler</a>, to <a href="https://github.com/tmm1/rblineprof">rb-lineprof</a>, and <a
+      href="https://github.com/ruby/ruby/commit/7453c53b08655e9d17c0419716ffad1c41663b6d#test">recent MRI commits</a> that
+      provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly technical.
+  saleh: &saleh
+    speakers: [ saleh ]
+    title: "Social Beasts: Patterns of User Organization"
+    description: >
+      COMING SOON
+  stolfo: &stolfo
+    speakers: [ stolfo ]
+    title: Thread Safety First
+    description: >
+      COMING SOON
+  stuart: &stuart
+    speakers: [ stuart ]
+    title: Impossible Programs
+    description: >
+      COMING SOON
+  wilkinson: &wilkinson
+    speakers: [ wilkinson, zacharakis ]
+    title: SOA without the tears
+    description: >
+      COMING SOON
+  storytime: &storytime
+    speakers: []
+    title: Afternoon Storytime
+    description: >
+      COMING SOON
+sorted:
+  - *saffron
+  - *orenstein
+  - *gibbs
+  - *mei
+  - *hunt
+  - *stuart
+  - *hammerly
+  - *evans
+  - *dalessio
+  - *stolfo
+  - *gray
+  - *saleh
+  - *katz
+  - *storytime
+  - *wilkinson
+  - *klabnik
+  - *harms
+  - *davis

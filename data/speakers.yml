@@ -66,10 +66,9 @@ roster:
     name: Emily Stolfo
     twitter: EmStolfo
     bio: >
-      Emily is a Ruby Engineer on the MongoDB drivers team at 10gen where she co-maintains the mongo and
-      bson gems. Before joining 10gen, Emily was a Rails developer in NYC. She has a degree in Computer
-      Science and Museums and likes to run and practice archery when not teaching Rails at Columbia
-      University in her free time.
+      Emily is a software engineer at MongoDB where she co-maintains the Ruby driver and aids in Ruby
+      community development. She previously worked as a Rails developer in NYC and at the Louvre Museum.
+      She likes running and teaching Rails at Columbia University in her free time.
   dalessio: &dalessio
     slug: dalessio
     name: Mike Dalessio
