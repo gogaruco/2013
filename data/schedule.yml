@@ -4,75 +4,84 @@ sessions:
     speakers: [ dalessio ]
     title: "Nokogiri: History, Present, and Future"
     description: >
-      Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 12 million
+      <p>Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 12 million
       downloads from rubygems.org. But why another XML parsing library? Isn't it boring? And what does "nokogiri" mean in
-      Japanese, anyway? These questions will be answered, and I'll do a brief dive into all the technologies that we use
-      to make Nokogiri a fast, reliable and robust gem.
+      Japanese, anyway?</p>
+      <p>These questions will be answered, and I'll do a brief dive into all the technologies that we use to make Nokogiri
+      a fast, reliable and robust gem. Topics will include:</p>
+      <ul>
+      <li>Origins of the project: motivation, problems and impact</li>
+      <li>Native C and Java extensions</li>
+      <li>FFI, and how to know if it's Right For You</li>
+      <li>Debugging tools (valgrind, perftools)</li>
+      <li>Packaging tools (mini_portile, rake-compiler)</li>
+      <li>Installation issues, and what we're doing to help</li>
+      </ul>
   davis: &davis
     speakers: [ davis ]
     title: "Let's Write an Interpreter!"
     description: >
-      Let's dive into one of the the deep ends of CS and implement a turing-complete interpreter in just 30 minutes using
-      ruby, ruby_parser, sexp_processor, and a minor amount of elbow grease.
+      <p>Let's dive into one of the the deep ends of CS and implement a turing-complete interpreter in just 30 minutes
+      using ruby, ruby_parser, sexp_processor, and a minor amount of elbow grease.</p>
   evans: &evans
     speakers: [ evans ]
     title: Ruby On Robots Using Artoo
     description: >
-      The robotics revolution has already begun. You can buy drones and robotic devices at local retail stores.
+      <p>The robotics revolution has already begun. You can buy drones and robotic devices at local retail stores.
       Unfortunately, it’s hard to develop code for robots, and nearly impossible to create solutions that integrate
       multiple different kind of devices. Introducing Artoo, a new robotics framework written in Ruby. Artoo can
       communicate with many different kinds of hardware devices, and integrate them together. With surprisingly few lines
       of code, you can write interesting applications that tie together Arduinos, ARDrones, Spheros, and more&hellip; even
-      all at the same time! The time has come for Ruby-based robotics, and Artoo can help lead the way!
+      all at the same time! The time has come for Ruby-based robotics, and Artoo can help lead the way!</p>
   gibbs: &gibbs
     speakers: [ gibbs ]
     title: The Littlest ORM
     description: >
-      Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an
+      <p>Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an
       application and tests! Ruby makes it surprisingly easy. We'll go over all the code in 30 minutes. There will be a
-      GitHub link so you don't have to type furiously.
+      GitHub link so you don't have to type furiously.</p>
   gray: &gray
     speakers: [ gray ]
     title: Built to Program
     description: >
-      James Edward Gray II has been programming long enough to learn a thing or two about how this computer stuff actually
-      works. Nobody cares about that. Seriously, that's not the most common thing people ask him about. Instead, they
-      often come with questions about why James tools around in an eletric wheelchair. Were legs just not hackable enough
-      for his taste? Does he have a Charles Xavier complex? Does he not eat enough beta-carotene? James is ready to answer
-      all of these questions. He believes the answers might even be just a little related to programming. Don't be
+      <p>James Edward Gray II has been programming long enough to learn a thing or two about how this computer stuff
+      actually works. Nobody cares about that. Seriously, that's not the most common thing people ask him about. Instead,
+      they often come with questions about why James tools around in an eletric wheelchair. Were legs just not hackable
+      enough for his taste? Does he have a Charles Xavier complex? Does he not eat enough beta-carotene? James is ready to
+      answer all of these questions. He believes the answers might even be just a little related to programming. Don't be
       surprised if you find yourself wishing for some neuromuscular disease of your very own. (Note: live genetic
       engineering is a violation of GoGaRuCo's insurance policy, but James can teach you how to fake a disability for the
       purposes of gaining deeper insight into code&mdash;allowable due to the Reprogrammed Humans for the Greater Good Act
-      of 2442.)
+      of 2442.)</p>
   hammerly: &hammerly
     speakers: [ hammerly ]
     title: "Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
     description: >
-      Data is a hot buzz word in the industry. Every day there are more startups with "Big Data" somewhere in their
+      <p>Data is a hot buzz word in the industry. Every day there are more startups with "Big Data" somewhere in their
       elevator pitch. There are dozens of devices to record how we sleep, what we eat, how much we exercise, even how
       often we breathe. Every action we take online generates data that is stored and analyzed. Understanding all this
       data can be difficult. Humans aren't designed to see patterns in thousands of lines of json or XML. We are good at
       seeing patterns in pictures, graphs, diagrams, and spots in the underbrush. Often a simple visualization is what you
       need to understand a problem. In this talk, I'll demonstrate tools that you can use to quickly generate
-      "back-of-the-envelope" visualizations from a variety of data sets.
+      "back-of-the-envelope" visualizations from a variety of data sets.</p>
   harms: &harms
     speakers: [ harms ]
     title: "Being Human: A Collaborative Approach to Making"
     description: >
-      Hey, nerds. How good are you at real collaboration? I don't mean cooperation, where everyone's doing their part. A
-      collaborative solution is more than the sum of those parts. And I don't mean choosing the best idea among the
+      <p>Hey, nerds. How good are you at real collaboration? I don't mean cooperation, where everyone's doing their part.
+      A collaborative solution is more than the sum of those parts. And I don't mean choosing the best idea among the
       competitors. Collaboration lets us create new ideas that none of us could have come up with on our own. Let's talk
       about what gets in the way of that kind of juice. Open up, make mistakes, learn, grow, and watch what emerges when
-      we collaborate.
+      we collaborate.</p>
   hunt: &hunt
     speakers: [ hunt ]
     title: Solving The Rubik's Cube in 20 Seconds
     description: >
-      Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an insane
-      amount of live demonstration to learn how to solve the Rubik's Cube in less than 20 seconds. You will leave this
-      talk knowing which cube to buy, which of the five most popular solving methods you should be learning, how to
+      <p>Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an
+      insane amount of live demonstration to learn how to solve the Rubik's Cube in less than 20 seconds. You will leave
+      this talk knowing which cube to buy, which of the five most popular solving methods you should be learning, how to
       practice for speed, where to ask questions, and how Ruby can help teach you to be the fastest speedcuber in town.
-      People are solving the Rubik's Cube quicker today than any time in history and there's a reason why.
+      People are solving the Rubik's Cube quicker today than any time in history and there's a reason why.</p>
   katz: &katz
     speakers: [ katz ]
     title: A tale of two MVCs
@@ -82,7 +91,10 @@ sessions:
     speakers: [ klabnik ]
     title: No Secrets Allowed
     description: >
-      COMING SOON
+      <p>If there's anything that recent events have shown us, it's that what we thought was secret actually isn't. So
+      what to do? Even if you're not a dissident, many of our applications need some form of private communications. And
+      why aren't RubyGems signed, anyway? In this talk, Steve will discuss some of the basic tools, theory, and techniques
+      that you can use to help keep secrets secret.</p>
   mei: &mei
     speakers: [ mei ]
     title: Why hasn't Ruby won?
@@ -103,36 +115,78 @@ sessions:
     speakers: [ orenstein ]
     title: Frequently Asked Questions
     description: >
-      COMING SOON
+      <p>As a mentor for thoughtbot's Prime service, I've provided coaching to over 100 developers. In my talk, I'll share
+      the questions I'm asked repeatedly, and how I answer them. This discussion will be targeted at beginner and
+      intermediate developers striving to improve.</p>
+      <p>Likely discussion includes:</p>
+      <ul>
+      <li>What should I do if I inherit an app with no tests?</li>
+      <li>Any advice on how to switch to vim?</li>
+      <li>How does one land her first Rails job?</li>
+      <li>How does one land a <em>better</em> Rails job?</li>
+      <li>How do I conquer the fear of others seeing my code?</li>
+      <li>Am I underpaid?</li>
+      <li>How do I balance integration and isolated tests?</li>
+      <li>How can I stick to TDD when the going gets tough?</li>
+      </ul>
+      <p>Plus, because it's me, we're gonna do some live coding. Take bad code. Make good. Happy times.</p>
   saffron: &saffron
     speakers: [ saffron, atwood ]
     title: Measuring Ruby
     description: >
-      This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of tools:
-      from Sam Saffron's own <a href="http://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler">Flame
-      Graphs and MiniProfiler</a>, to <a href="https://github.com/tmm1/rblineprof">rb-lineprof</a>, and <a
+      <p>This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of
+      tools: from Sam Saffron's own
+      <a href="http://samsaffron.com/archive/2013/03/19/flame-graphs-in-ruby-miniprofiler">Flame Graphs and
+      MiniProfiler</a>, to <a href="https://github.com/tmm1/rblineprof">rb-lineprof</a>, and <a
       href="https://github.com/ruby/ruby/commit/7453c53b08655e9d17c0419716ffad1c41663b6d#test">recent MRI commits</a> that
-      provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly technical.
+      provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly
+      technical.</p>
   saleh: &saleh
     speakers: [ saleh ]
     title: "Social Beasts: Patterns of User Organization"
     description: >
-      COMING SOON
+      <p>The User is the god class among almost all Rails applications, but exactly how users are allowed to organize
+      themselves is often left as an implementation detail. The best products take user management seriously, spending
+      much time and energy considering the implications of how users will behave, and what types of groups they’ll need to
+      form.</p> <p>We’ll look at the gamut of patterns for user organization, including companies, organizations, teams
+      and identities. We’ll focus on how to implement these patterns in Rails, and on when each pattern is appropriate
+      from a product point of view.</p>
   stolfo: &stolfo
     speakers: [ stolfo ]
     title: Thread Safety First
     description: >
-      COMING SOON
+      <p>Concurrency in Ruby is hard and our thread-unsafe code often works by accident. We are not used to thinking about
+      concurrency because of the GVL but there are different implementations of Ruby with their own semantics that can
+      unearth concurrency bugs. We have to get more accustomed to writing threadsafe code and understanding concurrency,
+      especially with the rise in popularity of JRuby.</p>
+      <p>I will discuss approaches to writing threadsafe code in this talk, with a specific focus on performance
+      considerations. I'll start with explaining some basic concurrency concepts, describe methods for handling shared
+      mutable data, and touch on the subtleties of concurrency primitives (Queue, ConditionVariable, Mutex). Historical,
+      squashed, hair-raising bugs in the Ruby driver to MongoDB will be used throughout the presentation to illustrate
+      particular concurrency issues and techniques for solving them.</p>
   stuart: &stuart
     speakers: [ stuart ]
     title: Impossible Programs
     description: >
-      COMING SOON
+      <p>Every aspect of our lives has been transformed by the invention of general-purpose programmable computers. As a
+      result, it's tempting to believe that computers can solve any logical or mathematical problem; that if we throw
+      enough time, money and nerds at a question, we can produce a program which answers it.</p>
+      <p>Unfortunately the universe is never that convenient. There are hard theoretical limits on what programs are
+      capable of doing, and there will always be straightforward problems which are impossible for any computer to
+      solve.</p>
+      <p>This talk uses Ruby to tell a nail-biting, math-free story about the source of a computer's power, the inevitable
+      drawbacks of that power, and the impossible programs which lie at the heart of uncomputability.</p>
   wilkinson: &wilkinson
     speakers: [ wilkinson, zacharakis ]
     title: SOA without the tears
     description: >
-      COMING SOON
+      <p>Going full SOA has unarguable benefits, but the steep startup cost and need for excessive forward planning goes
+      against the agile mentality of strictly necessary, small, incremental changes. At Lumosity, we've developed a set of
+      best practices using engines to entirely divide behavior and responsibility by wrapping new services within
+      well-defined, small Ruby APIs. This technique obviates the need for complex network (HTTP) APIs with their
+      well-known problems of maintenance and testing. Get rid of spaghetti code without diving into the deep end of
+      recorded responses and fake servers. Later, if the architecture demands a separate service, the engine will already
+      have an API fully defined and ready to port over from Ruby to HTTP.</p>
   storytime: &storytime
     speakers: []
     title: Afternoon Storytime
