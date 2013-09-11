@@ -1,14 +1,145 @@
 <%= partial 'page_banner', locals: {title: "Event Schedule"} %>
 
+<div id="kick-off-party">
+  <div class="row">
+    <div class="large-9 columns large-centered">
+      <div id="kick-off-party-info" class="row">
+        <div class="large-6 columns">
+          <br>
+          <br>
+          <strong><span style="font-size: 48px;">Kickoff</span><br/>
+            <span style="font-size: 56px;">Parties</span></strong>
+          <br><br>
+          <%= image_tag "beer.png" %>
+        </div>
+        <div class="large-6 columns event-details">
+          <span style="font-size: 19px; padding-top: 7px;"><strong>Thursday&nbsp;|&nbsp;13&nbsp;Sep</strong></span>
+          <%= image_tag "diagonal-lines.png" %>
+          <br>
+          <br>
+          <strong style="font-size: 18px;">Hacker + Maker Lounge</strong>
+          <span style="font-size: 16px;">Hosted&nbsp;by&nbsp;<strong>Carbon 5</strong></span>
+          <span style="font-size: 16px;">Sponsored&nbsp;by&nbsp;<strong>Sharethrough</strong></span>
+          <span style="font-size: 26px;">6:00PM&nbsp;&mdash;&nbsp;11:30PM</span>
+          <%= image_tag "diagonal-lines.png" %>
+          <br>
+          <br>
+          <strong style="font-size: 18px;">Whisky Tasting</strong>
+          <span style="font-size: 16px;">Hosted&nbsp;by&nbsp;<strong>Pivotal Labs</strong></span>
+          <span style="font-size: 26px;">7:00PM&nbsp;&mdash;&nbsp;10:00PM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="daily-sessions-header">
   <h2>Daily Sessions</h2>
 </div>
 
 <div id="daily-sessions">
-  <div>Coming: TOMORROW</div>
+  <div class="row">
+    <div class="large-12 columns">
+      <table>
+        <thead>
+          <tr>
+            <th class="cell-head">Time</th>
+            <th class="cell-main">Friday, Sep 20<sup>th</sup></th>
+            <th class="cell-main">Saturday, Sep 21<sup>st</sup></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="food">
+            <td>8:30 - 9:45am</td>
+            <td>
+              <span class="name">Registration &amp; Hot Breakfast</span>
+              <br/>
+              <span class="byline">Presented by </span><span class="note">New Relic</span>
+            </td>
+            <td>
+              <span class="name">Hot Breakfast</span>
+              <br/>
+              <span class="byline">Presented by </span><span class="note">Heroku</span>
+            </td>
+          </tr>
+          <tr class="other">
+            <td>9:45 - 10:00am</td>
+            <td><span class="name">Welcome &amp; Announcements</span></td>
+            <td><span class="name">Announcements &amp; Party Recovery</span></td>
+          </tr>
+          <tr>
+            <td>10:00 - 10:30am</td>
+            <td><%= partial "session_in_grid", locals: {session: "saffron"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "orenstein"} %></td>
+          </tr>
+          <tr>
+            <td>10:45 - 11:15am</td>
+            <td><%= partial "session_in_grid", locals: {session: "gibbs"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "mei"} %></td>
+          </tr>
+          <tr>
+            <td>11:30 - 12:00pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "hunt"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "stuart"} %></td>
+          </tr>
+          <tr class="food">
+            <td>12:00 - 1:30pm</td>
+            <td><span class="name">Lunch</span></td>
+            <td><span class="name">Lunch</span></td>
+          </tr>
+          <tr>
+            <td>1:30 - 2:00pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "hammerly"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "evans"} %></td>
+          </tr>
+          <tr>
+            <td>2:15 - 2:45pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "dalessio"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "stolfo"} %></td>
+          </tr>
+          <tr>
+            <td>3:00 - 3:30pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "gray"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "saleh"} %></td>
+          </tr>
+          <tr class="food">
+            <td>3:30 - 4:00pm</td>
+            <td><span class="name">Snack Break</span></td>
+            <td><span class="name">Snack Break</span></td>
+          </tr>
+          <tr>
+            <td>4:00 - 4:30pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "katz"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "storytime"} %></td>
+          </tr>
+          <tr>
+            <td>4:45 - 5:15pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "wilkinson"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "klabnik"} %></td>
+          </tr>
+          <tr>
+            <td>5:30 - 6:00pm</td>
+            <td><%= partial "session_in_grid", locals: {session: "harms"} %></td>
+            <td><%= partial "session_in_grid", locals: {session: "davis"} %></td>
+          </tr>
+          <tr class="food">
+            <td>6:00 - ??:00pm</td>
+            <td>
+              <span class="name">Party</span><br/>
+              <span class="byline">Presented by</span> <span class="note">Rackspace and DeveloperAuction</span>
+            </td>
+            <td>
+              <span class="name">Party</span><br/>
+              <span class="byline">Presented by</span> <span class="note">Yammer</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
+<%= partial 'schedule_descriptions' %>
 
 
 <%= partial 'sponsors' %>
