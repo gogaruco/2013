@@ -123,11 +123,9 @@ roster:
     name: Sarah Mei
     twitter: sarahmei
     bio: >
-      Sarah Mei has spent most of the last dozen years writing code, most of the last six doing web
-      applications. Her weapons of choice are typically Ruby and JavaScript. In 2009, she co-founded
-      RailsBridge, a nonprofit dedicated to making the Ruby and Rails communities welcoming to everyone.
-      During the day, she pair programs at Pivotal Labs in San Francisco. The rest of the time, she hangs
-      with her kids, friends, and the internets.
+      Sarah Mei has been a software developer for fifteen years and a Rubyist for seven. A co-founder of RailsBridge,
+      she's a recent Pivotal Labs alum and is now running the Ministry of Velocity, a new software consultancy. She lives
+      in San Francisco near the beach, where it is never warm enough to go swimming.
   saleh: &saleh
     slug: saleh
     name: Tammer Saleh
