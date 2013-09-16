@@ -120,7 +120,9 @@ platinum:
     link: http://www.ninefold.com
     logo: ninefold.png
     text: >
-      Coming Soon!
+      What does Ninefold do? Ninefold makes Rails devs happy by providing them with easy Ruby on Rails app deployment with 
+      consistently awesome hosting performance. Who is Ninefold? A company that owns infrastructure in acres of data centers 
+      in the US and Asia-Pacific, backed by a large publicly listed company.
   - name: Engine Yard
     link: http://www.engineyard.com
     logo: engineyard.png
