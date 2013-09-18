@@ -127,7 +127,9 @@ platinum:
     link: http://www.engineyard.com
     logo: engineyard.png
     text: >
-      Coming Soon!
+      Engine Yard is the leading Platform as a Service empowering developers to plan, build, deploy and manage applications 
+      in the cloud. Thousands of customers in 58 countries run on Engine Yard. Headquartered in San Francisco, Calif., Engine 
+      Yard is backed by Benchmark Capital, New Enterprise Associates, Oracle and Amazon. Visit www.engineyard.com.
 gold:
   - name: WyeWorks
     link: http://www.wyeworks.com/
