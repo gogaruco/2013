@@ -20,15 +20,6 @@ roster:
       more advanced models, but James has fought in the developer trenches and the battles have changed
       him. He now spends most of his time trying to download what he has learned into the brains of others
       by writing books, speaking at conferences, and contributing to the Ruby Rogues podcast.
-  harms: &harms
-    slug: harms
-    name: Angela Harms
-    twitter: angelaharms
-    bio: >
-      Angela Harms is an agile developer, coach, facilitator, and instigator. She loves beautiful code
-      that emerges from collaboration, and learning new ways to make it work. She lives in a community of
-      nerds called MakerHouse in Cleveland’s historic Ohio City, and you can learn more about her work at
-      <a href="http://maitria.com/">maitria.com</a>.
   klabnik: &klabnik
     slug: klabnik
     name: Steve Klabnik
@@ -134,6 +125,17 @@ roster:
       Tammer Saleh is a rubyist, author, and leader. In the past, he was the founder of Thunderbolt Labs,
       VP of Engineering at Engine Yard, and the original author of Shoulda and Airbrake. He also
       co-wrote “Rails AntiPatterns: Best Practice Ruby on Rails Refactoring.”
+  shamrell: &shamrell
+    slug: shamrell
+    name: Nell Shamrell
+    twitter: nellshamrell
+    bio: >
+      Nell Shamrell works as a Software Development Engineer for Blue Box. She also sits on the advisory board for the
+      University of Washington Certificate in Ruby Programming. She specializes in Ruby, Rails, Regular Expressions, and
+      Test Driven Development. Prior to entering the world of software development, she studied and worked in the field of
+      Theatre. The world of Theatre prepared her well for the dynamic world of creating software applications. In both,
+      she strives to create a cohesive and extraordinary experience. In her free time she enjoys practicing the martial
+      art Naginata.
   stuart: &stuart
     slug: stuart
     name: Tom Stuart
@@ -173,8 +175,8 @@ roster:
       projects and blogs ever since.
 featured:
   - *gray
-  - *harms
   - *klabnik
+  - *mei
   - *orenstein
 sorted:
   - *atwood
@@ -184,7 +186,6 @@ sorted:
   - *gibbs
   - *gray
   - *hammerly
-  - *harms
   - *hunt
   - *katz
   - *klabnik
@@ -192,6 +193,7 @@ sorted:
   - *orenstein
   - *saffron
   - *saleh
+  - *shamrell
   - *stolfo
   - *stuart
   - *wilkinson

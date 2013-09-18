@@ -64,15 +64,6 @@ sessions:
       seeing patterns in pictures, graphs, diagrams, and spots in the underbrush. Often a simple visualization is what you
       need to understand a problem. In this talk, I'll demonstrate tools that you can use to quickly generate
       "back-of-the-envelope" visualizations from a variety of data sets.</p>
-  harms: &harms
-    speakers: [ harms ]
-    title: "Being Human: A Collaborative Approach to Making"
-    description: >
-      <p>Hey, nerds. How good are you at real collaboration? I don't mean cooperation, where everyone's doing their part.
-      A collaborative solution is more than the sum of those parts. And I don't mean choosing the best idea among the
-      competitors. Collaboration lets us create new ideas that none of us could have come up with on our own. Let's talk
-      about what gets in the way of that kind of juice. Open up, make mistakes, learn, grow, and watch what emerges when
-      we collaborate.</p>
   hunt: &hunt
     speakers: [ hunt ]
     title: Solving The Rubik's Cube in 20 Seconds
@@ -151,6 +142,16 @@ sessions:
       form.</p> <p>We’ll look at the gamut of patterns for user organization, including companies, organizations, teams
       and identities. We’ll focus on how to implement these patterns in Rails, and on when each pattern is appropriate
       from a product point of view.</p>
+  shamrell: &shamrell
+    speakers: [ shamrell ]
+    title: "Beneath the Surface: Regular Expressions in Ruby"
+    description: >
+      <p>Many of us approach regular expressions with a certain fear and trepidation, using them only when absolutely
+      necessary. We can get by when we need to use them, but we hesitate to dive any deeper into their cryptic world. Ruby
+      has so much more to offer us. This talk showcases the incredible power of Ruby and the Oniguruma regex library Ruby
+      runs on. It takes you on a journey beneath the surface, exploring the beauty, elegance, and power of regular
+      expressions. You will discover the flexible, dynamic, and eloquent ways to harness this beauty and power in your own
+      code.</p>
   stolfo: &stolfo
     speakers: [ stolfo ]
     title: Thread Safety First
@@ -196,7 +197,7 @@ sorted:
   - *saffron
   - *orenstein
   - *gibbs
-  - *mei
+  - *shamrell
   - *hunt
   - *stuart
   - *hammerly
@@ -209,5 +210,5 @@ sorted:
   - *storytime
   - *wilkinson
   - *klabnik
-  - *harms
+  - *mei
   - *davis
