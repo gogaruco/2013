@@ -77,7 +77,7 @@ sessions:
     speakers: [ katz ]
     title: A tale of two MVCs
     description: >
-      COMING SOON
+      <p>COMING SOON (you know how Yehuda is...)</p>
   klabnik: &klabnik
     speakers: [ klabnik ]
     title: No Secrets Allowed
@@ -189,10 +189,11 @@ sessions:
       recorded responses and fake servers. Later, if the architecture demands a separate service, the engine will already
       have an API fully defined and ready to port over from Ruby to HTTP.</p>
   storytime: &storytime
-    speakers: []
+    speakers: [ storytime ]
     title: Afternoon Storytime
     description: >
-      COMING SOON
+      <p>Three short stories, to get you through the afternoon slump. Be entertained, entranced, and inspired. Better than
+      an afternoon nap!</p>
 sorted:
   - *saffron
   - *orenstein

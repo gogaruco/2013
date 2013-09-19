@@ -173,6 +173,9 @@ roster:
       Anthony Zacharakis works on payments and access systems at Lumosity in San Francisco. He switched to
       the world of Ruby on Rails two years ago and has been active in the community through open source
       projects and blogs ever since.
+  storytime: &storytime
+    slug: storytime
+    name: "Davis Frank, Davy Stevenson, Jesse Toth"
 featured:
   - *gray
   - *klabnik
