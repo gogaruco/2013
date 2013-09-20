@@ -57,6 +57,7 @@ sessions:
   hammerly: &hammerly
     speakers: [ hammerly ]
     title: "Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
+    slides_link: "http://www.thagomizer.com/files/dataviz_gogaruco_13.pdf"
     description: >
       <p>Data is a hot buzz word in the industry. Every day there are more startups with "Big Data" somewhere in their
       elevator pitch. There are dozens of devices to record how we sleep, what we eat, how much we exercise, even how
