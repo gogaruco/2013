@@ -13,6 +13,7 @@
             <span class="speaker-name">
               <%= partial "speaker_links", locals: { speakers: session.speakers } %>
             </span>
+            <%= partial "session_links", locals: { slides_link: session.slides_link } %></span>
             <span class="speaker-details">
               <%= session.description %>
             </span>
