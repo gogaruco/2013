@@ -1,5 +1,8 @@
 <span class="name"><%= data.schedule.sessions[session].title %></span><br/>
 <% unless data.schedule.sessions[session].speakers.empty? %>
 <span class="byline">by</span>
-<span class="speaker"><%= partial "speaker_links", locals: { speakers: data.schedule.sessions[session].speakers } %></span>
+<span class="speaker"><%= partial "speaker_links", locals: { speakers: data.schedule.sessions[session].speakers } %></span><br/>
+<% end %>
+<% if data.schedule.sessions[session].slide_link.present? %>
+<a class="slides" href="<%= data.schedule.sessions[session].slide_link %>">Slides</a>
 <% end %>
