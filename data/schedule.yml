@@ -36,6 +36,7 @@ sessions:
   gibbs: &gibbs
     speakers: [ gibbs ]
     title: The Littlest ORM
+    slides_link: 'https://docs.google.com/presentation/d/1eYJYTacMBvUGRXVDENgBWYIV6G1-J19u7PRMtRCzdVY/edit'
     description: >
       <p>Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an
       application and tests! Ruby makes it surprisingly easy. We'll go over all the code in 30 minutes. There will be a
@@ -67,6 +68,7 @@ sessions:
   hunt: &hunt
     speakers: [ hunt ]
     title: Solving The Rubik's Cube in 20 Seconds
+    slides_link: 'http://chrishunt.co/talks/2013/09/20/solving_the_rubiks_cube_in_20_seconds.html'
     description: >
       <p>Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an
       insane amount of live demonstration to learn how to solve the Rubik's Cube in less than 20 seconds. You will leave
