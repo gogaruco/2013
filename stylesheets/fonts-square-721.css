@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url("//hello.myfonts.net/count/270564");
+/* @license
+ * MyFonts Webfont Build ID 2557284, 2013-05-16T01:22:59-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Square 721 by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/square-721/square-721/
+ * 
+ * Webfont: Square 721 Bold by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/square-721/bold/
+ * 
+ * Webfont: Square 721 Extended by Bitstream../fonts
+ * URL: http://www.myfonts.com/fonts/bitstream/square-721/extended/
+ * 
+ * Webfont: Square 721 Bold Extended by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/square-721/bold-extended/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2557284
+ * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'Square721BT-Roman';
+  src: url("../fonts/270564_0_0.eot");
+  src: url("../fonts/270564_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/270564_0_0.woff") format("woff"), url("../fonts/270564_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Square721BT-Bold';
+  src: url("../fonts/270564_1_0.eot");
+  src: url("../fonts/270564_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/270564_1_0.woff") format("woff"), url("../fonts/270564_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Square721BT-RomanExtended';
+  src: url("../fonts/270564_2_0.eot");
+  src: url("../fonts/270564_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/270564_2_0.woff") format("woff"), url("../fonts/270564_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Square721BT-BoldExtended';
+  src: url("../fonts/270564_3_0.eot");
+  src: url("../fonts/270564_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/270564_3_0.woff") format("woff"), url("../fonts/270564_3_0.ttf") format("truetype"); }
