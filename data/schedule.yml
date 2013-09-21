@@ -3,6 +3,7 @@ sessions:
   dalessio: &dalessio
     speakers: [ dalessio ]
     title: "Nokogiri: History, Present, and Future"
+    slides_link: "http://mike.daless.io/prez/nokogiri-gogaruco-2013-09-20/index.html"
     description: >
       <p>Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 12 million
       downloads from rubygems.org. But why another XML parsing library? Isn't it boring? And what does "nokogiri" mean in
