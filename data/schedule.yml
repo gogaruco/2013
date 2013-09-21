@@ -92,6 +92,7 @@ sessions:
   mei: &mei
     speakers: [ mei ]
     title: Why hasn't Ruby won?
+    slides_link: "https://speakerdeck.com/sarahmei/why-hasnt-ruby-won"
     description: >
       <p>For every enthusiastic attendee at a Ruby conference, there are a hundred people who have tried Ruby and walked
       away. There's also at least one person who's hit the top of Hacker News complaining about it. Are missing features
