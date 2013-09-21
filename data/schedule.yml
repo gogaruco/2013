@@ -137,16 +137,17 @@ sessions:
       href="https://github.com/ruby/ruby/commit/7453c53b08655e9d17c0419716ffad1c41663b6d#test">recent MRI commits</a> that
       provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly
       technical.</p>
-  saleh: &saleh
-    speakers: [ saleh ]
-    title: "Social Beasts: Patterns of User Organization"
+  dale: &dale
+    speakers: [ dale ]
+    title: "Stop Breaking the Web"
     description: >
-      <p>The User is the god class among almost all Rails applications, but exactly how users are allowed to organize
-      themselves is often left as an implementation detail. The best products take user management seriously, spending
-      much time and energy considering the implications of how users will behave, and what types of groups they’ll need to
-      form.</p> <p>We’ll look at the gamut of patterns for user organization, including companies, organizations, teams
-      and identities. We’ll focus on how to implement these patterns in Rails, and on when each pattern is appropriate
-      from a product point of view.</p>
+      <p>You know that smartphone in your pocket? The one with gigahertz of processing power, a surprisingly good camera, 
+      and the ability to instantly access the whole of human knowledge? Despite all of that high technology, if I want to call 
+      you, I still have to punch in a phone number—a technological relic that remains integral to our telecommunication 
+      infrastructure.</p>
+      <p>URLs are the same thing. The web is URLs and URLs are the web. Unfortunately, for the past few years, many JavaScript 
+      developers have started treating the URL as an afterthought, or a nice-to-have. In this talk, I’ll show why URL neglect 
+      happens at your own peril, and how making JavaScript apps that respect the URL can be, well, downright pleasant.</p>
   shamrell: &shamrell
     speakers: [ shamrell ]
     title: "Beneath the Surface: Regular Expressions in Ruby"
@@ -211,7 +212,7 @@ sorted:
   - *dalessio
   - *stolfo
   - *gray
-  - *saleh
+  - *dale
   - *katz
   - *storytime
   - *wilkinson

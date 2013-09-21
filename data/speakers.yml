@@ -117,14 +117,6 @@ roster:
       Sarah Mei has been a software developer for fifteen years and a Rubyist for seven. A co-founder of RailsBridge,
       she's a recent Pivotal Labs alum and is now running the Ministry of Velocity, a new software consultancy. She lives
       in San Francisco near the beach, where it is never warm enough to go swimming.
-  saleh: &saleh
-    slug: saleh
-    name: Tammer Saleh
-    twitter: tsaleh
-    bio: >
-      Tammer Saleh is a rubyist, author, and leader. In the past, he was the founder of Thunderbolt Labs,
-      VP of Engineering at Engine Yard, and the original author of Shoulda and Airbrake. He also
-      co-wrote “Rails AntiPatterns: Best Practice Ruby on Rails Refactoring.”
   shamrell: &shamrell
     slug: shamrell
     name: Nell Shamrell
@@ -176,6 +168,14 @@ roster:
   storytime: &storytime
     slug: storytime
     name: "Davis Frank, Davy Stevenson, Jesse Toth"
+  dale: &dale
+    slug: dale
+    name: Tom Dale
+    twitter: tdale
+    bio: >
+      Tom Dale is Co-founder of <a href="http://www.tilde.io">Tilde</a>, a member of the <a href="http://www.emberjs.com">Ember 
+      Core Team</a>, and was previously on the SproutCore team. He's a former Apple software engineer who gained expert front-end 
+      JavaScript skills while working on the MobileMe and iCloud applications.
 featured:
   - *gray
   - *klabnik
@@ -183,6 +183,7 @@ featured:
   - *orenstein
 sorted:
   - *atwood
+  - *dale
   - *dalessio
   - *davis
   - *evans
@@ -195,7 +196,6 @@ sorted:
   - *mei
   - *orenstein
   - *saffron
-  - *saleh
   - *shamrell
   - *stolfo
   - *stuart
