@@ -5195,7 +5195,7 @@ body {
 
 /* line 14, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
 .leading-strip {
-  background-image: url("../images/3D-bg.png");
+  background-image: url("../images/3D-bg.png?1379719895");
   height: 50px; }
 
 /* line 1, /Users/hjhart/workspace/gogaruco/source/stylesheets/_layout.scss */
@@ -5226,14 +5226,14 @@ header li:nth-child(2) {
   /* line 26, /Users/hjhart/workspace/gogaruco/source/stylesheets/_layout.scss */
   #register a {
     display: block;
-    background: url("../images/register.png") no-repeat;
+    background: url("../images/register.png?1379719895") no-repeat;
     width: 106px;
     height: 42px;
     margin: 0 auto;
     color: transparent; }
   /* line 34, /Users/hjhart/workspace/gogaruco/source/stylesheets/_layout.scss */
   #register a:hover {
-    background: url("../images/register-hover.png") no-repeat; }
+    background: url("../images/register-hover.png?1379719895") no-repeat; }
   /* line 36, /Users/hjhart/workspace/gogaruco/source/stylesheets/_layout.scss */
   #register #date {
     color: #767676;
@@ -5277,7 +5277,7 @@ footer {
     font-size: 11px; }
     /* line 84, /Users/hjhart/workspace/gogaruco/source/stylesheets/_layout.scss */
     footer ul.past_years li {
-      background-image: url("../images/ruby-icon.png");
+      background-image: url("../images/ruby-icon.png?1379719895");
       background-repeat: no-repeat;
       padding-left: 34px;
       margin-right: 30px; }
@@ -5299,7 +5299,7 @@ footer {
 
 /* line 1, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-banner.scss */
 #banner {
-  background: url("../images/header-bg.jpg") no-repeat center center;
+  background: url("../images/header-bg.jpg?1379719895") no-repeat center center;
   background-size: auto 525px;
   text-transform: uppercase;
   color: #14414f;
@@ -5365,7 +5365,7 @@ footer {
 
 /* line 69, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-banner.scss */
 #small_banner {
-  background: url("../images/innerpage-header.jpg") center;
+  background: url("../images/innerpage-header.jpg?1379719895") center;
   background-size: cover;
   text-transform: uppercase;
   height: 224px; }
@@ -5405,7 +5405,7 @@ footer {
     margin-bottom: 64px; }
   /* line 11, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-basic-info.scss */
   #basic-info .sponsor-arrow {
-    background-image: url("../images/sponsor-arrow.png");
+    background-image: url("../images/sponsor-arrow.png?1379719895");
     background-repeat: no-repeat;
     height: 185px;
     position: relative; }
@@ -5428,7 +5428,7 @@ footer {
   /* line 35, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-basic-info.scss */
   #basic-info .gogaruco-when-where {
     width: 285px;
-    background-image: url("../images/basic_info_background.png");
+    background-image: url("../images/basic_info_background.png?1379719895");
     background-repeat: repeat-x;
     height: 176px;
     text-shadow: 0px 1px #fdebb6; }
@@ -5468,7 +5468,7 @@ footer {
     font-family: 'Square721BT-BoldExtended';
     margin-top: 20px;
     padding-top: 20px;
-    background-image: url("../images/timer-bg.png");
+    background-image: url("../images/timer-bg.png?1379719895");
     height: 136px;
     width: 257px;
     text-align: center;
@@ -5494,7 +5494,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5502,7 +5502,7 @@ footer {
     margin-top: 0; }
 /* line 7, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-featured-speakers.scss */
 #featured-speakers .featured-speakers-list {
-  background: url("../images/speaker-bg.jpg") no-repeat center center;
+  background: url("../images/speaker-bg.jpg?1379719895") no-repeat center center;
   background-size: cover;
   padding-top: 108px;
   padding-bottom: 108px; }
@@ -5547,7 +5547,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5557,12 +5557,12 @@ footer {
 #the-big-idea .the-big-idea-content {
   color: #595959;
   font-family: "Antenna-Regular";
-  background-image: url("../images/grey-noise-bg.jpg");
+  background-image: url("../images/grey-noise-bg.jpg?1379719895");
   padding-top: 108px;
   padding-bottom: 64px; }
   /* line 14, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-the-big-idea.scss */
   #the-big-idea .the-big-idea-content .speech-bubble {
-    background-image: url("../images/speech-bubble.png");
+    background-image: url("../images/speech-bubble.png?1379719895");
     background-repeat: no-repeat;
     height: 104px;
     font-family: 'Antenna-Regular';
@@ -5581,7 +5581,7 @@ footer {
     margin-right: 30px; }
   /* line 36, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-the-big-idea.scss */
   #the-big-idea .the-big-idea-content h4 {
-    background-image: url("../images/heading_underoverline.png");
+    background-image: url("../images/heading_underoverline.png?1379719895");
     background-repeat: repeat-x;
     height: 71px;
     font-family: 'Square721BT-Bold';
@@ -5595,7 +5595,7 @@ footer {
     margin-top: 10px; }
     /* line 51, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-the-big-idea.scss */
     #the-big-idea .the-big-idea-content ul li {
-      background-image: url("../images/tick.png");
+      background-image: url("../images/tick.png?1379719895");
       background-repeat: no-repeat;
       background-position-x: 10px;
       background-position-y: center;
@@ -5614,7 +5614,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5624,7 +5624,7 @@ footer {
 #conduct .conduct-content {
   color: #FFFFFF;
   font-family: "Antenna-Regular";
-  background-image: url("../images/whats-new-bg.jpg");
+  background-image: url("../images/whats-new-bg.jpg?1379719895");
   padding-top: 108px;
   padding-bottom: 64px; }
   /* line 14, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-conduct.scss */
@@ -5639,11 +5639,11 @@ footer {
 /* line 1, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-sponsors.scss */
 .sponsors {
   border-bottom: 1px solid #cacaca;
-  background-image: url("../images/grey-noise-bg.jpg"); }
+  background-image: url("../images/grey-noise-bg.jpg?1379719895"); }
 
 /* line 1, /Users/hjhart/workspace/gogaruco/source/stylesheets/_section-robot-footer.scss */
 .robot-group {
-  background-image: url("../images/grey-noise-bg.jpg");
+  background-image: url("../images/grey-noise-bg.jpg?1379719895");
   height: 404px;
   border-top: 1px solid #ededed;
   text-align: center; }
@@ -5688,7 +5688,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5697,7 +5697,7 @@ footer {
 
 /* line 33, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
 #diamond-sponsors {
-  background: url("../images/speaker-bg.jpg"); }
+  background: url("../images/speaker-bg.jpg?1379719895"); }
   /* line 36, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
   #diamond-sponsors .sponsor-image {
     width: 260px;
@@ -5724,7 +5724,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5733,7 +5733,7 @@ footer {
 
 /* line 58, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
 #platinum-sponsors {
-  background-image: url("../images/whats-new-bg.jpg"); }
+  background-image: url("../images/whats-new-bg.jpg?1379719895"); }
   /* line 61, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
   #platinum-sponsors .sponsor-image {
     width: 163px;
@@ -5756,7 +5756,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5765,7 +5765,7 @@ footer {
 
 /* line 80, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
 #gold-sponsors {
-  background-image: url("../images/blue-bg.jpg"); }
+  background-image: url("../images/blue-bg.jpg?1379719895"); }
   /* line 83, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
   #gold-sponsors .sponsor_wrapper {
     width: 171px;
@@ -5794,7 +5794,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5803,7 +5803,7 @@ footer {
 
 /* line 109, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
 #silver-sponsors {
-  background-image: url("../images/yellow-bg.jpg"); }
+  background-image: url("../images/yellow-bg.jpg?1379719895"); }
   /* line 112, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
   #silver-sponsors .sponsor_wrapper {
     width: 171px;
@@ -5851,7 +5851,7 @@ footer {
   /* line 161, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
   .tweeter_section .tweet {
     float: left;
-    background: url("../images/tweet-bg.png");
+    background: url("../images/tweet-bg.png?1379719895");
     background-repeat: no-repeat;
     background-position: 75px 0px; }
     /* line 167, /Users/hjhart/workspace/gogaruco/source/stylesheets/_sponsors.css.scss */
@@ -5919,7 +5919,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -5929,7 +5929,7 @@ footer {
 /* line 54, /Users/hjhart/workspace/gogaruco/source/stylesheets/_location.css.scss */
 #getting-around {
   padding: 68px 0;
-  background: url("../images/speaker-bg.jpg");
+  background: url("../images/speaker-bg.jpg?1379719895");
   color: white; }
   /* line 55, /Users/hjhart/workspace/gogaruco/source/stylesheets/_location.css.scss */
   #getting-around p {
@@ -5977,7 +5977,7 @@ footer {
   /* line 28, /Users/hjhart/workspace/gogaruco/source/stylesheets/_registration.scss */
   #registration #refunds {
     margin-top: 2em;
-    background: url("../images/yellow-text-bubble.png") no-repeat;
+    background: url("../images/yellow-text-bubble.png?1379719895") no-repeat;
     padding: 26px 100px 26px 32px;
     line-height: 1.2em; }
     /* line 34, /Users/hjhart/workspace/gogaruco/source/stylesheets/_registration.scss */
@@ -6001,7 +6001,7 @@ footer {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -6010,13 +6010,13 @@ footer {
 
 /* line 51, /Users/hjhart/workspace/gogaruco/source/stylesheets/_registration.scss */
 #code-of-conduct {
-  background: url("../images/speaker-bg.jpg"); }
+  background: url("../images/speaker-bg.jpg?1379719895"); }
   /* line 54, /Users/hjhart/workspace/gogaruco/source/stylesheets/_registration.scss */
   #code-of-conduct #policy {
     margin: 3em 0;
     font-size: 1em;
     color: white;
-    background: url("../images/pink-bubble-bg.png") no-repeat;
+    background: url("../images/pink-bubble-bg.png?1379719895") no-repeat;
     padding-left: 51px; }
     /* line 61, /Users/hjhart/workspace/gogaruco/source/stylesheets/_registration.scss */
     #code-of-conduct #policy p:first-child {
@@ -6044,7 +6044,7 @@ footer {
       text-decoration: none; }
   /* line 68, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
   #featured-speakers-list .divider {
-    background: url("../images/diagonal-divider.png") no-repeat;
+    background: url("../images/diagonal-divider.png?1379719895") no-repeat;
     height: 11px;
     margin-bottom: 33px;
     margin-top: 23px; }
@@ -6071,7 +6071,7 @@ a.image_link {
 #speakers-roster {
   padding-top: 70px;
   padding-bottom: 70px;
-  background: url("../images/speaker-bg.jpg");
+  background: url("../images/speaker-bg.jpg?1379719895");
   color: white;
   line-height: 1.6em; }
   /* line 108, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
@@ -6112,7 +6112,7 @@ a.image_link {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -6121,7 +6121,7 @@ a.image_link {
 
 /* line 143, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
 #sponsors {
-  background-image: url("../images/grey-noise-bg.jpg");
+  background-image: url("../images/grey-noise-bg.jpg?1379719895");
   text-align: center;
   padding: 70px 0; }
   /* line 148, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
@@ -6219,7 +6219,7 @@ a.image_link {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -6229,7 +6229,7 @@ a.image_link {
 /* line 249, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
 #volunteers {
   padding: 68px 0;
-  background: url("../images/speaker-bg.jpg");
+  background: url("../images/speaker-bg.jpg?1379719895");
   color: white; }
   /* line 254, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
   #volunteers img {
@@ -6273,7 +6273,7 @@ a.image_link {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -6282,11 +6282,11 @@ a.image_link {
 
 /* line 294, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
 #about-code-of-conduct {
-  background-image: url("../images/whats-new-bg.jpg");
+  background-image: url("../images/whats-new-bg.jpg?1379719895");
   padding-bottom: 66px; }
   /* line 298, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
   #about-code-of-conduct #conduct-policy {
-    background: url("../images/green-bubble-wide-bg.png") no-repeat;
+    background: url("../images/green-bubble-wide-bg.png?1379719895") no-repeat;
     padding: 26px 74px 26px 84px;
     color: white; }
   /* line 305, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
@@ -6328,7 +6328,7 @@ a.image_link {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -6337,7 +6337,7 @@ a.image_link {
 
 /* line 341, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
 #daily-sessions {
-  background-image: url("../images/grey-noise-bg.jpg");
+  background-image: url("../images/grey-noise-bg.jpg?1379719895");
   text-align: center;
   padding: 70px 0; }
   /* line 346, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
@@ -6427,7 +6427,7 @@ a.image_link {
     color: #efefef;
     float: left;
     width: 100%;
-    background: url("../images/title-ribbon.png") no-repeat center center;
+    background: url("../images/title-ribbon.png?1379719895") no-repeat center center;
     text-transform: uppercase;
     font-family: 'Square721BT-BoldExtended';
     font-size: 26px;
@@ -6438,7 +6438,7 @@ a.image_link {
 #schedule-descriptions {
   padding-top: 70px;
   padding-bottom: 70px;
-  background: url("../images/speaker-bg.jpg");
+  background: url("../images/speaker-bg.jpg?1379719895");
   color: white;
   line-height: 1.6em; }
   /* line 452, /Users/hjhart/workspace/gogaruco/source/stylesheets/all.css.scss */
