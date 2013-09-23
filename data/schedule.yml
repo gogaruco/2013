@@ -21,6 +21,7 @@ sessions:
   davis: &davis
     speakers: [ davis ]
     title: "Let's Write an Interpreter!"
+    slides_link: "http://www.zenspider.com/~ryan/presentations/2013_gogaruco_lets_make_an_interpreter.pdf"
     description: >
       <p>Let's dive into one of the the deep ends of CS and implement a turing-complete interpreter in just 30 minutes
       using ruby, ruby_parser, sexp_processor, and a minor amount of elbow grease.</p>
@@ -85,6 +86,7 @@ sessions:
   klabnik: &klabnik
     speakers: [ klabnik ]
     title: No Secrets Allowed
+    slides_link: "https://github.com/steveklabnik/no_secrets_anymore"
     description: >
       <p>If there's anything that recent events have shown us, it's that what we thought was secret actually isn't. So
       what to do? Even if you're not a dissident, many of our applications need some form of private communications. And
