@@ -3,4 +3,4 @@
 <span class="byline">by</span>
 <span class="speaker"><%= partial "speaker_links", locals: { speakers: data.schedule.sessions[session].speakers } %></span><br/>
 <% end %>
-<%= partial "session_links", locals: { slides_link: data.schedule.sessions[session].slides_link } %></span><br/>
+<%= partial "session_links", locals: { slides_link: data.schedule.sessions[session].slides_link, video_link: data.schedule.sessions[session].video_link } %></span><br/>

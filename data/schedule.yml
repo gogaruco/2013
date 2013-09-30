@@ -4,6 +4,7 @@ sessions:
     speakers: [ dalessio ]
     title: "Nokogiri: History, Present, and Future"
     slides_link: "http://mike.daless.io/prez/nokogiri-gogaruco-2013-09-20/index.html"
+    video_link: "http://www.confreaks.com/videos/2672-gogaruco2013-nokogiri-history-present-and-future"
     description: >
       <p>Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 12 million
       downloads from rubygems.org. But why another XML parsing library? Isn't it boring? And what does "nokogiri" mean in
@@ -38,6 +39,7 @@ sessions:
   gibbs: &gibbs
     speakers: [ gibbs ]
     title: The Littlest ORM
+    video_link: http://www.confreaks.com/videos/2669-gogaruco2013-the-littlest-orm
     slides_link: 'https://docs.google.com/presentation/d/1eYJYTacMBvUGRXVDENgBWYIV6G1-J19u7PRMtRCzdVY/edit'
     description: >
       <p>Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an
@@ -71,6 +73,7 @@ sessions:
   hunt: &hunt
     speakers: [ hunt ]
     title: Solving The Rubik's Cube in 20 Seconds
+    video_link: http://www.confreaks.com/videos/2670-gogaruco2013-solving-the-rubik-s-cube-in-20-seconds
     slides_link: 'http://chrishunt.co/talks/2013/09/20/solving_the_rubiks_cube_in_20_seconds.html'
     description: >
       <p>Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an
@@ -131,6 +134,7 @@ sessions:
   saffron: &saffron
     speakers: [ saffron, atwood ]
     title: Measuring Ruby
+    video_link: http://www.confreaks.com/videos/2668-gogaruco2013-measuring-ruby
     description: >
       <p>This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of
       tools: from Sam Saffron's own

@@ -1,3 +1,6 @@
 <% if slides_link.present? %>
-    <a class="slides" href="<%= slides_link %>">Session Slides</a>
+    <a class="slides" href="<%= slides_link %>">Session Slides</a><br/>
+<% end %>
+<% if video_link.present? %>
+    <a class="slides" href="<%= video_link %>">Session Video</a>
 <% end %>
